@@ -5,6 +5,7 @@
         "alter_ego": "Nebula",
         "form_name": "Normal",
         "iconify_id": "mdi:robot",
+        "image_url": "https://static.marvelsnap.pro/art/Nebula.webp",
         "threat": 2,
         "size": 2,
         "affiliations": [
@@ -174,6 +175,7 @@
                 "id": "cp_okoye",
                 "name": "Okoye",
                 "alter_ego": "Okoye",
+                "image_url": "https://static.marvelsnap.pro/art/Okoye.webp",
                 "form_name": "Normal",
                 "iconify_id": "game-icons:spear-feather",
                 "threat": 2,
