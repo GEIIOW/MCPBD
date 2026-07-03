@@ -78,13 +78,13 @@
             },
             {
                 "name": "Immunity Poison",
-                "type": "Active",
+                "type": "Innate",
                 "cost": "0",
                 "rules": []
             },
             {
                 "name": "Immunity Stun",
-                "type": "Active",
+                "type": "Innate",
                 "cost": "0",
                 "rules": []
             }
