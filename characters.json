@@ -28,7 +28,7 @@
                 "cost": 0,
                 "special_rules": [
                 "After this attack is resolved, this character gains ENERGY equal to WOUNDS dealt.",
-                "Wild, Wild Shock: Afther this attack is resolved, the target character gains the Shock special condition"
+                "Wild Shock: After this attack is resolved, the target character gains the Shock special condition"
                 ]
             },
             {
@@ -49,7 +49,7 @@
                 "cost": 3,
                 "special_rules": [
                 "After this attack is resolved, place this character within RANGE 1 of the target.",
-                "Wild: Stun - After this attack is resolved, the target character gains the Stun special condition"
+                "Wild: Stun: After this attack is resolved, the target character gains the Stun special condition"
                 ]
             }
             ],
@@ -107,7 +107,7 @@
                 "cost": 0,
                 "special_rules": [
                 "After this attack is resolved, this character gains ENERGY equal to WOUNDS dealt.",
-                "Wild: Shock - Afther this attack is resolved, the target character gains the Shock special condition"
+                "Wild: Shock: Afther this attack is resolved, the target character gains the Shock special condition"
                 ]
             },
             {
