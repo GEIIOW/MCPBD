@@ -1,5 +1,5 @@
 [
-        {
+    {
         "id": "cp_nebula",
         "name": "Nebula",
         "alter_ego": "Nebula",
@@ -478,5 +478,117 @@
             }
             ]
         }
-        }
+    },
+    {
+        "id": "cp_wong",
+        "name": "Wong",
+        "alter_ego": "Wong",
+        "form_name": "Normal",
+        "iconify_id": "mdi:robot",
+        "threat": 2,
+        "size": 2,
+        "affiliations": [
+            "Convocation",
+            "Defenders",
+            "Midnight Sons"
+        ],
+        "minions": [],
+        "healthy": {
+            "movement": "M",
+            "stamina": 4,
+            "defense": {
+            "physical": 3,
+            "energy": 3,
+            "mystic": 3
+            },
+            "attacks": [
+            {
+                "name": "Strike",
+                "type": "Physical",
+                "range": "2",
+                "strength": 4,
+                "cost": 0,
+                "special_rules": [
+                "After the attack is resolved, this character gains 1 ENERGY."
+                ]
+            }
+            ],
+            "superpowers": [
+            {
+                "name": "Faithfull Assistant",
+                "type": "Active",
+                "cost": "2",
+                "rules": [
+                "Choose another allied character within RANGE 3 of this character. It gains 1 ENERGY. A character may be affected by this superpower once per round."
+                ]
+            },
+            {
+                "name": "Medidate",
+                "type": "Active",
+                "cost": "0",
+                "rules": [
+                "Action: This character gains 1 ENERGY."
+                ]
+            },
+            {
+                "name": "Servent to the Sorcerer Supreme",
+                "type": "Innate",
+                "cost": "0",
+                "rules": [
+                "While within RANGE 3 of an allied Stephen Vicent Strange, this character adds 1 die to its defensive rolls."
+                ]
+            }
+            ],
+            "image_url": ""
+        },
+        "injured": {
+            "movement": "M",
+            "stamina": 4,
+            "defense": {
+            "physical": 3,
+            "energy": 3,
+            "mystic": 3
+            },
+            "attacks": [
+            {
+                "name": "Strike",
+                "type": "Physical",
+                "range": "2",
+                "strength": 4,
+                "cost": 0,
+                "special_rules": [
+                "After the attack is resolved, this character gains 1 ENERGY."
+                ]
+            }
+            ],
+            "superpowers": [
+            {
+                "name": "Faithfull Assistant",
+                "type": "Active",
+                "cost": "2",
+                "rules": [
+                "Choose another allied character within RANGE 3 of this character. It gains 1 ENERGY. A character may be affected by this superpower once per round."
+                ]
+            },
+            {
+                "name": "Medidate",
+                "type": "Active",
+                "cost": "0",
+                "rules": [
+                "Action: This character gains 1 ENERGY."
+                ]
+            },
+            {
+                "name": "Servent to the Sorcerer Supreme",
+                "type": "Innate",
+                "cost": "0",
+                "rules": [
+                "While within RANGE 3 of an allied Stephen Vicent Strange, this character adds 1 die to its defensive rolls."
+                ]
+            }
+            ],
+            "image_url": ""
+        },
+        "image_url": "https://static.marvelsnap.pro/art/Wong_12.webp"
+    }
 ]
