@@ -244,7 +244,7 @@
                 "type": "Innate",
                 "cost": "0",
                 "rules": [
-                "When this character is defending against a PHYSICAL or ENERGY attack targeting it from within RANGE 2, this character adds BLANKS in its defensive roll in total successes."
+                "When this character is defending against a PHYSICAL or ENERGY attack targeting it from within RANGE 2, this character adds BLANK in its defensive roll in total successes."
                 ]
             }
             ]
@@ -310,7 +310,7 @@
                 "type": "Innate",
                 "cost": "0",
                 "rules": [
-                "When this character is defending against a PHYSICAL or ENERGY attack targeting it from within RANGE 2, this character adds BLANKS in its defensive roll in total successes."
+                "When this character is defending against a PHYSICAL or ENERGY attack targeting it from within RANGE 2, this character adds BLANK in its defensive roll in total successes."
                 ]
             }
             ]
