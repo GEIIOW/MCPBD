@@ -453,7 +453,7 @@
                 "type": "Innate",
                 "cost": "0",
                 "rules": [
-                "When defending against Physical or Energy attacks, this character adds blanks in its defense roll to its total successes."
+                "When defending against Physical or Energy attacks, this character adds blank in its defense roll to its total successes."
                 ]
             },
             {
@@ -468,7 +468,7 @@
                 "name": "There is Only the Beast",
                 "type": "Active",
                 "cost": "3",
-                "rules": []
+                "rules": ["The next time the Demon's Devastation attack is used this activation, its range becomes A2."]
             },
             {
                 "name": "Wall Crawler",
