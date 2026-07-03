@@ -1,0 +1,171 @@
+{
+  "id": "cp_nebula",
+  "name": "Nebula",
+  "alter_ego": "Nebula",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "threat": 2,
+  "size": 2,
+  "affiliations": [
+    "Guardians of the Galaxy"
+  ],
+  "minions": [],
+  "healthy": {
+    "movement": "L",
+    "stamina": 4,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 2
+    },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains ENERGY equal to WOUNDS dealt.",
+          "Wild: Shock - Afther this attack is resolved, the target character gains the Shock special condition"
+        ]
+      },
+      {
+        "name": "Blaster Pistol",
+        "type": "Energy",
+        "range": "3",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains 1 ENERGY."
+        ]
+      },
+      {
+        "name": "Shock Sword Assault",
+        "type": "Energy",
+        "range": "3",
+        "strength": 6,
+        "cost": 3,
+        "special_rules": [
+          "After this attack is resolved, place this character within RANGE 1 of the target.",
+          "Wild: Stun - After this attack is resolved, the target character gains the Stun special condition"
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Assassin",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character cannot contest, interact with, or hold Objective tokens. Addionally, this character may reroll any number of its attack dice when attacking a character that is holding or contesting an Objetive token."
+        ]
+      },
+      {
+        "name": "Cybernetic Enchancetements",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character may reroll one die in its defense rolls. Addionally, at the start of this character's activation, remove one WOUNDS from it."
+        ]
+      },
+      {
+        "name": "Immunity Bleed",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Active",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Active",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "L",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 2
+    },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains ENERGY equal to WOUNDS dealt.",
+          "Wild: Shock - Afther this attack is resolved, the target character gains the Shock special condition"
+        ]
+      },
+      {
+        "name": "Blaster Pistol",
+        "type": "Energy",
+        "range": "3",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains 1 ENERGY."
+        ]
+      },
+      {
+        "name": "Shock Sword Assault",
+        "type": "Energy",
+        "range": "3",
+        "strength": 6,
+        "cost": 3,
+        "special_rules": [
+          "After this attack is resolved, place this character within RANGE 1 of the target.",
+          "Wild: Stun - After this attack is resolved, the target character gains the Stun special condition"
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Assassin",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character cannot contest, interact with, or hold Objective tokens. Addionally, this character may reroll any number of its attack dice when attacking a character that is holding or contesting an Objetive token."
+        ]
+      },
+      {
+        "name": "Cybernetic Enchancetements",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character may reroll one die in its defense rolls. Addionally, at the start of this character's activation, remove one WOUNDS from it."
+        ]
+      },
+      {
+        "name": "Immunity Bleed",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Active",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Active",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
+}
