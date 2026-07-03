@@ -217,8 +217,8 @@
                 "strength": 5,
                 "cost": 4,
                 "special_rules": [
-                "Wild, Pierce: Change one of the defending character's CRIT, WILD or DEFENSE results to a blank.",
-                "Wild, Flurry: After this attack is resolved, this character may make a Strike attack."
+                "Wild Pierce: Change one of the defending character's CRIT, WILD or DEFENSE results to a blank.",
+                "Wild Flurry: After this attack is resolved, this character may make a Strike attack."
                 ]
             }
             ],
@@ -283,8 +283,8 @@
                 "strength": 5,
                 "cost": 4,
                 "special_rules": [
-                "Wild, Pierce: Change one of the defending character's CRIT, WILD or DEFENSE results to a blank.",
-                "Wild, Flurry: After this attack is resolved, this character may make a Strike attack."
+                "Wild Pierce: Change one of the defending character's CRIT, WILD or DEFENSE results to a blank.",
+                "Wild Flurry: After this attack is resolved, this character may make a Strike attack."
                 ]
             }
             ],
