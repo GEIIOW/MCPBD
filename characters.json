@@ -169,5 +169,151 @@
             }
             ]
         }
-    }
+    },
+        {
+        "id": "cp_okoye",
+        "name": "Okoye",
+        "alter_ego": "Okoye",
+        "form_name": "Normal",
+        "iconify_id": "game-icons:spear-feather",
+        "threat": 2,
+        "size": 2,
+        "affiliations": [
+            "A-Force",
+            "Wakanda"
+        ],
+        "minions": [],
+        "healthy": {
+            "movement": "M",
+            "stamina": 4,
+            "defense": {
+            "physical": 3,
+            "energy": 3,
+            "mystic": 3
+            },
+            "attacks": [
+            {
+                "name": "Strike",
+                "type": "Physical",
+                "range": "2",
+                "strength": 4,
+                "cost": 0,
+                "special_rules": [
+                "After this attack is resolved, this character gains ENERGY equal to WOUNDS dealt."
+                ]
+            },
+            {
+                "name": "Vibranium Spear Blast",
+                "type": "Energy",
+                "range": "4",
+                "strength": 4,
+                "cost": 0,
+                "special_rules": []
+            },
+            {
+                "name": "Vibranium Spear Thrust",
+                "type": "Physical",
+                "range": "2",
+                "strength": 5,
+                "cost": 4,
+                "special_rules": [
+                "Wild, Pierce: Change one of the defending character's CRIT, WILD or DEFENSE results to a blank.",
+                "Wild, Flurry: After this attack is resolved, this character may make a Strike attack."
+                ]
+            }
+            ],
+            "superpowers": [
+            {
+                "name": "Bodyguard",
+                "type": "Reactive",
+                "cost": "2",
+                "rules": [
+                "When a another allied character within RANGE 2 of this character is targeted by an attack, this character may use this superpower. This character becomes target of the attack regardlessof RANGE and LoS."
+                ]
+            },
+            {
+                "name": "General of the Dora Milaje",
+                "type": "Innate",
+                "cost": "0",
+                "rules": [
+                "This character may reroll one die in its defensive rolls."
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "type": "Innate",
+                "cost": "0",
+                "rules": [
+                "When this character is defending against a PHYSICAL or ENERGY attack targeting it from within RANGE 2, this character adds BLANKS in its defensive roll in total successes."
+                ]
+            }
+            ]
+        },
+        "injured": {
+            "movement": "M",
+            "stamina": 4,
+            "defense": {
+            "physical": 3,
+            "energy": 3,
+            "mystic": 3
+            },
+            "attacks": [
+            {
+                "name": "Strike",
+                "type": "Physical",
+                "range": "2",
+                "strength": 4,
+                "cost": 0,
+                "special_rules": [
+                "After this attack is resolved, this character gains ENERGY equal to WOUNDS dealt."
+                ]
+            },
+            {
+                "name": "Vibranium Spear Blast",
+                "type": "Energy",
+                "range": "4",
+                "strength": 4,
+                "cost": 0,
+                "special_rules": []
+            },
+            {
+                "name": "Vibranium Spear Thrust",
+                "type": "Physical",
+                "range": "2",
+                "strength": 5,
+                "cost": 4,
+                "special_rules": [
+                "Wild, Pierce: Change one of the defending character's CRIT, WILD or DEFENSE results to a blank.",
+                "Wild, Flurry: After this attack is resolved, this character may make a Strike attack."
+                ]
+            }
+            ],
+            "superpowers": [
+            {
+                "name": "Bodyguard",
+                "type": "Reactive",
+                "cost": "2",
+                "rules": [
+                "When a another allied character within RANGE 2 of this character is targeted by an attack, this character may use this superpower. This character becomes target of the attack regardlessof RANGE and LoS."
+                ]
+            },
+            {
+                "name": "General of the Dora Milaje",
+                "type": "Innate",
+                "cost": "0",
+                "rules": [
+                "This character may reroll one die in its defensive rolls."
+                ]
+            },
+            {
+                "name": "Martial Artist",
+                "type": "Innate",
+                "cost": "0",
+                "rules": [
+                "When this character is defending against a PHYSICAL or ENERGY attack targeting it from within RANGE 2, this character adds BLANKS in its defensive roll in total successes."
+                ]
+            }
+            ]
+        }
+        }
 ]
