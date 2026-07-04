@@ -593,5 +593,148 @@
             "image_url": ""
         },
         "image_url": "https://static.marvelsnap.pro/art/Wong_12.webp"
-    }
+    },
+    {
+  "id": "cp_vulture",
+  "name": "Vulture",
+  "alter_ego": "Adrian Toomes",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "image_url": "https://static.marvelsnap.pro/art/Vulture_05.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": [
+    "Criminal Syndicate",
+    "Spider-Foes"
+  ],
+  "minions": [],
+  "healthy": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Raptor Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains ENERGY equal to the WOUNDS dealt.",
+          "Wild: Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      },
+      {
+        "name": "Skyline Hunter",
+        "type": "Physical",
+        "range": "3",
+        "strength": 8,
+        "cost": 4,
+        "special_rules": [
+          "Before WOUNDS is dealt, if the target character Size is 3 or less, this character may Throw it MEDIUM."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Hit and Run",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes an attack action followed by a move action. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Abduct",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "During is Activation, when this character begins a move action within RANGE 2 of an enemy character, it may use this superpower. After this move action is resolved, Place the enemy character within RANGE 2 of its current position. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Scientific Hubris",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Whenever this character rolls dice, after the effect is resolved, if it rolled at least one CRIT, it gains ENERGY 1."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Raptor Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains ENERGY equal to the WOUNDS dealt.",
+          "Wild: Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      },
+      {
+        "name": "Skyline Hunter",
+        "type": "Physical",
+        "range": "3",
+        "strength": 8,
+        "cost": 4,
+        "special_rules": [
+          "Before WOUNDS is dealt, if the target character Size is 3 or less, this character may Throw it MEDIUM."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Hit and Run",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes an attack action followed by a move action. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Abduct",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "During is Activation, when this character begins a move action within RANGE 2 of an enemy character, it may use this superpower. After this move action is resolved, Place the enemy character within RANGE 2 of its current position. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Scientific Hubris",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Whenever this character rolls dice, after the effect is resolved, if it rolled at least one CRIT, it gains ENERGY 1."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
+}
 ]
