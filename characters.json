@@ -28,7 +28,7 @@
                 "strength": 4,
                 "cost": 0,
                 "special_rules": [
-                "After this attack is resolved, this character gains ENERGY equal to WOUNDS dealt.",
+                "After this attack is resolved, this character gains POWER equal to WOUNDS dealt.",
                 "Wild Shock: After this attack is resolved, the target character gains the Shock special condition"
                 ]
             },
@@ -39,7 +39,7 @@
                 "strength": 4,
                 "cost": 0,
                 "special_rules": [
-                "After this attack is resolved, this character gains 1 ENERGY."
+                "After this attack is resolved, this character gains 1 POWER."
                 ]
             },
             {
@@ -107,7 +107,7 @@
                 "strength": 4,
                 "cost": 0,
                 "special_rules": [
-                "After this attack is resolved, this character gains ENERGY equal to WOUNDS dealt.",
+                "After this attack is resolved, this character gains POWER equal to WOUNDS dealt.",
                 "Wild Shock: Afther this attack is resolved, the target character gains the Shock special condition"
                 ]
             },
@@ -118,7 +118,7 @@
                 "strength": 4,
                 "cost": 0,
                 "special_rules": [
-                "After this attack is resolved, this character gains 1 ENERGY."
+                "After this attack is resolved, this character gains 1 POWER."
                 ]
             },
             {
@@ -201,7 +201,7 @@
                         "strength": 4,
                         "cost": 0,
                         "special_rules": [
-                        "After this attack is resolved, this character gains ENERGY equal to WOUNDS dealt."
+                        "After this attack is resolved, this character gains POWER equal to WOUNDS dealt."
                         ]
                     },
                     {
@@ -267,7 +267,7 @@
                         "strength": 4,
                         "cost": 0,
                         "special_rules": [
-                        "After this attack is resolved, this character gains ENERGY equal to WOUNDS dealt."
+                        "After this attack is resolved, this character gains POWER equal to WOUNDS dealt."
                         ]
                     },
                     {
@@ -512,7 +512,7 @@
                 "strength": 4,
                 "cost": 0,
                 "special_rules": [
-                "After the attack is resolved, this character gains 1 ENERGY."
+                "After the attack is resolved, this character gains 1 POWER."
                 ]
             }
             ],
@@ -522,7 +522,7 @@
                 "type": "Active",
                 "cost": "2",
                 "rules": [
-                "Choose another allied character within RANGE 3 of this character. It gains 1 ENERGY. A character may be affected by this superpower once per round."
+                "Choose another allied character within RANGE 3 of this character. It gains 1 POWER. A character may be affected by this superpower once per round."
                 ]
             },
             {
@@ -530,7 +530,7 @@
                 "type": "Active",
                 "cost": "0",
                 "rules": [
-                "Action: This character gains 1 ENERGY."
+                "Action: This character gains 1 POWER."
                 ]
             },
             {
@@ -560,7 +560,7 @@
                 "strength": 4,
                 "cost": 0,
                 "special_rules": [
-                "After the attack is resolved, this character gains 1 ENERGY."
+                "After the attack is resolved, this character gains 1 POWER."
                 ]
             }
             ],
@@ -570,7 +570,7 @@
                 "type": "Active",
                 "cost": "2",
                 "rules": [
-                "Choose another allied character within RANGE 3 of this character. It gains 1 ENERGY. A character may be affected by this superpower once per round."
+                "Choose another allied character within RANGE 3 of this character. It gains 1 POWER. A character may be affected by this superpower once per round."
                 ]
             },
             {
@@ -578,7 +578,7 @@
                 "type": "Active",
                 "cost": "0",
                 "rules": [
-                "Action: This character gains 1 ENERGY."
+                "Action: This character gains 1 POWER."
                 ]
             },
             {
@@ -624,7 +624,7 @@
         "strength": 5,
         "cost": 0,
         "special_rules": [
-          "After this attack is resolved, this character gains ENERGY equal to the WOUNDS dealt.",
+          "After this attack is resolved, this character gains POWER equal to the WOUNDS dealt.",
           "Wild: Bleed: After this attack is resolved, the target character gains the Bleed special condition."
         ]
       },
@@ -661,7 +661,7 @@
         "type": "Innate",
         "cost": "0",
         "rules": [
-          "Whenever this character rolls dice, after the effect is resolved, if it rolled at least one CRIT, it gains ENERGY 1."
+          "Whenever this character rolls dice, after the effect is resolved, if it rolled at least one CRIT, it gains POWER 1."
         ]
       },
       {
@@ -688,7 +688,7 @@
         "strength": 5,
         "cost": 0,
         "special_rules": [
-          "After this attack is resolved, this character gains ENERGY equal to the WOUNDS dealt.",
+          "After this attack is resolved, this character gains POWER equal to the WOUNDS dealt.",
           "Wild: Bleed: After this attack is resolved, the target character gains the Bleed special condition."
         ]
       },
@@ -725,7 +725,7 @@
         "type": "Innate",
         "cost": "0",
         "rules": [
-          "Whenever this character rolls dice, after the effect is resolved, if it rolled at least one CRIT, it gains ENERGY 1."
+          "Whenever this character rolls dice, after the effect is resolved, if it rolled at least one CRIT, it gains POWER 1."
         ]
       },
       {
