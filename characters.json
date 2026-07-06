@@ -1327,6 +1327,160 @@
       }
     ]
   }
+},
+    {
+  "id": "cp_green_goblin",
+  "name": "Green Goblin",
+  "alter_ego": "Norman Osborn",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "image_url": "https://static.marvelsnap.pro/art/GreenGoblin.webp",
+  "threat": 4,
+  "size": 3,
+  "affiliations": [
+    "Criminal Syndicate",
+    "Spider-Foes"
+  ],
+  "minions": [],
+  "leadership": {
+    "name": "Oscorp Weaponry",
+    "affiliation": "Spider-Foes",
+    "rules": [
+      "Once per turn, while an allied character is attacking, during the Modify Opponent's Dice step, it may reroll 1 opposing defense die."
+    ]
+  },
+  "healthy": {
+    "movement": "M",
+    "stamina": 7,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Pumpkin Bombs",
+        "type": "Physical",
+        "range": "4",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "Before choosing a target, this character chooses whether this attack's type is PHYSICAL or ENERGY.",
+          "After this attack is resolved this character gains POWER equal to the WOUNDS dealt.",
+          "WILD Bag of Tricks: Before damage is dealt, the enemy character gains one of the following special conditions: Bleed, Poison, or Incererate."
+        ]
+      },
+      {
+        "name": "Night of the Goblin",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "Before choosing a target, this character chooses wheter this attack's type is PHYSICAL or ENERGY.",
+          "If this attack deals WOUND, after this attack is resolved the target gains the Poison and Incenerate special conditions."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Hit and Run",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes an attack action followed by a move action. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Trick or Treat",
+        "type": "Reactive",
+        "cost": "3",
+        "rules": [
+          "When an enemy character ends an advance or is placed within RANGE 4 of this character, this character may use this superpower. Choose an interactive terrain feature of Size 3 or less within RANGE 2 of the enemy character that was advanced or placed. Destroy that terrain feature. The enemy character suffers a collision as if the terrain feature had collided with it."
+        ]
+      },
+      {
+        "name": "Archnemesis (Peter Parker)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When attacking Peter Parker, this character may modify or reroll FAIL results and may reroll any number of attack dice. At the start of this character's activation, if there is a non-dazed enemy Peter Parker within RANGE 3 of this character, this character's first action must be an attack action targeting that Peter Parker, if possible."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 5
+    },
+    "attacks": [
+      {
+        "name": "Pumpkin Bombs",
+        "type": "Physical",
+        "range": "4",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "Before choosing a target, this character chooses whether this attack's type is PHYSICAL or ENERGY.",
+          "After this attack is resolved this character gains POWER equal to the WOUNDS dealt.",
+          "WILD Bag of Tricks: Before damage is dealt, the enemy character gains one of the following special conditions: Bleed, Poison, or Incererate."
+        ]
+      },
+      {
+        "name": "Night of the Goblin",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "Before choosing a target, this character chooses wheter this attack's type is PHYSICAL or ENERGY.",
+          "If this attack deals WOUND, after this attack is resolved the target gains the Poison and Incenerate special conditions."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Glider Ram",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "This character is thrown MEDIUM. It does not suffer damage if it collides with another character or terrain feature. This superpower may be used only once per turn."
+        ]
+      },
+      {
+        "name": "Archnemesis (Peter Parker)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When attacking Peter Parker, this character may modify or reroll FAIL results and may reroll any number of attack dice. At the start of this character's activation, if there is a non-dazed enemy Peter Parker within RANGE 3 of this character, this character's first action must be an attack action targeting that Peter Parker, if possible."
+        ]
+      },
+      {
+        "name": "Unstable Psyche",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character cannot interact with or hold objective tokens. During the Power Phase, roll 5 dice. For each CRIT, WILD and HIT rolled, this character gains 1 POWER."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
 }
     
 ]
