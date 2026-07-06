@@ -1630,6 +1630,147 @@
       }
     ]
   }
+},
+    {
+  "id": "cp_MODOK",
+  "name": "M.O.D.O.K",
+  "alter_ego": "George Tarleton",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "image_url": "https://static.marvelsnap.pro/art/Modok.webp",
+  "threat": 5,
+  "size": 4,
+  "affiliations": [
+    "Criminal Syndicate",
+    "Cabal"
+  ],
+  "minions": [],
+  "healthy": {
+    "movement": "S",
+    "stamina": 10,
+    "defense": {
+      "physical": 2,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Psionic Blast",
+        "type": "Mystic",
+        "range": "4",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Sap Power: Before WOUND is dealt, the target character loses 1 POWER for each WILD in the attack roll, and this character gains that amount of POWER."
+        ]
+      },
+      {
+        "name": "Doomsday Chair",
+        "type": "Physical",
+        "range": "4",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "Whirling Blades: After this attack is resolved, this character may make an additional Doomsday Chair attack without paying the POWER cost. The addicional attack must target another character within RANGE 2 of the original target character. The additional attack does not have the Whirling Blades special rule.",
+          "WILD Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Bow to the Will of M.O.D.O.K.!",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an enemy character within RANGE 3. Advance that character SHORT. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Imbecile! All the World is a Weapon to M.O.D.O.K!",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an interactive terrain feature of SIZE 3 or less within RANGE 3 and Throw it LONG. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Pea-Brain! M.O.D.O.K.'s Genius is Infinite!",
+        "type": "Reactive",
+        "cost": "X",
+        "rules": [
+          "While this character is attacking or defending, during the Modify Dice Step of the attack, it may spend any amount of POWER to use this superpower. For each POWER spent, this character may reroll 1 of its attack or defense dice. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Psiconic Force Field",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When defending against an attack, this character changes WILD results in the attack roll to BLANKS."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "S",
+    "stamina": 4,
+    "defense": {
+      "physical": 2,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Psionic Blast",
+        "type": "Mystic",
+        "range": "4",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Sap Power: Before WOUND is dealt, the target character loses 1 POWER for each WILD in the attack roll, and this character gains that amount of POWER."
+        ]
+      },
+      {
+        "name": "Doomsday Chair",
+        "type": "Physical",
+        "range": "4",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "Whirling Blades: After this attack is resolved, this character may make an additional Doomsday Chair attack without paying the POWER cost. The addicional attack must target another character within RANGE 2 of the original target character. The additional attack does not have the Whirling Blades special rule.",
+          "WILD Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Bow to the Will of M.O.D.O.K.!",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an enemy character within RANGE 3. Advance that character SHORT. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Imbecile! All the World is a Weapon to M.O.D.O.K!",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an interactive terrain feature of SIZE 3 or less within RANGE 3 and Throw it LONG. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Pea-Brain! M.O.D.O.K.'s Genius is Infinite!",
+        "type": "Reactive",
+        "cost": "X",
+        "rules": [
+          "While this character is attacking or defending, during the Modify Dice Step of the attack, it may spend any amount of POWER to use this superpower. For each POWER spent, this character may reroll 1 of its attack or defense dice. This superpower can be used only once per turn."
+        ]
+      }
+    ]
+  }
 }
     
 ]
