@@ -2067,6 +2067,170 @@
       }
     ]
   }
+},
+    {
+  "id": "cp_rescue",
+  "name": "Rescue",
+  "alter_ego": "Pepper Pots",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "image_url": "https://static.marvelsnap.pro/art/Rescue.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": [
+    "A-Force",
+    "Avengers",
+    "S.H.I.E.L.D."
+  ],
+  "minions": [],
+  "healthy": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Triage",
+        "type": "Energy",
+        "range": "4",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains 1 POWER.",
+          "If this attack would deal more than 1 WOUND, it dealts 1 WOUND instead.",
+          "HIT Medic: After this attack is resolved, choose up to 1 other allied character within RANGE 3. Remove 1 special condition from the chosen character or remove 1 WOUND for each HIT in the attack roll from the chosen character."
+        ]
+      },
+      {
+        "name": "Sonic Barrage",
+        "type": "Energy",
+        "range": "B4",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "WILD Stun: After each attack is resolved, the defender gains the Stun special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Life Support Systems",
+        "type": "Active",
+        "cost": "1",
+        "rules": [
+          "This character immediately makes a Shake action."
+        ]
+      },
+      {
+        "name": "Medevac",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Action: This character immediately Advances LONG. Then this character may choose another allied character within RANGE 2 that has an Activated token. If it does, Place the chosen character within RANGE 1 of this character. Then this character may remove up to 2 WOUND or 1 special condition from the chosen character. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Sonic Force Fields",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character or another allied character within RANGE 3 is targeted by PHYSICAL or ENERGY attack or would make a dodge roll, this character may use this superpower. This character adds 2 dice to the defense or dodge roll."
+        ]
+      },
+      {
+        "name": "Rescue Armor",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from an enemy effect, reduce the amount of WOUND suffered by 1, to a minimum of 1.",
+          "Addicionally, when this character removes 1 or more WOUND or special condition from another allied character, after the effect is resolved, this character gains 1 POWER."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Triage",
+        "type": "Energy",
+        "range": "4",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains 1 POWER.",
+          "If this attack would deal more than 1 WOUND, it dealts 1 WOUND instead.",
+          "HIT Medic: After this attack is resolved, choose up to 1 other allied character within RANGE 3. Remove 1 special condition from the chosen character or remove 1 WOUND for each HIT in the attack roll from the chosen character."
+        ]
+      },
+      {
+        "name": "Sonic Barrage",
+        "type": "Energy",
+        "range": "B4",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "WILD Stun: After each attack is resolved, the defender gains the Stun special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Life Support Systems",
+        "type": "Active",
+        "cost": "1",
+        "rules": [
+          "This character immediately makes a Shake action."
+        ]
+      },
+      {
+        "name": "Medevac",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Action: This character immediately Advances LONG. Then this character may choose another allied character within RANGE 2 that has an Activated token. If it does, Place the chosen character within RANGE 1 of this character. Then this character may remove up to 2 WOUND or 1 special condition from the chosen character. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Sonic Force Fields",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character or another allied character within RANGE 3 is targeted by PHYSICAL or ENERGY attack or would make a dodge roll, this character may use this superpower. This character adds 2 dice to the defense or dodge roll."
+        ]
+      },
+      {
+        "name": "Rescue Armor",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from an enemy effect, reduce the amount of WOUND suffered by 1, to a minimum of 1.",
+          "Addicionally, when this character removes 1 or more WOUND or special condition from another allied character, after the effect is resolved, this character gains 1 POWER."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
 }
     
 ]
