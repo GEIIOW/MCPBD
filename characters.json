@@ -736,5 +736,132 @@
       }
     ]
   }
+},
+    {
+  "id": "cp_rhino",
+  "name": "Rhino",
+  "alter_ego": "Aleksei Sytsevich",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "image_url": "https://static.marvelsnap.pro/art/Rhino.webp",
+  "threat": 4,
+  "size": 4,
+  "affiliations": [
+    "Criminal Syndicate",
+    "Spider-Foes"
+  ],
+  "minions": [],
+  "healthy": {
+    "movement": "S",
+    "stamina": 7,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 2
+    },
+    "attacks": [
+      {
+        "name": "Gore",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "Before WOUND is dealt, Place this character within RANGE 1 of the target character."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Stampede",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "This character is Pushed Medium. It does not stop its movement if it contacts a Size 2 or smaller interactive terrain feature. Instead, the contacted terrain feature is destroyed, then this character continues being Pushed. The next time it makes Gore attach this turn, add 2 dice to the attack roll. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Agressive",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "After an attack targeting this character is resolved, if this character suffered WOUND, it may Advance SMALL Toward the attacking character."
+        ]
+      },
+      {
+        "name": "Ornery",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is damaged by an enemy or allied effect, after the effect is resolved, if is not Dazed, it gains 1 POWER."
+        ]
+      },
+      {
+        "name": "Rhino Hide",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from a enemy effect, reduce the amount suffered by 1, to a minimum of 1."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "S",
+    "stamina": 6,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 2
+    },
+    "attacks": [
+      {
+        "name": "Gore",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "Before WOUND is dealt, Place this character within RANGE 1 of the target character."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Stampede",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "This character is Pushed Medium. It does not stop its movement if it contacts a Size 2 or smaller interactive terrain feature. Instead, the contacted terrain feature is destroyed, then this character continues being Pushed. The next time it makes Gore attach this turn, add 2 dice to the attack roll. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Agressive",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "After an attack targeting this character is resolved, if this character suffered WOUND, it may Advance SMALL Toward the attacking character."
+        ]
+      },
+      {
+        "name": "Ornery",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is damaged by an enemy or allied effect, after the effect is resolved, if is not Dazed, it gains 1 POWER."
+        ]
+      },
+      {
+        "name": "Rhino Hide",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from a enemy effect, reduce the amount suffered by 1, to a minimum of 1."
+        ]
+      }
+    ]
+  }
 }
 ]
