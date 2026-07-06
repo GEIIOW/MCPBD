@@ -1251,7 +1251,7 @@
         "type": "Innate",
         "cost": "0",
         "rules": [
-          "When this character would suffer WOUND from an enemy effect, reduce the amount of WOULD suffered by 1, to a minimum of 1."
+          "When this character would suffer WOUND from an enemy effect, reduce the amount of WOUND suffered by 1, to a minimum of 1."
         ]
       },
       {
@@ -1316,7 +1316,7 @@
         "type": "Innate",
         "cost": "0",
         "rules": [
-          "When this character would suffer WOUND from an enemy effect, reduce the amount of WOULD suffered by 1, to a minimum of 1."
+          "When this character would suffer WOUND from an enemy effect, reduce the amount of WOUND suffered by 1, to a minimum of 1."
         ]
       },
       {
