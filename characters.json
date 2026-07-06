@@ -1027,6 +1027,161 @@
       }
     ]
   }
+},
+    {
+  "id": "cp_black cat",
+  "name": "Black Cat",
+  "alter_ego": "Felicia Hardy",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "image_url": "https://static.marvelsnap.pro/art/BlackCat.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": [
+    "Criminal Syndicate",
+    "A-Force",
+    "Midnight Sons",
+    "Web Warriors"
+  ],
+  "minions": [],
+  "healthy": {
+    "movement": "L",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Cat Claws",
+        "type": "Physical",
+        "range": "2",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "After this attack is resolved, if it dealt WOUND, this target character gains the Bleed special condition.",
+          "WILD Pierce: Change 1 of the defending character's CRIT, WILD, or DEFENSE results to a Blank."
+        ]
+      },
+      {
+        "name": "Troublemaker",
+        "type": "Physical",
+        "range": "3",
+        "strength": 6,
+        "cost": 2,
+        "special_rules": [
+          "If this attack would deal one or more WOUND, it deals 1 WOUND instead.",
+          "After this attack is resolved, the target character gains the Stagger special condition.",
+          "WILD Elusive: After this attack is resolved, this character may Advance SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Grappling Hook",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Place this character within RANGE 2 of its current position. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Master Cat Burglar",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Action: Choose an enemy character within RANGE 1 of this character. Move one Asset or Civilian token the chose character is holding to this character. This character is now holding that token. This character may not hold more tokens than the Crisis specifies."
+        ]
+      },
+      {
+        "name": "Bad Luck",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When targeting this character with attacks, enemy characters cannot modify their attack dice and they do not roll adicional dice for CRIT results in their attack rolls."
+        ]
+      },
+      {
+        "name": "Stealth",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Characters must be within RANGE 3 of this character to target it with attacks."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "L",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Cat Claws",
+        "type": "Physical",
+        "range": "2",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "After this attack is resolved, if it dealt WOUND, this target character gains the Bleed special condition.",
+          "WILD Pierce: Change 1 of the defending character's CRIT, WILD, or DEFENSE results to a Blank."
+        ]
+      },
+      {
+        "name": "Troublemaker",
+        "type": "Physical",
+        "range": "3",
+        "strength": 6,
+        "cost": 2,
+        "special_rules": [
+          "If this attack would deal one or more WOUND, it deals 1 WOUND instead.",
+          "After this attack is resolved, the target character gains the Stagger special condition.",
+          "WILD Elusive: After this attack is resolved, this character may Advance SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Grappling Hook",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Place this character within RANGE 2 of its current position. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Master Cat Burglar",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Action: Choose an enemy character within RANGE 1 of this character. Move one Asset or Civilian token the chose character is holding to this character. This character is now holding that token. This character may not hold more tokens than the Crisis specifies."
+        ]
+      },
+      {
+        "name": "Bad Luck",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When targeting this character with attacks, enemy characters cannot modify their attack dice and they do not roll adicional dice for CRIT results in their attack rolls."
+        ]
+      },
+      {
+        "name": "Stealth",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Characters must be within RANGE 3 of this character to target it with attacks."
+        ]
+      }
+    ]
+  }
 }
     
 ]
