@@ -1481,6 +1481,155 @@
       }
     ]
   }
+},
+    {
+  "id": "cp_baron_zemo",
+  "name": "Baron Zemo",
+  "alter_ego": "Helmut Zemo",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "image_url": "https://static.marvelsnap.pro/art/BaronZemo.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": [
+    "Criminal Syndicate",
+    "Hydra"
+  ],
+  "minions": [],
+  "healthy": {
+    "movement": "L",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Sword Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      },
+      {
+        "name": "Steel Rush",
+        "type": "Physical",
+        "range": "3",
+        "strength": 6,
+        "cost": 2,
+        "special_rules": [
+          "After this attack is resolved, this character may advance MEDIUM.",
+          "WILD Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Charge",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes a move action followed by an attack action. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Counter-Strike",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack againts this character is resolved, it may use this superpower. If the attacked is within RANGE 3, roll four dice. Deal 1 WOUND to the attacker for each CRIT and each WILD rolled."
+        ]
+      },
+      {
+        "name": "Master Swordsman",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When it is the target of a PHYSICAL attack or targets a character with a PHYSICAL attack, this character may use this superpower. If the enemy character is within RANGE 2, this character may reroll any number of its attack or defense dice."
+        ]
+      },
+      {
+        "name": "Strategic Genius",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character and allied characters within RANGE 2 may reroll one die in their attack or defense rolls."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "L",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Sword Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      },
+      {
+        "name": "Steel Rush",
+        "type": "Physical",
+        "range": "3",
+        "strength": 6,
+        "cost": 2,
+        "special_rules": [
+          "After this attack is resolved, this character may advance MEDIUM.",
+          "WILD Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Charge",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes a move action followed by an attack action. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Counter-Strike",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack againts this character is resolved, it may use this superpower. If the attacked is within RANGE 3, roll four dice. Deal 1 WOUND to the attacker for each CRIT and each WILD rolled."
+        ]
+      },
+      {
+        "name": "Master Swordsman",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When it is the target of a PHYSICAL attack or targets a character with a PHYSICAL attack, this character may use this superpower. If the enemy character is within RANGE 2, this character may reroll any number of its attack or defense dice."
+        ]
+      },
+      {
+        "name": "Strategic Genius",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character and allied characters within RANGE 2 may reroll one die in their attack or defense rolls."
+        ]
+      }
+    ]
+  }
 }
     
 ]
