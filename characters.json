@@ -786,7 +786,7 @@
         "type": "Innate",
         "cost": "0",
         "rules": [
-          "After an attack targeting this character is resolved, if this character suffered WOUND, it may Advance SMALL Toward the attacking character."
+          "After an attack targeting this character is resolved, if this character suffered WOUND, it may Advance SHORT Toward the attacking character."
         ]
       },
       {
@@ -842,7 +842,7 @@
         "type": "Innate",
         "cost": "0",
         "rules": [
-          "After an attack targeting this character is resolved, if this character suffered WOUND, it may Advance SMALL Toward the attacking character."
+          "After an attack targeting this character is resolved, if this character suffered WOUND, it may Advance SHORT Toward the attacking character."
         ]
       },
       {
