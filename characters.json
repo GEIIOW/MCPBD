@@ -1908,6 +1908,165 @@
       }
     ]
   }
+},
+    {
+  "id": "cp_venom",
+  "name": "Venom",
+  "alter_ego": "Eddie Brock",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "image_url": "https://static.marvelsnap.pro/art/Venom.webp",
+  "threat": 4,
+  "size": 3,
+  "affiliations": [
+    "Spider-Foes",
+    "Web Warriors"
+  ],
+  "minions": [],
+  "healthy": {
+    "movement": "S",
+    "stamina": 7,
+    "defense": {
+      "physical": 4,
+      "energy": 2,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Symbiote Tendrils",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUNDS dealt.",
+          "After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      },
+      {
+        "name": "We Are Venom",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "After this attack is resolved, this character removes 1 WOUND from itself for each 1 WOUND inflicted."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Klyntar Rage",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature or an enemy character, both of Size 3 or less and within RANGE 2, and throw it MEDIUM. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Web Snare",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Push an enemy character within RANGE 4 toward this character MEDIUM. A character can be pushed by this superpower only once per turn."
+        ]
+      },
+      {
+        "name": "So Many Snacks",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack agains this character is resolved, it may use this superpower. If the attack is within RANGE 3, this character may make an attack against the attacker. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Symbiotic Instincts",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is attacking, the defending character cannot modify their defense dice."
+        ]
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "S",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 2,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Symbiote Tendrils",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUNDS dealt.",
+          "After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      },
+      {
+        "name": "We Are Venom",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "After this attack is resolved, this character removes 1 WOUND from itself for each 1 WOUND inflicted."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Klyntar Rage",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature or an enemy character, both of Size 3 or less and within RANGE 2, and throw it MEDIUM. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Web Snare",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Push an enemy character within RANGE 4 toward this character MEDIUM. A character can be pushed by this superpower only once per turn."
+        ]
+      },
+      {
+        "name": "So Many Snacks",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack agains this character is resolved, it may use this superpower. If the attack is within RANGE 3, this character may make an attack against the attacker. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Symbiotic Instincts",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is attacking, the defending character cannot modify their defense dice."
+        ]
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
 }
     
 ]
