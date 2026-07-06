@@ -1182,6 +1182,151 @@
       }
     ]
   }
+},
+    {
+  "id": "cp_iron_monger",
+  "name": "Iron Monger",
+  "alter_ego": "Obadiah Stane",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "image_url": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/19/Iron_Monger_-_Mark_III_Desert_Flight_Infobox.png/revision/latest?cb=20230827172631",
+  "threat": 3,
+  "size": 4,
+  "affiliations": [
+    "Criminal Syndicate",
+    "Cabal"
+  ],
+  "minions": [],
+  "healthy": {
+    "movement": "S",
+    "stamina": 6,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Integrated Armaments",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "Before choosing a target, this character chooses whether this attack's tupe is PHYSICAL or ENERGY.",
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt."
+        ]
+      },
+      {
+        "name": "Agressive Acquisition",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "WILD Throw: After this attack is resolved, if the defender is SIZE 3 or less, this character may Throw it Away MEDIUM.",
+          "CRIT HIT Hostile Takeover: After this attack is resolved, move 1 Asset or Civilian token the defender is holding to this character. This character is now holding that token. This character cannot hold more tokens than the Crisis specifies."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Jump Jets",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Place this character within RANGE 1 of its current position. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Onboard Tactical Computer",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character is attacking or defending, during the Modify Dice step, this character may use this superpower. This character may reroll 2 of its attack or defenses dice. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Reinforced Armor Plating",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from an enemy effect, reduce the amount of WOULD suffered by 1, to a minimum of 1."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "S",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Integrated Armaments",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "Before choosing a target, this character chooses whether this attack's tupe is PHYSICAL or ENERGY.",
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt."
+        ]
+      },
+      {
+        "name": "Agressive Acquisition",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "WILD Throw: After this attack is resolved, if the defender is SIZE 3 or less, this character may Throw it Away MEDIUM.",
+          "CRIT HIT Hostile Takeover: After this attack is resolved, move 1 Asset or Civilian token the defender is holding to this character. This character is now holding that token. This character cannot hold more tokens than the Crisis specifies."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Jump Jets",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Place this character within RANGE 1 of its current position. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Onboard Tactical Computer",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character is attacking or defending, during the Modify Dice step, this character may use this superpower. This character may reroll 2 of its attack or defenses dice. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Reinforced Armor Plating",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from an enemy effect, reduce the amount of WOULD suffered by 1, to a minimum of 1."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
 }
     
 ]
