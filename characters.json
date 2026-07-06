@@ -625,7 +625,7 @@
         "cost": 0,
         "special_rules": [
           "After this attack is resolved, this character gains POWER equal to the WOUNDS dealt.",
-          "Wild: Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+          "Wild Bleed: After this attack is resolved, the target character gains the Bleed special condition."
         ]
       },
       {
@@ -689,7 +689,7 @@
         "cost": 0,
         "special_rules": [
           "After this attack is resolved, this character gains POWER equal to the WOUNDS dealt.",
-          "Wild: Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+          "Wild Bleed: After this attack is resolved, the target character gains the Bleed special condition."
         ]
       },
       {
