@@ -863,5 +863,170 @@
       }
     ]
   }
+},
+{
+  "id": "cp_kingpin",
+  "name": "Kingpin",
+  "alter_ego": "Wilson Fisk",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "image_url": "https://static.marvelsnap.pro/art/Kingpin.webp",
+  "threat": 4,
+  "size": 3,
+  "affiliations": [
+    "Criminal Syndicate",
+    "Cabal",
+    "Spider-Foes"
+  ],
+  "minions": [],
+  "leadership": {
+    "name": "Illcit Network",
+    "affiliation": "Criminal Syndicate",
+    "rules": [
+      "Once per turn, at any time during allied character's Activation, it may spend 2 POWER to use this Leadership Ability. Move one Asset or Civilian token being held by active character to another allied character within RANGE 3. A character cannot hold more tokens than allowed by the Crisis due to this Leadership Ability.",
+      "Additionally, each Healthy non-Grunt allied character Contesting an objetive token counts as 2 Healthy characters when determining who is Securing the objective token."
+    ]
+  },
+  "healthy": {
+    "movement": "S",
+    "stamina": 7,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Headbutt",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "Wild Push: Before WOUND is dealt, is the target character is SIZE 3 or less, this character may Push it Away SHORT.",
+          "Wild Stun: After this attack is resolved, the target character gains the Stun special condition."
+        ]
+      },
+      {
+        "name": "Cane Laser",
+        "type": "Energy",
+        "range": "B3",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "This attack ignores LOS, and the defending character does not benefit from Cover."
+        ]
+      },
+      {
+        "name": "Hail to the King",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "Before WOUND is dealt, if the target character is SIZE 3 or less, this character may Throw it SHORT.",
+          "After this attack is resolved, the target character gains the Stagger special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Street-Level Negotiations",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an interactive terrain feature or an enemy character, both of SIZE 3 or less and within RANGE 2, and Throw it MEDIUM. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Intense Physical Conditioning",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "If this character would suffer WOUND, it my use this superpower. Reduce the amount of WOUND suffered by 1."
+        ]
+      },
+      {
+        "name": "Solid Frame",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character does not suffer WOUND from collisions with other characters."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "S",
+    "stamina": 7,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Headbutt",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "Wild Push: Before WOUND is dealt, is the target character is SIZE 3 or less, this character may Push it Away SHORT.",
+          "Wild Stun: After this attack is resolved, the target character gains the Stun special condition."
+        ]
+      },
+      {
+        "name": "Cane Laser",
+        "type": "Energy",
+        "range": "B3",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "This attack ignores LOS, and the defending character does not benefit from Cover."
+        ]
+      },
+      {
+        "name": "Hail to the King",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "Before WOUND is dealt, if the target character is SIZE 3 or less, this character may Throw it SHORT.",
+          "After this attack is resolved, the target character gains the Stagger special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Street-Level Negotiations",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an interactive terrain feature or an enemy character, both of SIZE 3 or less and within RANGE 2, and Throw it MEDIUM. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Intense Physical Conditioning",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "If this character would suffer WOUND, it my use this superpower. Reduce the amount of WOUND suffered by 1."
+        ]
+      },
+      {
+        "name": "Solid Frame",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character does not suffer WOUND from collisions with other characters."
+        ]
+      }
+    ]
+  }
 }
+    
 ]
