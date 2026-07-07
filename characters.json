@@ -2231,6 +2231,151 @@
       }
     ]
   }
+},
+    {
+  "id": "cp_elsa",
+  "name": "Elsa Bloodstone",
+  "alter_ego": "Elsa Bloodstone",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "image_url": "https://static.marvelsnap.pro/art/ElsaBloodstone.webp",
+  "threat": 4,
+  "size": 2,
+  "affiliations": [
+    "Midnight Sons",
+    "Defenders"
+  ],
+  "minions": [],
+  "leadership": {
+    "name": "Legion of Monsters",
+    "affiliation": "Defenders",
+    "rules": [
+      "Once per Turn, when an allied character gargets a character with an attack, it may pay 1 POWER. If it does, the attack gains your choice of 1 the following effects:",
+      "Boom!: Before WOUND is dealt, each other character within RANGE 2 of the target character suffers 1 WOUND.",
+      "Horrify: After this attack is resolved, the target character gaisn the Root special condition.",
+      "Silver Bullet: WOUND caused by this attack cannot be reduced or prevented by superpowers or Team Tactic Cards."
+    ]
+  },
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Monster Hunting Weapons",
+        "type": "Physical",
+        "range": "4",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "CRIT Cursing Shot: After this attack is resolved, the target character gains the Slow special condition.",
+          "WILD Hellfire: After this attack is resolved, the target character gains the Incenerate special condition."
+        ]
+      },
+      {
+        "name": "Bloodgem Blast",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 6,
+        "cost": 1,
+        "special_rules": [
+          "During the Pay POWER step of this attack, this character may spend up to three adicional POWER. Add 1 die to this attack for each POWER spend in this way.",
+          "WILD Degeneration: After this attack is resolved, the defender cannot have WOUND removed from it until the end of the Activation Phase this Round."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Run and Gun",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes an attack action followed by a move action."
+        ]
+      },
+      {
+        "name": "Supernatural Senses",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "While this character is defending againts PHYSICAL or ENERY attack, during the Modify Dice step of the attack, it may use this superpower. This character may reroll any number of its defense dice, including FAIL results."
+        ]
+      },
+      {
+        "name": "Bearer of the Bloodgem",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When an enemy character causes this character to gain one or more special conditions, after the effect is resolved, the enemy character suffers 1 WOUND. Additionally, this character cannot be Advanced or Place by the effects of ENERGY attacks or enemy superpowers."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Monster Hunting Weapons",
+        "type": "Physical",
+        "range": "4",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "CRIT Cursing Shot: After this attack is resolved, the target character gains the Slow special condition.",
+          "WILD Hellfire: After this attack is resolved, the target character gains the Incenerate special condition."
+        ]
+      },
+      {
+        "name": "Bloodgem Blast",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 6,
+        "cost": 1,
+        "special_rules": [
+          "During the Pay POWER step of this attack, this character may spend up to three adicional POWER. Add 1 die to this attack for each POWER spend in this way.",
+          "WILD Degeneration: After this attack is resolved, the defender cannot have WOUND removed from it until the end of the Activation Phase this Round."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Run and Gun",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes an attack action followed by a move action."
+        ]
+      },
+      {
+        "name": "Supernatural Senses",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "While this character is defending againts PHYSICAL or ENERY attack, during the Modify Dice step of the attack, it may use this superpower. This character may reroll any number of its defense dice, including FAIL results."
+        ]
+      },
+      {
+        "name": "Bearer of the Bloodgem",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When an enemy character causes this character to gain one or more special conditions, after the effect is resolved, the enemy character suffers 1 WOUND. Additionally, this character cannot be Advanced or Place by the effects of ENERGY attacks or enemy superpowers."
+        ]
+      }
+    ]
+  }
 }
     
 ]
