@@ -1691,7 +1691,7 @@
         "type": "Active",
         "cost": "2",
         "rules": [
-          "Choose an interactive terrain feature of SIZE 3 or less within RANGE 3 and Throw it LONG. This superpower can be used only once per turn."
+          "Choose an interactive terrain feature of SIZE 3 or less within RANGE 3 and Throw it LARGE. This superpower can be used only once per turn."
         ]
       },
       {
@@ -1758,7 +1758,7 @@
         "type": "Active",
         "cost": "2",
         "rules": [
-          "Choose an interactive terrain feature of SIZE 3 or less within RANGE 3 and Throw it LONG. This superpower can be used only once per turn."
+          "Choose an interactive terrain feature of SIZE 3 or less within RANGE 3 and Throw it LARGE. This superpower can be used only once per turn."
         ]
       },
       {
@@ -2129,7 +2129,7 @@
         "type": "Active",
         "cost": "3",
         "rules": [
-          "Action: This character immediately Advances LONG. Then this character may choose another allied character within RANGE 2 that has an Activated token. If it does, Place the chosen character within RANGE 1 of this character. Then this character may remove up to 2 WOUND or 1 special condition from the chosen character. This superpower can be used only once per Turn."
+          "Action: This character immediately Advances LARGE. Then this character may choose another allied character within RANGE 2 that has an Activated token. If it does, Place the chosen character within RANGE 1 of this character. Then this character may remove up to 2 WOUND or 1 special condition from the chosen character. This superpower can be used only once per Turn."
         ]
       },
       {
@@ -2203,7 +2203,7 @@
         "type": "Active",
         "cost": "3",
         "rules": [
-          "Action: This character immediately Advances LONG. Then this character may choose another allied character within RANGE 2 that has an Activated token. If it does, Place the chosen character within RANGE 1 of this character. Then this character may remove up to 2 WOUND or 1 special condition from the chosen character. This superpower can be used only once per Turn."
+          "Action: This character immediately Advances LARGE. Then this character may choose another allied character within RANGE 2 that has an Activated token. If it does, Place the chosen character within RANGE 1 of this character. Then this character may remove up to 2 WOUND or 1 special condition from the chosen character. This superpower can be used only once per Turn."
         ]
       },
       {
