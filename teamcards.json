@@ -12,5 +12,12 @@
   "type": "Active",
   "requirements": ["Rhino"],
   "description": "Rhino may play this chard at the beggining of his Activation.\n\nThe next attack Rhino makes this Activation adds dice equal to the combined Size of all terrain features destroyed this Activation.\n\nAt the end of this Activation, Rhino suffers 2 WOUND."
+},
+  {
+  "entity_type": "tactic",
+  "name": "A-Force Assemble!",
+  "affiliation": "A-Force",
+  "type": "Active",
+  "description": "An A-Force character may spend 3 POWER to play this card.\nWhen an allied character is defending against an attack this round, add 1 die to the defense roll for each other A-Force character within RANGE 2 of that character."
 }
 ]
