@@ -5,5 +5,12 @@
     "type": "Active",
     "requirements": ["Rhino"],
     "description": "During the Rhino activation, he may spend 4 POWER to play this card.\n\nChoose an enemy character within RANGE 1 that is holding Objective token. The chosen character drops any Objetive tokens it is holding. Rhino then Throws the chosen character MEDIUM."
-  }
+  },
+  {
+  "entity_type": "tactic",
+  "name": "Rhino in a China Shop",
+  "type": "Active",
+  "requirements": ["Rhino"],
+  "description": "Rhino may play this chard at the beggining of his Activation.\n\nThe next attack Rhino makes this Activation adds dice equal to the combined Size of all terrain features destroyed this Activation.\n\nAt the end of this Activation, Rhino suffers 2 WOUND."
+}
 ]
