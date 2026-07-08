@@ -2752,6 +2752,100 @@
       }
     }
   ]
+},
+    {
+  "name": "Crossbones",
+  "alter_ego": "Brock Rumlow",
+  "image_url": "https://static.marvelsnap.pro/art/Crossbones.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": ["Cabal", "Hydra", "Criminal Syndicate"],
+  "healthy": {
+    "movement": "S",
+    "stamina": 6,
+    "defense": { "physical": 4, "energy": 2, "mystic": 2 },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": ["After this attack is resolved, this character gains POWER equal to the WOUND dealt."]
+      },
+      {
+        "name": "Overpower",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 2,
+        "special_rules": ["After this attack is resolved, place this character within RANGE 1 of the target.", "WILD Throw: If the character is Size 2 or less, before WOUND is dealt this character may throw it SHORT."]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Haymaker",
+        "type": "Active",
+        "cost": "4",
+        "rules": ["The next Strike or Overpower attack made by this character this turn adds three dice to its attack roll."]
+      },
+      {
+        "name": "Inured to Pain",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": ["If this character would suffer 1 WOUND, it may use this superpower. Reduce the amount of WOUND suffered by 1."]
+      },
+      {
+        "name": "Agressive",
+        "type": "Innate",
+        "cost": "0",
+        "rules": ["After an attack targeting this character is resolved, if this character suffered WOUND, it may Advance SHORT toward the attacking character."]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "S",
+    "stamina": 5,
+    "defense": { "physical": 4, "energy": 2, "mystic": 2 },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": ["After this attack is resolved, this character gains POWER equal to the WOUND dealt."]
+      },
+      {
+        "name": "Overpower",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 2,
+        "special_rules": ["After this attack is resolved, place this character within RANGE 1 of the target.", "WILD Throw: If the character is Size 2 or less, before WOUND is dealt this character may throw it SHORT."]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Haymaker",
+        "type": "Active",
+        "cost": "4",
+        "rules": ["The next Strike or Overpower attack made by this character this turn adds three dice to its attack roll."]
+      },
+      {
+        "name": "Inured to Pain",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": ["If this character would suffer 1 WOUND, it may use this superpower. Reduce the amount of WOUND suffered by 1."]
+      },
+      {
+        "name": "Agressive",
+        "type": "Innate",
+        "cost": "0",
+        "rules": ["After an attack targeting this character is resolved, if this character suffered WOUND, it may Advance SHORT toward the attacking character."]
+      }
+    ]
+  }
 }
 
 ]
