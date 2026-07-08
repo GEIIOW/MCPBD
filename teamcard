@@ -1,1 +1,9 @@
-
+[
+  {
+    "entity_type": "tactic",
+    "name": "This is a Robery",
+    "type": "Active",
+    "requirements": ["Rhino"],
+    "description": "During the Rhino activation, he may spend 4 POWER to play this card.\n\nChoose an enemy character within RANGE 1 that is holding Objective token. The chosen character drops any Objetive tokens it is holding. Rhino then Throws the chosen character MEDIUM."
+  }
+]
