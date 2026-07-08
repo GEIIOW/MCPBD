@@ -2376,6 +2376,190 @@
       }
     ]
   }
+},
+    {
+  "name": "Sandman",
+  "alter_ego": "Flint Marko",
+  "image_url": "https://static.marvelsnap.pro/art/Sandman.webp",
+  "threat": 4,
+  "size": 3,
+  "affiliations": ["Criminal Syndicate", "Spider-Foes"],
+  "minions": ["Sand Construct"],
+  "healthy": {
+    "movement": "S",
+    "stamina": 6,
+    "defense": { "physical": 4, "energy": 4, "mystic": 3 },
+    "attacks": [
+      {
+        "name": "Silicate Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": ["After this attack is resolved, this character gains POWER equal to the WOUND dealt.", "WILD Throw: After this attack is resolved, if the target character is Size 2 or less, this character may Throw it SHORT."]
+      },
+      {
+        "name": "Sand Blast",
+        "type": "Physical",
+        "range": "B3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": ["Underfoot: After each attack is resolved, if it dealt WOUND, this character Pushes the target character SHORT."]
+      },
+      {
+        "name": "Punchin' Your Ticket",
+        "type": "Physical",
+        "range": "2",
+        "strength": 8,
+        "cost": 4,
+        "special_rules": ["Add 2 dice to this attack for each allied Sand Construct within RANGE 2 of the target character."]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Reabsorb",
+        "type": "Active",
+        "cost": "3",
+        "rules": ["Choose an allied Sand Construct within RANGE 3 of this character. Place this character within RANGE 1 of the chosen Sand Construct. Then the chosen Sand Construct is KO'd and this character removes 1 WOUND from itself."]
+      },
+      {
+        "name": "Create Sand Construct",
+        "type": "Innate",
+        "cost": "0",
+        "rules": ["You may have 2 Sand Constructs in your Squad instead of the normal 1. You must activate all allied Sand Constructs before this character's Activation.", "At the start of this character's Activation, if there are fewer than 2 Sand Constructs in play, this character may suffer 2 WOUND. If it does, place 1 Sand Construct into play within RANGE 2 of this character. It gains and Activated token and is part of your Squad."]
+      },
+      {
+        "name": "Sand Manipulation",
+        "type": "Innate",
+        "cost": "0",
+        "rules": ["This character gains 1 POWER whenever an allied Sand Construct deals WOUND or suffers WOUND from an enemy effect."]
+      },
+      {
+        "name": "Healing Factor [1]",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "S",
+    "stamina": 7,
+    "defense": { "physical": 4, "energy": 4, "mystic": 3 },
+    "attacks": [
+      {
+        "name": "Silicate Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": ["After this attack is resolved, this character gains POWER equal to the WOUND dealt.", "WILD Throw: After this attack is resolved, if the target character is Size 2 or less, this character may Throw it SHORT."]
+      },
+      {
+        "name": "Sand Blast",
+        "type": "Physical",
+        "range": "B3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": ["Underfoot: After each attack is resolved, if it dealt WOUND, this character Pushes the target character SHORT."]
+      },
+      {
+        "name": "Punchin' Your Ticket",
+        "type": "Physical",
+        "range": "2",
+        "strength": 8,
+        "cost": 4,
+        "special_rules": ["Add 2 dice to this attack for each allied Sand Construct within RANGE 2 of the target character."]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Reabsorb",
+        "type": "Active",
+        "cost": "3",
+        "rules": ["Choose an allied Sand Construct within RANGE 3 of this character. Place this character within RANGE 1 of the chosen Sand Construct. Then the chosen Sand Construct is KO'd and this character removes 1 WOUND from itself."]
+      },
+      {
+        "name": "Create Sand Construct",
+        "type": "Innate",
+        "cost": "0",
+        "rules": ["You may have 2 Sand Constructs in your Squad instead of the normal 1. You must activate all allied Sand Constructs before this character's Activation.", "At the start of this character's Activation, if there are fewer than 2 Sand Constructs in play, this character may suffer 2 WOUND. If it does, place 1 Sand Construct into play within RANGE 2 of this character. It gains and Activated token and is part of your Squad."]
+      },
+      {
+        "name": "Sand Manipulation",
+        "type": "Innate",
+        "cost": "0",
+        "rules": ["This character gains 1 POWER whenever an allied Sand Construct deals WOUND or suffers WOUND from an enemy effect."]
+      },
+      {
+        "name": "Healing Factor [1]",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "grunts": [
+    {
+      "name": "Sand Construct",
+      "image_url": "",
+      "threat": 0,
+      "size": 2,
+      "healthy": {
+        "movement": "S",
+        "stamina": 2,
+        "defense": { "physical": 1, "energy": 1, "mystic": 1 },
+        "attacks": [
+          {
+            "name": "Sand Slap",
+            "type": "Physical",
+            "range": "2",
+            "strength": 4,
+            "cost": 0,
+            "special_rules": ["Underfoot: After this attack is resolved, if it dealt WOUND, this character Pushes the target character SHORT."]
+          }
+        ],
+        "superpowers": [
+          {
+            "name": "Crumbling Form",
+            "type": "Innate",
+            "cost": "0",
+            "rules": ["This character cannot pick up, hold, contest or interact with objective tokens."]
+          },
+          {
+            "name": "Difficult Terrain",
+            "type": "Innate",
+            "cost": "0",
+            "rules": ["When this character suffers WOUND from a PHYSICAL attack, reduce the amount of WOUND suffered by 1, to a minimum of 1.", "Additionally, this character cannot be Thrown and does not suffer WOUND from collisions."]
+          },
+          {
+            "name": "Dust to Dust",
+            "type": "Innate",
+            "cost": "0",
+            "rules": ["At the end of and allied Sandman's Activation, if this character is not within RANGE 3 of it, this character is KO'd.", "Additionally, whenever an allied Sandman is Dazed, this character is KO'd."]
+          },
+          {
+            "name": "Grunts (Sandman)",
+            "type": "Innate",
+            "cost": "0",
+            "rules": []
+          }
+        ]
+      }
+    }
+  ]
 }
 
 ]
