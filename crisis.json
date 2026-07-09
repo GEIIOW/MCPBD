@@ -104,12 +104,12 @@
       "label": "",
       "x_origin": "left",
       "x_rules": [
-        "5"
+        "4"
       ],
       "y_origin": "bottom",
       "y_rules": [
         "2",
-        "5"
+        "4"
       ]
     },
     {
