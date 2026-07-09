@@ -63,5 +63,68 @@
       ]
     }
   ]
+},
+  {
+  "entity_type": "crisis",
+  "name": "Infinity Formula Goes Missing!",
+  "type": "Secure",
+  "threat": 17,
+  "setup_text": "Place 4 Serum Canister tokens (Point of Interest) as shown on the map below.",
+  "scoring_text": "Players score 1 VP for each Serum Canister they Secure during the Cleanup Phase.",
+  "special_rules": "During the Power Phase, characters Contesting a Serum Canister gain 1 POWER.",
+  "map_tokens": [
+    {
+      "id": "1783598386461",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "2",
+        "5"
+      ]
+    },
+    {
+      "id": "1783598397927",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "2",
+        "5"
+      ]
+    },
+    {
+      "id": "1783598398904",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "2",
+        "5"
+      ]
+    },
+    {
+      "id": "1783598400271",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "4"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "2",
+        "5"
+      ]
+    }
+  ]
 }
 ]
