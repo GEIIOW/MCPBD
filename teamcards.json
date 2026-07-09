@@ -19,5 +19,15 @@
   "affiliation": "A-Force",
   "type": "Active",
   "description": "An A-Force character may spend 3 POWER to play this card.\nWhen an allied character is defending against an attack this round, add 1 die to the defense roll for each other A-Force character within RANGE 2 of that character."
-}
+},
+  {
+    "entity_type": "tactic",
+    "name": "Well-Laid Plans",
+    "type": "Active",
+    "requirements": [
+      "Green Goblin",
+      "Doctor Octopus"
+    ],
+    "description": "Green Goblin and Doctor Octopus may spend 3 POWER each to play this card.\n\nRoll 5 dice for each enemy character holding an objective token. The enemy character suffers one damage for each CRIT and WILD result rolled.\n\nA character damaged in this way drops all objetive tokens it is holding. The player playing this card chooses the order in which enemy characters are affected."
+  }
 ]
