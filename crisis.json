@@ -40,7 +40,7 @@
       "label": "",
       "x_origin": "right",
       "x_rules": [
-        "4",
+        "5",
         "3"
       ],
       "y_origin": "bottom",
@@ -91,7 +91,7 @@
       "label": "",
       "x_origin": "left",
       "x_rules": [
-        "5"
+        "4"
       ],
       "y_origin": "top",
       "y_rules": [
