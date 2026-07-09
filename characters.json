@@ -2945,6 +2945,132 @@
         }
       ]
     }
+  },
+  {
+    "entity_type": "character",
+    "name": "Doctor Octopus",
+    "alter_ego": "Otto Octavius",
+    "image_url": "https://static.marvelsnap.pro/art/DoctorOctopus_10.webp",
+    "threat": 3,
+    "size": 2,
+    "affiliations": [
+      "Spider-Foes"
+    ],
+    "healthy": {
+      "movement": "M",
+      "stamina": 5,
+      "defense": {
+        "physical": 4,
+        "energy": 3,
+        "mystic": 4
+      },
+      "attacks": [
+        {
+          "name": "Strike",
+          "type": "Physical",
+          "range": "3",
+          "strength": 4,
+          "cost": 0,
+          "special_rules": [
+            "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+            "WILD Flurry of Arms: When making this attack, each WILD in the attack roll counts as two successes."
+          ]
+        },
+        {
+          "name": "Arms Lasers",
+          "type": "Energy",
+          "range": "4",
+          "strength": 6,
+          "cost": 3,
+          "special_rules": [
+            "This attack ignores LOS, and the defending character does not benefit from Cover.",
+            "WILD Pierce: Change one of the defending character's CRIT, WILD or DEFENSE results to BLANK."
+          ]
+        }
+      ],
+      "superpowers": [
+        {
+          "name": "Ock's Clutches",
+          "type": "Active",
+          "cost": "3",
+          "rules": [
+            "Choose an interactive terrain feature or an enemy character, both of SIZE 2 or less and within RANGE 3, and throw it SHORT. This superpower can be used only once per turn."
+          ]
+        },
+        {
+          "name": "Scientific Hubris",
+          "type": "Innate",
+          "cost": "0",
+          "rules": [
+            "Whenerever this character rolls dice, after the effect is resolved it gains 1 POWER if it rolled at least one CRIT."
+          ]
+        },
+        {
+          "name": "Wall Crawler",
+          "type": "Innate",
+          "cost": "0",
+          "rules": []
+        }
+      ]
+    },
+    "injured": {
+      "movement": "M",
+      "stamina": 6,
+      "defense": {
+        "physical": 4,
+        "energy": 3,
+        "mystic": 4
+      },
+      "attacks": [
+        {
+          "name": "Strike",
+          "type": "Physical",
+          "range": "3",
+          "strength": 4,
+          "cost": 0,
+          "special_rules": [
+            "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+            "WILD Flurry of Arms: When making this attack, each WILD in the attack roll counts as two successes."
+          ]
+        },
+        {
+          "name": "Arms Lasers",
+          "type": "Energy",
+          "range": "4",
+          "strength": 6,
+          "cost": 3,
+          "special_rules": [
+            "This attack ignores LOS, and the defending character does not benefit from Cover.",
+            "WILD Pierce: Change one of the defending character's CRIT, WILD or DEFENSE results to BLANK."
+          ]
+        }
+      ],
+      "superpowers": [
+        {
+          "name": "Ock's Clutches",
+          "type": "Active",
+          "cost": "3",
+          "rules": [
+            "Choose an interactive terrain feature or an enemy character, both of SIZE 2 or less and within RANGE 3, and throw it SHORT. This superpower can be used only once per turn."
+          ]
+        },
+        {
+          "name": "Scientific Hubris",
+          "type": "Innate",
+          "cost": "0",
+          "rules": [
+            "Whenerever this character rolls dice, after the effect is resolved it gains 1 POWER if it rolled at least one CRIT."
+          ]
+        },
+        {
+          "name": "Wall Crawler",
+          "type": "Innate",
+          "cost": "0",
+          "rules": []
+        }
+      ]
+    }
   }
+
 
 ]
