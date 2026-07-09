@@ -2846,6 +2846,108 @@
       }
     ]
   }
-}
+},
+    [
+  {
+    "entity_type": "character",
+    "name": "Cyclopes",
+    "alter_ego": "Scott Summers",
+    "image_url": "https://static.marvelsnap.pro/art/Cyclops.webp",
+    "threat": 4,
+    "size": 2,
+    "affiliations": ["Uncanny X-Men"],
+    "leadership": {
+      "name": "X-Men Blue",
+      "affiliation": "Uncanny X-Men",
+      "rules": ["When an allied character deals WOUND to an enemy character with an attack, another allied character within RANGE 5 of the attacking character may gain 1 POWER after the attack is resolved. A character may gain only 1 POWER as a result of this Leadership ability per Turn."]
+    },
+    "healthy": {
+      "movement": "M",
+      "stamina": 6,
+      "defense": { "physical": 4, "energy": 3, "mystic": 3 },
+      "attacks": [
+        {
+          "name": "Optic Blast",
+          "type": "Energy",
+          "range": "4",
+          "strength": 5,
+          "cost": 0,
+          "special_rules": ["After this attack is resolved, this character gains POWER equal to the WOUND dealt.", "WILD Push: Before WOUND is dealt, if the defender is SIZE 3 or less, this character may Push it Away SHORT.", "WILD HIT Speed of Sight: After this attack is resolved, this character may make an additional Optic Blast attack. This additional attack may not target the original target character and does not have the Speed of Sight special rule."]
+        },
+        {
+          "name": "Optic Devastation",
+          "type": "Energy",
+          "range": "B5",
+          "strength": 7,
+          "cost": 4,
+          "special_rules": ["WILD Suppression: After each attack is resolved, the defender loses 1 POWER for each WILD in the attack roll."]
+        }
+      ],
+      "superpowers": [
+        {
+          "name": "Field Leader",
+          "type": "Active",
+          "cost": "3",
+          "rules": ["Choose another allied character within RANGE 4. That character Advances SHORT. A character can be made to Advance by this superpower only once per Turn."]
+        },
+        {
+          "name": "Hit and Run",
+          "type": "Active",
+          "cost": "2",
+          "rules": ["Action: This character immediately makes an attack action followed by a move action. This superpower can be used only once per Turn."]
+        },
+        {
+          "name": "Quick Draw",
+          "type": "Reactive",
+          "cost": "2",
+          "rules": ["When this character is targeted by an attack and the attacker is not within RANGE 2 of this character, this character may use this superpower. Instead of rolling dice equal to its Defense, it rolls 5 defense dice. Then, if this character suffers no WOUND from the attack, after the attack is resolved, the attacker suffers 2 WOUND."]
+        }
+      ]
+    },
+    "injured": {
+      "movement": "M",
+      "stamina": 6,
+      "defense": { "physical": 4, "energy": 3, "mystic": 3 },
+      "attacks": [
+        {
+          "name": "Optic Blast",
+          "type": "Energy",
+          "range": "4",
+          "strength": 5,
+          "cost": 0,
+          "special_rules": ["After this attack is resolved, this character gains POWER equal to the WOUND dealt.", "WILD Push: Before WOUND is dealt, if the defender is SIZE 3 or less, this character may Push it Away SHORT.", "WILD HIT Speed of Sight: After this attack is resolved, this character may make an additional Optic Blast attack. This additional attack may not target the original target character and does not have the Speed of Sight special rule."]
+        },
+        {
+          "name": "Optic Devastation",
+          "type": "Energy",
+          "range": "B5",
+          "strength": 7,
+          "cost": 4,
+          "special_rules": ["WILD Suppression: After each attack is resolved, the defender loses 1 POWER for each WILD in the attack roll."]
+        }
+      ],
+      "superpowers": [
+        {
+          "name": "Field Leader",
+          "type": "Active",
+          "cost": "3",
+          "rules": ["Choose another allied character within RANGE 4. That character Advances SHORT. A character can be made to Advance by this superpower only once per Turn."]
+        },
+        {
+          "name": "Hit and Run",
+          "type": "Active",
+          "cost": "2",
+          "rules": ["Action: This character immediately makes an attack action followed by a move action. This superpower can be used only once per Turn."]
+        },
+        {
+          "name": "Quick Draw",
+          "type": "Reactive",
+          "cost": "2",
+          "rules": ["When this character is targeted by an attack and the attacker is not within RANGE 2 of this character, this character may use this superpower. Instead of rolling dice equal to its Defense, it rolls 5 defense dice. Then, if this character suffers no WOUND from the attack, after the attack is resolved, the attacker suffers 2 WOUND."]
+        }
+      ]
+    }
+  }
+]
 
 ]
