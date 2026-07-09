@@ -1,6 +1,7 @@
 {
   "sources": [
     "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/characters.json",
-    "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/teamcards.json"
+    "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/teamcards.json",
+    "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/crisis.json"
   ]
 }
