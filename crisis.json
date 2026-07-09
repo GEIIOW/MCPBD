@@ -1,1 +1,66 @@
 
+{
+  "entity_type": "crisis",
+  "name": "Suprise assault! Mutante homes destroyed",
+  "type": "Extract",
+  "threat": 16,
+  "setup_text": "Place 4 Unexhausted Haven Tokens (Source) as shown on map below. Set aside 4 Mutant tokens (Civilian).",
+  "scoring_text": "Players score 1 VP for each character they control that is holding a Mutant during the Cleanup Phase.",
+  "special_rules": "Interact (Haven): Flip this Haven and pick up a Mutant from it. Mutants are Limited. A character annot Interact with a Haven while is holding a Mutant.\n\nFlee!: During the Cleanup Phase, remove all Mutants from the Game and Flip each Exhausted Haven.",
+  "map_tokens": [
+    {
+      "id": "1783597535378",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "4",
+        "3"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1783597551828",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1783597559161",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "4",
+        "3"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1783597575785",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "4"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    }
+  ]
+}
