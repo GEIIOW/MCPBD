@@ -3207,6 +3207,208 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Hulk",
+  "alter_ego": "Bruce Banner",
+  "image_url": "https://static.marvelsnap.pro/art/Hulk.webp",
+  "threat": 6,
+  "size": 4,
+  "affiliations": [
+    "Defenders",
+    "Avengers"
+  ],
+  "healthy": {
+    "movement": "S",
+    "stamina": 20,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Push: Before damage is dealt, this character may push the target character away SHORT."
+        ]
+      },
+      {
+        "name": "Thunder Clap",
+        "type": "Energy",
+        "range": "B3",
+        "strength": 5,
+        "cost": 3,
+        "special_rules": []
+      },
+      {
+        "name": "Hulk Smash!",
+        "type": "Physical",
+        "range": "2",
+        "strength": 8,
+        "cost": 4,
+        "special_rules": [
+          "WILD Stagger: After the attack is resolved, the target character gains the Stagger special condition.",
+          "WILD Throw: Before damage is dealt, this character may throw the target character SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Gamma Leap",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Place this character within RANGE 2 of its current location. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Strongest One There Is",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an interactive terrain feature or an enemy character, both SIZE 4 or less within RANGE 2, and throw it MEDIUM. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Hulk Not Puny Banner",
+        "type": "Reactive",
+        "cost": "4",
+        "rules": [
+          "While this character is defending against PHYSICAL or ENERGY attack, during the Modify Dice step of the attack it may use this superpower. This character may reroll any number of its defense dice, including FAIL results."
+        ]
+      },
+      {
+        "name": "Inner Rage",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "During the Power Phase, this character gains 2 additional POWER."
+        ]
+      },
+      {
+        "name": "You Won't Like Me when i'm Angry",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Add one die to this character's attack rolls for every 4 WOUND. Additionally, if this character would flip it stat card to the Injured side, it is KO'd insted."
+        ]
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Active",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "S",
+    "stamina": 20,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Push: Before damage is dealt, this character may push the target character away SHORT."
+        ]
+      },
+      {
+        "name": "Thunder Clap",
+        "type": "Energy",
+        "range": "B3",
+        "strength": 5,
+        "cost": 3,
+        "special_rules": []
+      },
+      {
+        "name": "Hulk Smash!",
+        "type": "Physical",
+        "range": "2",
+        "strength": 8,
+        "cost": 4,
+        "special_rules": [
+          "WILD Stagger: After the attack is resolved, the target character gains the Stagger special condition.",
+          "WILD Throw: Before damage is dealt, this character may throw the target character SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Gamma Leap",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Place this character within RANGE 2 of its current location. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Strongest One There Is",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an interactive terrain feature or an enemy character, both SIZE 4 or less within RANGE 2, and throw it MEDIUM. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Hulk Not Puny Banner",
+        "type": "Reactive",
+        "cost": "4",
+        "rules": [
+          "While this character is defending against PHYSICAL or ENERGY attack, during the Modify Dice step of the attack it may use this superpower. This character may reroll any number of its defense dice, including FAIL results."
+        ]
+      },
+      {
+        "name": "Inner Rage",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "During the Power Phase, this character gains 2 additional POWER."
+        ]
+      },
+      {
+        "name": "You Won't Like Me when i'm Angry",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Add one die to this character's attack rolls for every 4 WOUND. Additionally, if this character would flip it stat card to the Injured side, it is KO'd insted."
+        ]
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Active",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
 }
 
 
