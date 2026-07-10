@@ -29,5 +29,46 @@
       "Doctor Octopus"
     ],
     "description": "Green Goblin and Doctor Octopus may spend 3 POWER each to play this card.\n\nRoll 5 dice for each enemy character holding an objective token. The enemy character suffers one damage for each CRIT and WILD result rolled.\n\nA character damaged in this way drops all objetive tokens it is holding. The player playing this card chooses the order in which enemy characters are affected."
-  }
+  },
+  {
+  "entity_type": "tactic",
+  "name": "Shadow Organization",
+  "affiliation": "Criminal Syndicate",
+  "type": "Reactive",
+  "legality": "Standard",
+  "description": "During the Power Phase, any number of allied Criminal Syndicate characters may spend 2 POWER each to play this card.\n\nEnemy characters must be within RANGE 2 of characters that spend POWER to target them with attacks this Round."
+},
+  {
+  "entity_type": "tactic",
+  "name": "All According to Plan",
+  "affiliation": "Criminal Syndicate",
+  "type": "Reactive",
+  "legality": "Standard",
+  "description": "During the Power Phase any number of allied Criminal Syndicate characters may spend POWER to play this card.\n\nIf 10 or more POWER was spent to play this card, take the Priority token."
+},
+  {
+  "entity_type": "tactic",
+  "name": "Patch Up",
+  "type": "Active",
+  "legality": "Restricted",
+  "description": "Choose a non-dazed allied character. Another allied character within RANGE 2 of the chosen character may spend up to 5 POWER to play this card.\n\nRemove WOUND from the chosen character equal to the POWER spent to play this card."
+},
+  {
+  "entity_type": "tactic",
+  "name": "Sacriface",
+  "type": "Reactive",
+  "legality": "Restricted",
+  "description": "If an allied character is within RANGE 2 of another allied character and its targeted by an enemy attack, those allied characters may spend 1 POWER each to play this card.\n\nThe non-targeted allied character immediately becomes the new target of the attack regardless of range and LOS. It cannot add additional defense dice to its defense roll and cannot modify its dice during the attack."
+},
+  {
+  "entity_type": "tactic",
+  "name": "Lethal Protector",
+  "type": "Reactive",
+  "legality": "Standard",
+  "requirements": [
+    "Venom"
+  ],
+  "description": "When an enemy character targets an allied character within RANGE 3 of an allied Venom with an attack, Venom may spend 2 POWER to play this card.\n\nPlace Venom within RANGE 1 of the allied character. Venom becomes the target of the attack regardless of range and LOS."
+}
+  
 ]
