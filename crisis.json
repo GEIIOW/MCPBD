@@ -126,5 +126,82 @@
       ]
     }
   ]
+},
+  {
+  "entity_type": "crisis",
+  "name": "Super-Powered Scoundrels form sinister Syndicate",
+  "type": "Secure",
+  "threat": 20,
+  "setup_text": "Place 5 Ambush tokens (Points of Interest) as shown on the map below.",
+  "scoring_text": "Players score 1 VP for each Ambush they Secure during the Cleanup Phase.",
+  "special_rules": "Characters contesting an Ambush have Cover from characters not Contesting the same Ambush.",
+  "map_tokens": [
+    {
+      "id": "1783702390598",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    },
+    {
+      "id": "1783702399594",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "2"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5"
+      ]
+    },
+    {
+      "id": "1783702400710",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "5",
+        "2"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5"
+      ]
+    },
+    {
+      "id": "1783702406431",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "5",
+        "2"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5"
+      ]
+    },
+    {
+      "id": "1783702407903",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "2"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5"
+      ]
+    }
+  ]
 }
 ]
