@@ -203,5 +203,56 @@
       ]
     }
   ]
+},
+  {
+  "entity_type": "crisis",
+  "name": "Research Station Attacked!",
+  "type": "Extract",
+  "threat": 15,
+  "setup_text": "Place 1 Researcher token (Civilian) and 2 Evac Points (Assets) as shown on the map below.",
+  "scoring_text": "A player scores 2 VPs if they are securing the Researcher during the Cleanup Phase. Then they score 1 additional VP if the Researcher is within RANGE 1 of their Evac Point.",
+  "special_rules": "During the Power Phase, the Researcher may move. If a player is securing the Researcher, they may Place it within RANGE 2 of its current location.\n\nThe Evac Point farthest from a player's battlefield edge is their Evac Point.",
+  "map_tokens": [
+    {
+      "id": "1783709276614",
+      "label": "A",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5"
+      ]
+    },
+    {
+      "id": "1783709285537",
+      "label": "A",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5"
+      ]
+    },
+    {
+      "id": "1783709293553",
+      "label": "C",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    }
+  ]
 }
 ]
