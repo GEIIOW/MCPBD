@@ -5585,6 +5585,151 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Winter Soldier",
+  "alter_ego": "James \"Bucky\" Barnes",
+  "image_url": "https://static.marvelsnap.pro/art/WinterSoldier.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": [
+    "S.H.I.E.L.D."
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 2
+    },
+    "attacks": [
+      {
+        "name": "Assault Rifle",
+        "type": "Physical",
+        "range": "5",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Bleed: After this attack is resolved, the target character gains the Bleed special condition.",
+          "WILD Rapid Fire: After this attack is resolved, this character may make one additional Assault Rifle attack. The additional attack must target the original target character. The additional attack doest not have the Rapid Fire special rule."
+        ]
+      },
+      {
+        "name": "Red Fury",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "After this attack is resolved, if the target character is Size 3 or less, the target character is Pushed Away from this character SHORT. Then immediately make an Assault Rifle attack targeting that character."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Hydra Tactics",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose another allied character within RANGE 2 of this character. Place this character within RANGE 1 of the chosen character."
+        ]
+      },
+      {
+        "name": "Got Your Back",
+        "type": "Reactive",
+        "cost": "3",
+        "rules": [
+          "If an allied character is Dazed or KO'd by an enemy effect, after the effect is resolved, this character may use this superpower. This character may make an Assault Rifle attack against the enemy character that caused the effect."
+        ]
+      },
+      {
+        "name": "Rogue Agent",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "One character with Rogue Agent counts as an affiliated character during Squad building."
+        ]
+      },
+      {
+        "name": "Spetsnaz Training",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character may reroll one die when either attacking or being attack by a character that is within RANGE 1."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 2
+    },
+    "attacks": [
+      {
+        "name": "Assault Rifle",
+        "type": "Physical",
+        "range": "5",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Bleed: After this attack is resolved, the target character gains the Bleed special condition.",
+          "WILD Rapid Fire: After this attack is resolved, this character may make one additional Assault Rifle attack. The additional attack must target the original target character. The additional attack doest not have the Rapid Fire special rule."
+        ]
+      },
+      {
+        "name": "Red Fury",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "After this attack is resolved, if the target character is Size 3 or less, the target character is Pushed Away from this character SHORT. Then immediately make an Assault Rifle attack targeting that character."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Hydra Tactics",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose another allied character within RANGE 2 of this character. Place this character within RANGE 1 of the chosen character."
+        ]
+      },
+      {
+        "name": "Got Your Back",
+        "type": "Reactive",
+        "cost": "3",
+        "rules": [
+          "If an allied character is Dazed or KO'd by an enemy effect, after the effect is resolved, this character may use this superpower. This character may make an Assault Rifle attack against the enemy character that caused the effect."
+        ]
+      },
+      {
+        "name": "Rogue Agent",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "One character with Rogue Agent counts as an affiliated character during Squad building."
+        ]
+      },
+      {
+        "name": "Spetsnaz Training",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character may reroll one die when either attacking or being attack by a character that is within RANGE 1."
+        ]
+      }
+    ]
+  }
 }
 
 
