@@ -3409,6 +3409,157 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Doc Ock, Sinister Scientist",
+  "alter_ego": "Otto Octavis",
+  "image_url": "https://static.marvelsnap.pro/art/DoctorOctopus.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": [
+    "Spider-Foes"
+  ],
+  "leadership": {
+    "name": "",
+    "affiliation": "Spider-Foes",
+    "rules": [
+      "Once per turn, after an attack targeting an allied character is resolved, if that character is not Daze, it gains 1 POWER.",
+      "Additionally, once per turn, when an allied character suffers WOUND from an enemy atack, after that attack is resolved, it may remove one of the following special conditions from itself: Shock, Slow, or Incinerate."
+    ]
+  },
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 4,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Striking Tentacles",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Flurry of Arms: When makig this attack, each WILD in the attack roll counts as 2 successes."
+        ]
+      },
+      {
+        "name": "Arm Laser 2.0",
+        "type": "Energy",
+        "range": "B4",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "WILD Incinerate: After each attack is resolved, the target character gains the Incinerate special condition."
+        ]
+      },
+      {
+        "name": "Scientific Breakthrough",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "If this attack deals WOUND, after this attack is resolved, the target character gains the Bleed, Poison, and Shock special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Ock's Grasp",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature or enemy character, both of Size 3 or less and within RANGE 3, and Throw it SHORT. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Scientific Hubris",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character rolls dice, after the effect is resolved, if the roll contained 1 or more CRIT results, this character gains 1 POWER."
+        ]
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 4,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Striking Tentacles",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Flurry of Arms: When makig this attack, each WILD in the attack roll counts as 2 successes."
+        ]
+      },
+      {
+        "name": "Arm Laser 2.0",
+        "type": "Energy",
+        "range": "B4",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "WILD Incinerate: After each attack is resolved, the target character gains the Incinerate special condition."
+        ]
+      },
+      {
+        "name": "Scientific Breakthrough",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "If this attack deals WOUND, after this attack is resolved, the target character gains the Bleed, Poison, and Shock special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Ock's Grasp",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature or enemy character, both of Size 3 or less and within RANGE 3, and Throw it SHORT. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Scientific Hubris",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character rolls dice, after the effect is resolved, if the roll contained 1 or more CRIT results, this character gains 1 POWER."
+        ]
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
 }
 
 
