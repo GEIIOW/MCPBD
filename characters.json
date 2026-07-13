@@ -4895,6 +4895,161 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Daredevil",
+  "alter_ego": "Matt Murdock",
+  "image_url": "https://static.marvelsnap.pro/art/Daredevil.webp",
+  "threat": 4,
+  "size": 2,
+  "affiliations": [
+    "Defenders",
+    "Web Warriors"
+  ],
+  "leadership": {
+    "name": "Marvel Knights",
+    "affiliation": "Defenders",
+    "rules": [
+      "Once per Turn, an allied character may reroll a number of its attack dice equal to the number of enemy character within RANGE 2 of itself."
+    ]
+  },
+  "healthy": {
+    "movement": "L",
+    "stamina": 5,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Stun: After this attack is resolved, the target character gains the Stun special condition."
+        ]
+      },
+      {
+        "name": "Baton Hook",
+        "type": "Physical",
+        "range": "4",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "This attack ignores LOS and the Stealth superpower, and the defending character doest not benefit fro Cover.",
+          "HIT Pull: After this attack is resolved, if the target character is Size 2 or less, it may be Pushed Toward this character SHORT."
+        ]
+      },
+      {
+        "name": "Devil's Deliverance",
+        "type": "Physical",
+        "range": "A2",
+        "strength": 4,
+        "cost": 5,
+        "special_rules": [
+          "This attack adds 1 die to each of its attack rolls for each non-Dazed enemy character within RANGE 2 of this character when this attack was chosen.",
+          "After each attack is resolved, the target character is Pushed Away from this character SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Man Without Fear",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack targeting this character is resolved, this character may use this superpower. This character Advances Toward the attacker SHORT. Then, if the attacker is within RANGE 2, this character may make a Strike attack targeting it."
+        ]
+      },
+      {
+        "name": "Radar Sense",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When defending against PHYSICAL or ENERGY attacks, this character adds BLANK in its defense roll to its total successes."
+        ]
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "L",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Stun: After this attack is resolved, the target character gains the Stun special condition."
+        ]
+      },
+      {
+        "name": "Baton Hook",
+        "type": "Physical",
+        "range": "4",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "This attack ignores LOS and the Stealth superpower, and the defending character doest not benefit fro Cover.",
+          "HIT Pull: After this attack is resolved, if the target character is Size 2 or less, it may be Pushed Toward this character SHORT."
+        ]
+      },
+      {
+        "name": "Devil's Deliverance",
+        "type": "Physical",
+        "range": "A2",
+        "strength": 4,
+        "cost": 5,
+        "special_rules": [
+          "This attack adds 1 die to each of its attack rolls for each non-Dazed enemy character within RANGE 2 of this character when this attack was chosen.",
+          "After each attack is resolved, the target character is Pushed Away from this character SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Radar Sense",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When defending against PHYSICAL or ENERGY attacks, this character adds BLANK in its defense roll to its total successes."
+        ]
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Devil of Hell's Kitchen",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "This character may perform an attack with a POWER cost of 0. After the attack is resolved, if the attack roll contains any FAIL results this character suffers 1 WOUND. This superpower can be used only once per Turn."
+        ]
+      }
+    ]
+  }
 }
 
 
