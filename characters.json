@@ -4587,6 +4587,145 @@
       }
     ]
   }
+},
+{
+  "entity_type": "character",
+  "name": "Moon Knight",
+  "alter_ego": "Marc Spector",
+  "image_url": "https://static.marvelsnap.pro/art/MoonKnight_07.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": [
+    "Defenders",
+    "Web Warriors",
+    "Midnight Sons"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Bo Staff",
+        "type": "Physical",
+        "range": "2",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "This cahracter may reroll any number of attack dice for this attack.",
+          "CRIT WILD HIT Stagger: After this attack is resolved, the target gains the Stagger special condition."
+        ]
+      },
+      {
+        "name": "Throwing Crescents",
+        "type": "Physical",
+        "range": "4",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains 1 POWER.",
+          "HIT Rapid Fire: After this attack is resolved, this character may make one additional Throwing Crescents attack. The additional attack must target the original target character. The additional attack does not have the Rapid Fire special rule."
+        ]
+      },
+      {
+        "name": "Avatar of Khonshu",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "After this attack is resolved, place this character within RANGE 1 of the target character.",
+          "Push: If the target character is Size 2 or less, before WOUND is dealt it may be pushed away from this character SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Chosen of Khonshu",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character is targeted by a MYSTIC attack, it may use this superpower. Add 2 dice to this character's defense roll against that attack. This character cannot be advanced, pushed, or placed by the effects of this attack."
+        ]
+      },
+      {
+        "name": "Multiple Personalities",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "At the start of this character's activation, roll 1 die. If the result is a CRIT, this character may make an additional action this turn that must be a move action. If the result is a WILD or a HIT, the next attack made this activation adds 2 dice to its attack roll. If the result is a DEFENSE or a BLANK, this character gains 1 HIT. If the result is a FAIL, there is no effect. "
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Bo Staff",
+        "type": "Physical",
+        "range": "2",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "This cahracter may reroll any number of attack dice for this attack.",
+          "CRIT WILD HIT Stagger: After this attack is resolved, the target gains the Stagger special condition."
+        ]
+      },
+      {
+        "name": "Throwing Crescents",
+        "type": "Physical",
+        "range": "4",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains 1 POWER.",
+          "HIT Rapid Fire: After this attack is resolved, this character may make one additional Throwing Crescents attack. The additional attack must target the original target character. The additional attack does not have the Rapid Fire special rule."
+        ]
+      },
+      {
+        "name": "Avatar of Khonshu",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "After this attack is resolved, place this character within RANGE 1 of the target character.",
+          "Push: If the target character is Size 2 or less, before WOUND is dealt it may be pushed away from this character SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Chosen of Khonshu",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character is targeted by a MYSTIC attack, it may use this superpower. Add 2 dice to this character's defense roll against that attack. This character cannot be advanced, pushed, or placed by the effects of this attack."
+        ]
+      },
+      {
+        "name": "Multiple Personalities",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "At the start of this character's activation, roll 1 die. If the result is a CRIT, this character may make an additional action this turn that must be a move action. If the result is a WILD or a HIT, the next attack made this activation adds 2 dice to its attack roll. If the result is a DEFENSE or a BLANK, this character gains 1 HIT. If the result is a FAIL, there is no effect. "
+        ]
+      }
+    ]
+  }
 }
 
 
