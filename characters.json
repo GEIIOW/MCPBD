@@ -4726,6 +4726,175 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Doctor Voodoo",
+  "alter_ego": "Jericho Drumm",
+  "image_url": "https://cdna.artstation.com/p/assets/images/images/073/792/202/small/tanmay-mandal-brother-voodoo.jpg?1710482741",
+  "threat": 4,
+  "size": 0,
+  "affiliations": [
+    "Convocation",
+    "Avengers",
+    "Midnight Sons"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 2,
+      "energy": 2,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Spirit Venom",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Sap Power: Before damage is dealt, the target character loses 1 POWER for each WILD in the attack roll, and this character gains that amount of POWER.",
+          "HIT HIT Spiritual Strength: After this attack is resolved, if the target character is Size 2 or less, Throw it SHORT."
+        ]
+      },
+      {
+        "name": "Staff of Legba",
+        "type": "Mystic",
+        "range": "2",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "WILD Power Burn: Before WOUND is dealt, the target character loses 1 POWER for each WILD in the attack roll. The target character suffers 1 WOUND for each POWER lost in this way, and does not gain POWER for WOUND suffered as result of Power Burn."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Possession",
+        "type": "Active",
+        "cost": "X",
+        "rules": [
+          "This character may spend any number of POWER to use this superpower. Choose an enemy character within RANGE 3 of this character with a Threat Value equal or lower than the amount of POWER spent to use this superpower. Move the Brother Daniel token to that character. The enemy character drops all objective tokens it is holding. While that character has the Brother Daniel token, it cannot hold objective tokens."
+        ]
+      },
+      {
+        "name": "Recall Spirit",
+        "type": "Reactive",
+        "cost": "3",
+        "rules": [
+          "When this character is targeted by an attack it may use this superpower. Move the Brother Daniel token to this character from anywhere."
+        ]
+      },
+      {
+        "name": "Spirit of Brother Daniel",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character begins the game with a Brother Daniel token. While this character has the token, add 2 dice to all of its defense and doge rolls. Whenever this character is Dazed, or another character is Dazed or KO'd while it has the Brother Daniel token, move the token to this character. This character cannot have a Brother Daniel token except the one it begins the game with. When this character is removed from the battlefield, remove its Brother Daniel token fro the game.",
+          "Whenever this character rolls dice, after the effect is resolved, it gains 1 POWER if it rolled at least one FAIL."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Hex",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Incinerate",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 2,
+      "energy": 2,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Spirit Venom",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Sap Power: Before damage is dealt, the target character loses 1 POWER for each WILD in the attack roll, and this character gains that amount of POWER.",
+          "HIT HIT Spiritual Strength: After this attack is resolved, if the target character is Size 2 or less, Throw it SHORT."
+        ]
+      },
+      {
+        "name": "Staff of Legba",
+        "type": "Mystic",
+        "range": "2",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "WILD Power Burn: Before WOUND is dealt, the target character loses 1 POWER for each WILD in the attack roll. The target character suffers 1 WOUND for each POWER lost in this way, and does not gain POWER for WOUND suffered as result of Power Burn."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Possession",
+        "type": "Active",
+        "cost": "X",
+        "rules": [
+          "This character may spend any number of POWER to use this superpower. Choose an enemy character within RANGE 3 of this character with a Threat Value equal or lower than the amount of POWER spent to use this superpower. Move the Brother Daniel token to that character. The enemy character drops all objective tokens it is holding. While that character has the Brother Daniel token, it cannot hold objective tokens."
+        ]
+      },
+      {
+        "name": "Recall Spirit",
+        "type": "Reactive",
+        "cost": "3",
+        "rules": [
+          "When this character is targeted by an attack it may use this superpower. Move the Brother Daniel token to this character from anywhere."
+        ]
+      },
+      {
+        "name": "Spirit of Brother Daniel",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character begins the game with a Brother Daniel token. While this character has the token, add 2 dice to all of its defense and doge rolls. Whenever this character is Dazed, or another character is Dazed or KO'd while it has the Brother Daniel token, move the token to this character. This character cannot have a Brother Daniel token except the one it begins the game with. When this character is removed from the battlefield, remove its Brother Daniel token fro the game.",
+          "Whenever this character rolls dice, after the effect is resolved, it gains 1 POWER if it rolled at least one FAIL."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Hex",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Incinerate",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
 }
 
 
