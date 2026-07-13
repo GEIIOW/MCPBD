@@ -69,6 +69,59 @@
     "Venom"
   ],
   "description": "When an enemy character targets an allied character within RANGE 3 of an allied Venom with an attack, Venom may spend 2 POWER to play this card.\n\nPlace Venom within RANGE 1 of the allied character. Venom becomes the target of the attack regardless of range and LOS."
+},
+{
+  "entity_type": "tactic",
+  "name": "Siege of Darkness",
+  "affiliation": "Midnight Sons",
+  "type": "Active",
+  "legality": "Standard",
+  "description": "Any number of allied Midnight Sons character may spend 2 POWER to play this chard.\n\nEach character that spend POWER my immediately perform an attack with POWER cost of 0."
+},
+  {
+  "entity_type": "tactic",
+  "name": "Bats the Ghost Hound",
+  "affiliation": "Midnight Sons",
+  "type": "Reactive",
+  "legality": "Standard",
+  "description": "When an allied Midnight Sons character is modifying its attack or defense dice, it may spend 2 POWER to play this card.\n\nChange 1 of the allied character's attack or defense dice to any result. This effect may change FAIL results."
+},
+{
+  "entity_type": "tactic",
+  "name": "Brace for Impact",
+  "type": "Reactive",
+  "legality": "Restricted",
+  "description": "If one or more allied characters would suffer a collision, they may  each spend 1 POWER to play this card.\n\nCharacters that spend POWER do not suffer WOUND from this collision."
+},
+  {
+  "entity_type": "tactic",
+  "name": "Fall Back",
+  "type": "Reactive",
+  "legality": "Restricted",
+  "description": "When an allied character is attacked, before WOUND is dealt it may spend 2 POWER to play this card.\n\nThis character may advance SHORT away from the attacking character."
+},
+  
+{
+  "entity_type": "tactic",
+  "name": "Phases of the moon",
+  "type": "Reactive",
+  "legality": "Standard",
+  "requirements": [
+    "Werewolf by Night"
+  ],
+  "description": "At the start of the Activasion Phase, Werewolf by Night may play this card.\n\nChoose 1 of the following effects:\n\nNew Moon: This character must sppend 1 POWER before using the Midnight Massacre superpower. While this character is defending, if it is holding or contesting an objective token, it may reroll 1 die in its defense roll for each special condition the attacking character has.\n\nFull Moon: This character cannot Interact with, contest, or hold Extract objective tokens. While this character is attacking, it may reroll 1 die in its attack rolls for each special condition the target has.\n\nThis character gains the chosen effect for the remainder of the game."
+},
+{
+  "entity_type": "tactic",
+  "name": "Séance",
+  "type": "Active",
+  "legality": "Standard",
+  "requirements": [
+    "Doctor Voodoo"
+  ],
+  "description": "Doctor Voodoo may play this card.\n\nWhile Doctor Voodoo has his Brother Daniel token, add 2 additional dice instead of 1 to his attack, defense, and dodge rolls when adding dice for each CRIT result this round. While another character has his Brother Daniel token, that character does not add dice to its attack, defense, or dodge rolls when adding dice for CRIT results this round."
 }
+
+  
   
 ]
