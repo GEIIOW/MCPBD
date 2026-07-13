@@ -5730,6 +5730,153 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Killmonger",
+  "alter_ego": "N'Jadaka",
+  "image_url": "",
+  "threat": 4,
+  "size": 2,
+  "affiliations": [
+    "Cabal",
+    "Criminal Syndicate",
+    "Wakanda"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Vibranium Weapons",
+        "type": "Energy",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Pierce: Change one of the defending character's CRIT, WILD, or DEFENSE results to a BLANK."
+        ]
+      },
+      {
+        "name": "Black Ops Strike",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "If this attack deals WOUND, after this attack is resolved, place this character within RANGE 1 of the target.",
+          "WILD Stagger: After this attack is resolved the target character gains the Stagger special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Charge",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes a move action followed by an attack action. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Special Forces",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "When this character is attacking, it may use this superpower during the Calculate Success step of the attack. This character may choose to count DEFENSE results instead of HIT results as successes."
+        ]
+      },
+      {
+        "name": "Focused On the Kill",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "If this character makes an attack against a character it has already made an attack against this turn, add two dice to the attack roll."
+        ]
+      },
+      {
+        "name": "Kill Count",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character Dazes or KO's an enemy character it gains a Kill Count token. When this character is attacking it may reroll one die in its attack roll for each Kill Count token it has."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Vibranium Weapons",
+        "type": "Energy",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Pierce: Change one of the defending character's CRIT, WILD, or DEFENSE results to a BLANK."
+        ]
+      },
+      {
+        "name": "Black Ops Strike",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "If this attack deals WOUND, after this attack is resolved, place this character within RANGE 1 of the target.",
+          "WILD Stagger: After this attack is resolved the target character gains the Stagger special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Charge",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes a move action followed by an attack action. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Special Forces",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "When this character is attacking, it may use this superpower during the Calculate Success step of the attack. This character may choose to count DEFENSE results instead of HIT results as successes."
+        ]
+      },
+      {
+        "name": "Focused On the Kill",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "If this character makes an attack against a character it has already made an attack against this turn, add two dice to the attack roll."
+        ]
+      },
+      {
+        "name": "Kill Count",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character Dazes or KO's an enemy character it gains a Kill Count token. When this character is attacking it may reroll one die in its attack roll for each Kill Count token it has."
+        ]
+      }
+    ]
+  }
 }
 
 
