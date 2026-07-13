@@ -4257,6 +4257,170 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Man-Thing",
+  "alter_ego": "Theodore Sallis",
+  "image_url": "https://static.marvelsnap.pro/art/ManThing.webp",
+  "threat": 3,
+  "size": 3,
+  "affiliations": [
+    "Defenders",
+    "Midnight Sons"
+  ],
+  "healthy": {
+    "movement": "S",
+    "stamina": 6,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Lashing Tendrils",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "HIT WILD Reel In: After this attack is resolved, if the target character is Size 3 or less, it may be Pushed Toward this character SHORT."
+        ]
+      },
+      {
+        "name": "Emotional Agitation",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "After this attack is resolved, the target character gains the Incinerate and Poison special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Guardian of the Nexus of All Realities",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose this character or another allied character within RANGE 3 of it and Place the chosen character within RANGE 3 of its current position. A character can be affected by this superpower only once per Turn."
+        ]
+      },
+      {
+        "name": "All Who Know Fear Burn at the Man-Thng's Touch",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "After an attack made by this character is resolved or after an attack targeting this character is resolved, if WOUND was dealt and the enemy character is within RANGE 2 of this character, the enemy character gains the Incinera especial condition."
+        ]
+      },
+      {
+        "name": "Moss and Mud and Swamp",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is defending, enemy character do not roll additional dice for CRIT results in their attack rolls."
+        ]
+      },
+      {
+        "name": "Healing Factor (2)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Hex",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "S",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Lashing Tendrils",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "HIT WILD Reel In: After this attack is resolved, if the target character is Size 3 or less, it may be Pushed Toward this character SHORT."
+        ]
+      },
+      {
+        "name": "Emotional Agitation",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "After this attack is resolved, the target character gains the Incinerate and Poison special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Guardian of the Nexus of All Realities",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose this character or another allied character within RANGE 3 of it and Place the chosen character within RANGE 3 of its current position. A character can be affected by this superpower only once per Turn."
+        ]
+      },
+      {
+        "name": "All Who Know Fear Burn at the Man-Thng's Touch",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "After an attack made by this character is resolved or after an attack targeting this character is resolved, if WOUND was dealt and the enemy character is within RANGE 2 of this character, the enemy character gains the Incinera especial condition."
+        ]
+      },
+      {
+        "name": "Moss and Mud and Swamp",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is defending, enemy character do not roll additional dice for CRIT results in their attack rolls."
+        ]
+      },
+      {
+        "name": "Healing Factor (2)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Hex",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
 }
 
 
