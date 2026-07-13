@@ -5050,6 +5050,149 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Luke Cage",
+  "alter_ego": "Carl Lucas",
+  "image_url": "https://static.marvelsnap.pro/art/LukeCage.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": [
+    "Avengers",
+    "Defenders",
+    "Midnight Sons"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Power Man Punch",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD WILD Stagger: After this attack is resolved, the target character gains the Stagger special condition."
+        ]
+      },
+      {
+        "name": "Sweet Christmas",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "WILD Throw: After this attack is resolved, if the target character is Size 3 or less, it may be thrown SHORT.",
+          "After this attack is resolved, the target character gains the Slow and Stun special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Street Fighter",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an interactive terrain feature of Size 2 or less within RANGE 2, and throw it SHORT. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Too Dangerous to Ignore",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When an enemy character within RANGE 2 of this character targets another allied character with an attack, this character may use this superpower. This character becomes the target of the attack regardless of range and LOS."
+        ]
+      },
+      {
+        "name": "Unbreakable Skin",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from an enemy effect, reduce the amount suffered by 1, to a minimum of 1."
+        ]
+      },
+      {
+        "name": "Immunity Bleed",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Power Man Punch",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD WILD Stagger: After this attack is resolved, the target character gains the Stagger special condition."
+        ]
+      },
+      {
+        "name": "Sweet Christmas",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "WILD Throw: After this attack is resolved, if the target character is Size 3 or less, it may be thrown SHORT.",
+          "After this attack is resolved, the target character gains the Slow and Stun special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Street Fighter",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an interactive terrain feature of Size 2 or less within RANGE 2, and throw it SHORT. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Too Dangerous to Ignore",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When an enemy character within RANGE 2 of this character targets another allied character with an attack, this character may use this superpower. This character becomes the target of the attack regardless of range and LOS."
+        ]
+      },
+      {
+        "name": "Unbreakable Skin",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from an enemy effect, reduce the amount suffered by 1, to a minimum of 1."
+        ]
+      },
+      {
+        "name": "Immunity Bleed",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
 }
 
 
