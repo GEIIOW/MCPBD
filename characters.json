@@ -3938,6 +3938,151 @@
       }
     ]
   }
+},{
+  "entity_type": "character",
+  "name": "Spider-Man",
+  "alter_ego": "Miles Morales",
+  "image_url": "https://static.marvelsnap.pro/art/MilesMorales_32.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": [
+    "Web Warriors"
+  ],
+  "leadership": {
+    "name": "Great Responsibility",
+    "affiliation": "Web Warriors",
+    "rules": [
+      "Allied characters may re-roll one defense die. Additionally, they may modify and reroll FAIL results while they are holding or contesting an objective token."
+    ]
+  },
+  "healthy": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Webline Kick",
+        "type": "Physical",
+        "range": "3",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After his attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Throw: If the target character is Size 3 or less, before damage is dealt, you may Throw the target character away SHORT."
+        ]
+      },
+      {
+        "name": "Venom Blast",
+        "type": "Energy",
+        "range": "2",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "After the attack is resolved, the target character drops all objective tokens they are holding."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Web Swing",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Place this character within RANGE 3 of its current position. The next time it makes a Webline Kick attack this turn, add two dice to that attack roll. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Spider-Sense",
+        "type": "Reactive",
+        "cost": "",
+        "rules": [
+          "When this character is defending against an PHYSICAL or ENERY attack or making a dodge roll, it may reroll up to 2 of its defense or dodge dice."
+        ]
+      },
+      {
+        "name": "Stealth",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Characters mut be within RANGE 3 of this character to target it with attacks."
+        ]
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Webline Kick",
+        "type": "Physical",
+        "range": "3",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After his attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Throw: If the target character is Size 3 or less, before damage is dealt, you may Throw the target character away SHORT."
+        ]
+      },
+      {
+        "name": "Venom Blast",
+        "type": "Energy",
+        "range": "2",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "After the attack is resolved, the target character drops all objective tokens they are holding."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Web Swing",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Place this character within RANGE 3 of its current position. The next time it makes a Webline Kick attack this turn, add two dice to that attack roll. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Spider-Sense",
+        "type": "Reactive",
+        "cost": "",
+        "rules": [
+          "When this character is defending against an PHYSICAL or ENERY attack or making a dodge roll, it may reroll up to 2 of its defense or dodge dice."
+        ]
+      },
+      {
+        "name": "Stealth",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Characters mut be within RANGE 3 of this character to target it with attacks."
+        ]
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
 }
 
 
