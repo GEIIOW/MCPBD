@@ -3415,7 +3415,7 @@
   "name": "Doc Ock, Sinister Scientist",
   "alter_ego": "Otto Octavis",
   "image_url": "https://static.marvelsnap.pro/art/DoctorOctopus.webp",
-  "threat": 3,
+  "threat": 4,
   "size": 2,
   "affiliations": [
     "Spider-Foes"
@@ -3560,7 +3560,205 @@
       }
     ]
   }
-}
+},
+  {
+  "entity_type": "character",
+  "name": "Ghost Rider",
+  "alter_ego": "Johnathon Blaze",
+  "image_url": "https://static.marvelsnap.pro/art/GhostRider.webp",
+  "threat": 5,
+  "size": 3,
+  "affiliations": [
+    "Defenders",
+    "Midnight Sons"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 8,
+    "defense": {
+      "physical": 3,
+      "energy": 4,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Chains of Damnation",
+        "type": "Energy",
+        "range": "3",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Hex: After this attack is resolved, the target character gains Hex special condition."
+        ]
+      },
+      {
+        "name": "Flames of Hell",
+        "type": "Energy",
+        "range": "B3",
+        "strength": 5,
+        "cost": 2,
+        "special_rules": [
+          "If this attack deals WOUND, after this attack is resolved the target gains the Incinerate special condition."
+        ]
+      },
+      {
+        "name": "Penance Stare",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 5,
+        "cost": 5,
+        "special_rules": [
+          "Add dice to the attack roll equal to the amount of POWER the target character has, to a maximum of 5.",
+          "Instead of gaining POWER for the WOUND dealt by this attack, the target character loses one POWER for each WOUND dealt."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Hell on Wheels",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Advance this character LARGE. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Wicked's Judgement",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack made by a character within RANGE 3 of this character is resolved, if that attack targeted another allied character, this character may use this superpower. The attack character suffers 1 WOUND for each CRIT in its attack roll."
+        ]
+      },
+      {
+        "name": "Spirit of Vengeance",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "After an attack targeting another allied character is resolved, if it deal WOUND, this character gains 1 POWER."
+        ]
+      },
+      {
+        "name": "Immunity Bleed",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Hex",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Incinerate",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 7,
+    "defense": {
+      "physical": 3,
+      "energy": 4,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Chains of Damnation",
+        "type": "Energy",
+        "range": "3",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Hex: After this attack is resolved, the target character gains Hex special condition."
+        ]
+      },
+      {
+        "name": "Flames of Hell",
+        "type": "Energy",
+        "range": "B3",
+        "strength": 5,
+        "cost": 2,
+        "special_rules": [
+          "If this attack deals WOUND, after this attack is resolved the target gains the Incinerate special condition."
+        ]
+      },
+      {
+        "name": "Penance Stare",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 5,
+        "cost": 5,
+        "special_rules": [
+          "Add dice to the attack roll equal to the amount of POWER the target character has, to a maximum of 5.",
+          "Instead of gaining POWER for the WOUND dealt by this attack, the target character loses one POWER for each WOUND dealt."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Hell on Wheels",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Advance this character LARGE. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Wicked's Judgement",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack made by a character within RANGE 3 of this character is resolved, if that attack targeted another allied character, this character may use this superpower. The attack character suffers 1 WOUND for each CRIT in its attack roll."
+        ]
+      },
+      {
+        "name": "Spirit of Vengeance",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "After an attack targeting another allied character is resolved, if it deal WOUND, this character gains 1 POWER."
+        ]
+      },
+      {
+        "name": "Immunity Bleed",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Hex",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Incinerate",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
+}  
 
 
 ]
