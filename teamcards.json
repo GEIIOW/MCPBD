@@ -130,6 +130,23 @@
     "Elsa Bloodstone"
   ],
   "description": "During the Power Phase, and allied Elsa Bloodstone may spend 2 POWER to play this card.\n\nWhile this character is not Dazed, until the end of the Round, once per Turn, after the first time each Turn an attack targeting this character or another allied character is resolved ,if the attack is within RANGE 4 of this character, this character may roll 5 dice. If it does, it deals 1 WOUND to the attacking character for each CRIT and WILD in the result."
+},
+{
+  "entity_type": "tactic",
+  "name": "Recalibration Matrix",
+  "type": "Reactive",
+  "legality": "Standard",
+  "description": "When an allied character is attacking or defending, before the Calculate success or Failure Step, at the end of the Modify step of the attack, it may spend 3 POWER to play this card.\n\nThe attacking and defending character reroll all of their attack and defense dice."
+},
+  {
+  "entity_type": "tactic",
+  "name": "Highway to Hell",
+  "type": "Reactive",
+  "legality": "Standard",
+  "requirements": [
+    "Ghost Rider"
+  ],
+  "description": "When an allied Ghost Rider begins an Advance during his Activation while within RANGE 1 of an enemy character, he may spend 3 POWER to play this card.\n\nWhen Ghost Rider ends this move, Place that enemy character within RANGE 1 of him. The enemy character suffers the Incinerate special condition."
 }
   
   
