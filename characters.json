@@ -4000,7 +4000,7 @@
         "type": "Reactive",
         "cost": "",
         "rules": [
-          "When this character is defending against an PHYSICAL or ENERY attack or making a dodge roll, it may reroll up to 2 of its defense or dodge dice."
+          "When this character is defending against an PHYSICAL or ENERGY attack or making a dodge roll, it may reroll up to 2 of its defense or dodge dice."
         ]
       },
       {
@@ -4064,7 +4064,7 @@
         "type": "Reactive",
         "cost": "",
         "rules": [
-          "When this character is defending against an PHYSICAL or ENERY attack or making a dodge roll, it may reroll up to 2 of its defense or dodge dice."
+          "When this character is defending against an PHYSICAL or ENERGY attack or making a dodge roll, it may reroll up to 2 of its defense or dodge dice."
         ]
       },
       {
@@ -4083,7 +4083,182 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Dracula",
+  "alter_ego": "Vlad Dracula",
+  "image_url": "https://static.marvelsnap.pro/art/Dracula.webp",
+  "threat": 5,
+  "size": 3,
+  "affiliations": [
+    "Cabal",
+      "Thralls of Dracula"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 7,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Ancestral Blade",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "HIT Curse of Shadows: After this attack is resolved, the target character gains one of the following special conditions: Bleed, Slow, Root, or Hex."
+        ]
+      },
+      {
+        "name": "Blood Feast",
+        "type": "Physical",
+        "range": "2",
+        "strength": 6,
+        "cost": 1,
+        "special_rules": [
+          "After this attack is resolved, this character removes 1 WOUND from itself for each WOUND dealt.",
+          "After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      },
+      {
+        "name": "Fury of the Vampyr",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 8,
+        "cost": 4,
+        "special_rules": [
+          "If the target character has the Bleed special condition, this character may reroll any number of attack dice.",
+          "After this attack is resolved, if the target character is Size 4 or less, this character may Throw it Away MEDIUM."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Hypnotic Stare",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an enemy character within RANGE 3. Advance the chosen character SHORT. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Eternal Hunger",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack against this character is resolved, it may use this superpower. If the attacker is withint RANGE 3, this character may make an attack against the attacker. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Shapeshifting",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "When this character begins a move action during its Activation, it may use this superpower. If it does, choose one of the following affects to the resolved before moving:",
+          "Bat: This character gains the Flight superpower during this move action.",
+          "Wolf: Increase this character's Speed to LARGE during this move action.",
+          "Mist: Drop all objective tokens and remove all special conditions and up to two WOUND from this character."
+        ]
+      },
+      {
+        "name": "Unholy Vampiric Immortality",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "At the end of this character's Activation, it gains 1 POWER and removes 1 WOUND from itself for each other character within RANGE 3 of it that has the Bleed special condition."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 7,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Ancestral Blade",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "HIT Curse of Shadows: After this attack is resolved, the target character gains one of the following special conditions: Bleed, Slow, Root, or Hex."
+        ]
+      },
+      {
+        "name": "Blood Feast",
+        "type": "Physical",
+        "range": "2",
+        "strength": 6,
+        "cost": 1,
+        "special_rules": [
+          "After this attack is resolved, this character removes 1 WOUND from itself for each WOUND dealt.",
+          "After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      },
+      {
+        "name": "Fury of the Vampyr",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 8,
+        "cost": 4,
+        "special_rules": [
+          "If the target character has the Bleed special condition, this character may reroll any number of attack dice.",
+          "After this attack is resolved, if the target character is Size 4 or less, this character may Throw it Away MEDIUM."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Hypnotic Stare",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an enemy character within RANGE 3. Advance the chosen character SHORT. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Eternal Hunger",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack against this character is resolved, it may use this superpower. If the attacker is withint RANGE 3, this character may make an attack against the attacker. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Shapeshifting",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "When this character begins a move action during its Activation, it may use this superpower. If it does, choose one of the following affects to the resolved before moving:",
+          "Bat: This character gains the Flight superpower during this move action.",
+          "Wolf: Increase this character's Speed to LARGE during this move action.",
+          "Mist: Drop all objective tokens and remove all special conditions and up to two WOUND from this character."
+        ]
+      },
+      {
+        "name": "Unholy Vampiric Immortality",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "At the end of this character's Activation, it gains 1 POWER and removes 1 WOUND from itself for each other character within RANGE 3 of it that has the Bleed special condition."
+        ]
+      }
+    ]
+  }
 }
+
 
 
 ]
