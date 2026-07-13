@@ -4421,6 +4421,172 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Blade",
+  "alter_ego": "Eric Brooks",
+  "image_url": "https://static.marvelsnap.pro/art/Blade.webp",
+  "threat": 4,
+  "size": 2,
+  "affiliations": [
+    "Midnight Sons",
+    "Avengers",
+    "Defenders"
+  ],
+  "leadership": {
+    "name": "Bump in the Night",
+    "affiliation": "Midnight Sons",
+    "rules": [
+      "Once per Turn, at any time during an allied character's Activation, it may spend 1 POWER. If it does, place that character within RANGE 1 of its current position."
+    ]
+  },
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Katana",
+        "type": "Mystic",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "Bleed: After this attack is resolved, the target character gains the Bleed special condition.",
+          "WILD Pierce: Change 1 of the defending character's CRIT, WILD, or DEFENSE results to a BLANK."
+        ]
+      },
+      {
+        "name": "Throwing Glaives",
+        "type": "Physical",
+        "range": "4",
+        "strength": 4,
+        "cost": -2,
+        "special_rules": [
+          "After this attack is resolved, this character gains 1 POWER.",
+          "HIT Pursuit: Before WOUND is dealt, this character may Advance Toward the target character SHORT.",
+          "WILD Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      },
+      {
+        "name": "Night of the Dhampir",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "If the target character has the Bleed special condition, you may reroll any number of attack dice.",
+          "After this attack is resolved, the target character gains the Bleed special condition.",
+          "After this attack is resolved, this character may Advance MEDIUM."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Half-Blood Pshysiology",
+        "type": "Active",
+        "cost": "1",
+        "rules": [
+          "This character immediatelyy performs a Shake action."
+        ]
+      },
+      {
+        "name": "Supernatural Senses",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "While this character is defending against a PHYSICAL or MYSTIC attack, during the Modify Dice step of the attack, it may user superpower. This character may reroll any number of its defense dice, including FAIL results."
+        ]
+      },
+      {
+        "name": "Vampiric Immortality",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "At the end of this character's Activation, it gains 1 POWER and remove 1 WOUND from itself for each other character within RANGE 2 of it that has the Bleed special condition."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Katana",
+        "type": "Mystic",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "Bleed: After this attack is resolved, the target character gains the Bleed special condition.",
+          "WILD Pierce: Change 1 of the defending character's CRIT, WILD, or DEFENSE results to a BLANK."
+        ]
+      },
+      {
+        "name": "Throwing Glaives",
+        "type": "Physical",
+        "range": "4",
+        "strength": 4,
+        "cost": -2,
+        "special_rules": [
+          "After this attack is resolved, this character gains 1 POWER.",
+          "HIT Pursuit: Before WOUND is dealt, this character may Advance Toward the target character SHORT.",
+          "WILD Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      },
+      {
+        "name": "Night of the Dhampir",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "If the target character has the Bleed special condition, you may reroll any number of attack dice.",
+          "After this attack is resolved, the target character gains the Bleed special condition.",
+          "After this attack is resolved, this character may Advance MEDIUM."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Half-Blood Pshysiology",
+        "type": "Active",
+        "cost": "1",
+        "rules": [
+          "This character immediatelyy performs a Shake action."
+        ]
+      },
+      {
+        "name": "Supernatural Senses",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "While this character is defending against a PHYSICAL or MYSTIC attack, during the Modify Dice step of the attack, it may user superpower. This character may reroll any number of its defense dice, including FAIL results."
+        ]
+      },
+      {
+        "name": "Vampiric Immortality",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "At the end of this character's Activation, it gains 1 POWER and remove 1 WOUND from itself for each other character within RANGE 2 of it that has the Bleed special condition."
+        ]
+      }
+    ]
+  }
 }
 
 
