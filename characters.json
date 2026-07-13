@@ -3758,7 +3758,187 @@
       }
     ]
   }
-}  
+},
+    {
+  "entity_type": "character",
+  "name": "Doctor Strange",
+  "alter_ego": "Stephen Vincent Strange",
+  "image_url": "https://static.marvelsnap.pro/art/DoctorStrange_04.webp",
+  "threat": 5,
+  "size": 2,
+  "affiliations": [
+    "Defenders",
+    "Convocation",
+    "Midnight Sons"
+  ],
+  "leadership": {
+    "name": "Judgment of the Vishanti",
+    "affiliation": "Defenders",
+    "rules": [
+      "Once per Turn, after an attack made by an allied character is resolved, if that attack dealt WOUND or if the target character has a THREAT of 5 or more, the attacking character may use this Leadership ability. If they do, the target character gains the Hex special condition."
+    ]
+  },
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 3,
+      "energy": 4,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Bolts of Bedevilment",
+        "type": "Energy",
+        "range": "4",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "After this attack is resolved, if this attack dealt WOUND, this character may Push the target character SHORT.",
+          "DEFENSE Pierce: Change 1 of the defender's CRIT, WILD, or DEFENSE results to a BLANK."
+        ]
+      },
+      {
+        "name": "Crimson Bands of Cyttorak",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 6,
+        "cost": 4,
+        "special_rules": [
+          "After this attack is resolved, the target character gains the Stagger special condition.",
+          "CRIT WILD HIT Mystic Binding: After this attack is resolved, instead of inflicting the Stagger special condition, if the target character does not have an Activated token, this character may give an Activated token."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Oshtur's Refuge",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "This character or an allied character within RANGE 3 of this character removes up to 3 WOUND. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Hoggoth's Hoary Wisdom",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character or an allied character within RANGE 3 is targeted by an attack or would make a dodge roll, this character may use this superpower. This character adds 2 dice to the defense or dodge roll."
+        ]
+      },
+      {
+        "name": "Eye of Agamotto",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character can modify and reroll FAILS results. When this character is attacking, defending, or dodging, it may reroll all of its dice."
+        ]
+      },
+      {
+        "name": "Shield of the Seraphim",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Whenever this character rolls dice, after the effect is resolved, it gains 1 POWER if it rolled at least one DEFENSE."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Gem Bearer (Soul, Time)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 7,
+    "defense": {
+      "physical": 3,
+      "energy": 4,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Bolts of Bedevilment",
+        "type": "Energy",
+        "range": "4",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "After this attack is resolved, if this attack dealt WOUND, this character may Push the target character SHORT.",
+          "DEFENSE Pierce: Change 1 of the defender's CRIT, WILD, or DEFENSE results to a BLANK."
+        ]
+      },
+      {
+        "name": "Crimson Bands of Cyttorak",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 6,
+        "cost": 4,
+        "special_rules": [
+          "After this attack is resolved, the target character gains the Stagger special condition.",
+          "CRIT WILD HIT Mystic Binding: After this attack is resolved, instead of inflicting the Stagger special condition, if the target character does not have an Activated token, this character may give an Activated token."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Oshtur's Refuge",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "This character or an allied character within RANGE 3 of this character removes up to 3 WOUND. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Hoggoth's Hoary Wisdom",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character or an allied character within RANGE 3 is targeted by an attack or would make a dodge roll, this character may use this superpower. This character adds 2 dice to the defense or dodge roll."
+        ]
+      },
+      {
+        "name": "Eye of Agamotto",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character can modify and reroll FAILS results. When this character is attacking, defending, or dodging, it may reroll all of its dice."
+        ]
+      },
+      {
+        "name": "Shield of the Seraphim",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Whenever this character rolls dice, after the effect is resolved, it gains 1 POWER if it rolled at least one DEFENSE."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Gem Bearer (Soul, Time)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  }
+}
 
 
 ]
