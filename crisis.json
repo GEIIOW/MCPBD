@@ -356,6 +356,57 @@
       ]
     }
   ]
+},
+  {
+  "entity_type": "crisis",
+  "name": "Intrusions Open Across city as seals collapse",
+  "type": "Secure",
+  "threat": 19,
+  "setup_text": "Place 3 Dark Portal tokens (Point of Interest) as shown on the map below.",
+  "scoring_text": "Players score 1 VP for each Dark Portal they Secure during the Cleanup Phase.",
+  "special_rules": "Interact (Dark Portal): This character drops all objective tokens it is holding. Then roll 1 die. If the result is a CRIT, WILD, HIT, or DEFENSE, Place this character within RANGE 1 of another Dark Portal. Otherwise, the opposing player Places this character within RANGE 1 of another Dark Portal.",
+  "map_tokens": [
+    {
+      "id": "1783953425345",
+      "label": "0",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    },
+    {
+      "id": "1783953438739",
+      "label": "0",
+      "x_origin": "left",
+      "x_rules": [
+        "3"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    },
+    {
+      "id": "1783953442217",
+      "label": "0",
+      "x_origin": "right",
+      "x_rules": [
+        "3"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    }
+  ]
 }
   
 ]
