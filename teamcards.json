@@ -120,8 +120,17 @@
     "Doctor Voodoo"
   ],
   "description": "Doctor Voodoo may play this card.\n\nWhile Doctor Voodoo has his Brother Daniel token, add 2 additional dice instead of 1 to his attack, defense, and dodge rolls when adding dice for each CRIT result this round. While another character has his Brother Daniel token, that character does not add dice to its attack, defense, or dodge rolls when adding dice for CRIT results this round."
+},
+  {
+  "entity_type": "tactic",
+  "name": "Covering Fire",
+  "type": "Reactive",
+  "legality": "Standard",
+  "requirements": [
+    "Elsa Bloodstone"
+  ],
+  "description": "During the Power Phase, and allied Elsa Bloodstone may spend 2 POWER to play this card.\n\nWhile this character is not Dazed, until the end of the Round, once per Turn, after the first time each Turn an attack targeting this character or another allied character is resolved ,if the attack is within RANGE 4 of this character, this character may roll 5 dice. If it does, it deals 1 WOUND to the attacking character for each CRIT and WILD in the result."
 }
-
   
   
 ]
