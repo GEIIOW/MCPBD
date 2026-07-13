@@ -254,5 +254,56 @@
       ]
     }
   ]
+},
+  {
+  "entity_type": "crisis",
+  "name": "Demons downtown! Has our comeuppance come due?",
+  "type": "Secure",
+  "threat": 19,
+  "setup_text": "Place 3 Flaming Portal tokens (Point of Interest) as shown on the map below.",
+  "scoring_text": "Players score 1 VP for each Flaming Portal they are Securing during the Cleanup Phase.",
+  "special_rules": "During the Power Phase, characters within RANGE 1 of a Flaming Portal gain the Incinerate special condition.",
+  "map_tokens": [
+    {
+      "id": "1783952907015",
+      "label": "0",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    },
+    {
+      "id": "1783952909558",
+      "label": "0",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5"
+      ]
+    },
+    {
+      "id": "1783952912534",
+      "label": "0",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5"
+      ]
+    }
+  ]
 }
 ]
