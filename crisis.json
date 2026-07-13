@@ -305,5 +305,57 @@
       ]
     }
   ]
+},
+{
+  "entity_type": "crisis",
+  "name": "Gamma Wave Sweeps Across Midwest",
+  "type": "Secure",
+  "threat": 15,
+  "setup_text": "Place 3 Gamma Shelter tokens (Point of Interest) as shown on the map below.",
+  "scoring_text": "Players score 1 VP for Securing their Close, 1 VP for the Mid, and 2 VPs for Securing their Far Gamma Shelter during the Cleanup Phase.",
+  "special_rules": "during the Cleanup Phase, each character that is not within RANGE 2 of a Gamma Shelter suffers 1 WOUND.\n\nThe Gamma Shelter closest to a player's battlefield edge is their Close Shelter. The Gamma Shelter in the center is both player's Mid Shelter. The Gamma Shelter farthest from a pleyr's battlefield edge is their Far Shelter.",
+  "map_tokens": [
+    {
+      "id": "1783953217628",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    },
+    {
+      "id": "1783953219955",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5"
+      ]
+    },
+    {
+      "id": "1783953221634",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5"
+      ]
+    }
+  ]
 }
+  
 ]
