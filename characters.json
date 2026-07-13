@@ -5193,6 +5193,261 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Ultron, Metal Tyrant",
+  "alter_ego": "Ultron",
+  "image_url": "https://static.marvelsnap.pro/art/Ultron_05.webp",
+  "threat": 5,
+  "size": 3,
+  "affiliations": [
+    "Cabal"
+  ],
+  "minions": [
+    "Ultron Drones"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 8,
+    "defense": {
+      "physical": 4,
+      "energy": 4,
+      "mystic": 5
+    },
+    "attacks": [
+      {
+        "name": "Concussion Blasters",
+        "type": "Energy",
+        "range": "4",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After his attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Nano-Corruption: After this attack is resolved, the target character gains the Poison and Bleed special conditions."
+        ]
+      },
+      {
+        "name": "Extinction Protocols",
+        "type": "Physical",
+        "range": "3",
+        "strength": 8,
+        "cost": 4,
+        "special_rules": [
+          "Before WOUND is dealt, if the target character is Size 4 or less, this character Throws it SHORT.",
+          "WILD Explosive Force: After this attack is resolved, other characters within RANGE 2 of this character are Pushed Away from this character SHORT. Pushed character suffer 1 WOUND."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Kinetic Field Generator",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose and interactive terrain feature of Size 4 or less withint RANGE 3 and Throw it MEDIUM. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Encephalo-Beam",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an enemy character within RANGE 3 and Advance it SHORT. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Metal Mind",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is defending against a MYSTIC attack, count each WILD in the defensive roll as 2 successes. Additionally, this character cannot be Pushed or Advanced by the special rules of MYSTIC attacks or enemy superpowers."
+        ]
+      },
+      {
+        "name": "I Will Create a Better Age",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When a terrain feature is destryed by an allied effect, if there not an allied Ultron Drones in play, you may place an Ultron Drones into play within RANGE 3 of this character. IT gains the Stagger special condition and is part of your Squad."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Bleed",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 4,
+      "mystic": 5
+    },
+    "attacks": [
+      {
+        "name": "Concussion Blasters",
+        "type": "Energy",
+        "range": "4",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After his attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Nano-Corruption: After this attack is resolved, the target character gains the Poison and Bleed special conditions."
+        ]
+      },
+      {
+        "name": "Extinction Protocols",
+        "type": "Physical",
+        "range": "3",
+        "strength": 8,
+        "cost": 4,
+        "special_rules": [
+          "Before WOUND is dealt, if the target character is Size 4 or less, this character Throws it SHORT.",
+          "WILD Explosive Force: After this attack is resolved, other characters within RANGE 2 of this character are Pushed Away from this character SHORT. Pushed character suffer 1 WOUND."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Kinetic Field Generator",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose and interactive terrain feature of Size 4 or less withint RANGE 3 and Throw it MEDIUM. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Encephalo-Beam",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an enemy character within RANGE 3 and Advance it SHORT. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Metal Mind",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is defending against a MYSTIC attack, count each WILD in the defensive roll as 2 successes. Additionally, this character cannot be Pushed or Advanced by the special rules of MYSTIC attacks or enemy superpowers."
+        ]
+      },
+      {
+        "name": "I Will Create a Better Age",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When a terrain feature is destryed by an allied effect, if there not an allied Ultron Drones in play, you may place an Ultron Drones into play within RANGE 3 of this character. IT gains the Stagger special condition and is part of your Squad."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Bleed",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Innate",
+        "cost": "0",
+        "rules": []
+      }
+    ]
+  },
+  "grunts": [
+    {
+      "entity_type": "character",
+      "name": "Ultron Drones",
+      "form_name": "",
+      "image_url": "https://static.marvelsnap.pro/art/Drone.webp",
+      "threat": 0,
+      "size": 2,
+      "healthy": {
+        "movement": "M",
+        "stamina": 3,
+        "defense": {
+          "physical": 2,
+          "energy": 2,
+          "mystic": 2
+        },
+        "attacks": [
+          {
+            "name": "Energy Blast",
+            "type": "Energy",
+            "range": "3",
+            "strength": 4,
+            "cost": 0,
+            "special_rules": []
+          }
+        ],
+        "superpowers": [
+          {
+            "name": "Rough Around the Edges",
+            "type": "Reactive",
+            "cost": "0",
+            "rules": [
+              "When this character would be removed from the battlefield, enemy character within RANGE 2 of this character suffer 1 WOUND. An allied Ultron, Metal Tyrant gains 1 POWER for each WOUND dealt this way. Then this character is removed from the battlefield."
+            ]
+          },
+          {
+            "name": "Programmed for Destruction",
+            "type": "Innate",
+            "cost": "0",
+            "rules": [
+              "This character cannot pick up, hold, interact with, or Contest objective tokens."
+            ]
+          },
+          {
+            "name": "Flight",
+            "type": "Innate",
+            "cost": "0",
+            "rules": []
+          },
+          {
+            "name": "Grunts (Ultron, Metal Tyrant)",
+            "type": "Innate",
+            "cost": "0",
+            "rules": []
+          },
+          {
+            "name": "Immunity Bleed",
+            "type": "Innate",
+            "cost": "0",
+            "rules": []
+          },
+          {
+            "name": "Immunity Poison",
+            "type": "Innate",
+            "cost": "0",
+            "rules": []
+          }
+        ]
+      }
+    }
+  ]
 }
 
 
