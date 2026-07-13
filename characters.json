@@ -5448,6 +5448,143 @@
       }
     }
   ]
+},
+    {
+  "entity_type": "character",
+  "name": "Red Skull, Master Of the World",
+  "alter_ego": "Johann Schmidt",
+  "image_url": "https://static.marvelsnap.pro/art/RedSkull_07.webp",
+  "threat": 4,
+  "size": 2,
+  "affiliations": [
+    "Cabal",
+    "Hydra"
+  ],
+  "leadership": {
+    "name": "My Cabal is Only for the Strong",
+    "affiliation": "Cabal",
+    "rules": [
+      "Once per turn, while a non-Grunt allied character is rolling dice as part of an attack roll, it may treat 1 FAIL result as a CRIT result. If it does, after the attack is resolved, the attacking character loses 1 POWER. If it does not lose POWER, it suffers 1 WOUND instead."
+    ]
+  },
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Cosmic Burst",
+        "type": "Energy",
+        "range": "4",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "Before choosing a target, this character chooses whether this attack's type is ENERGY or MYSTIC.",
+          "After the attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Shock: After this attack is resolved, the target character gains the Shock special condition."
+        ]
+      },
+      {
+        "name": "Reality Bows to Me!",
+        "type": "Mystic",
+        "range": "4",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "CRIT WILD HIT Reality Rupture: After this attack is resolved, this character can make an additional Reality Bows to Me! attack without paying the POWER cost. This additional attack must target a character within RANGE 2 of the original target character that has not been targeted by Reality Bows to Me! this Round."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Reshape the World",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature of Size 3 or less and within RANGE 3, and Throw it MEDIUM. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Nothing is Beyond My Reach",
+        "type": "Active",
+        "cost": "4",
+        "rules": [
+          "Choose this character or another character within RANGE 2 of it and Place it within RANGE 3 of its current position. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Power is Only for the One Who Rules",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character spends POWER to make an attack action or to use a superpower, it may spend POWER for the attack or superpower from an allied character within RANGE 3 of it."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Cosmic Burst",
+        "type": "Energy",
+        "range": "4",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "Before choosing a target, this character chooses whether this attack's type is ENERGY or MYSTIC.",
+          "After the attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Shock: After this attack is resolved, the target character gains the Shock special condition."
+        ]
+      },
+      {
+        "name": "Reality Bows to Me!",
+        "type": "Mystic",
+        "range": "4",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "CRIT WILD HIT Reality Rupture: After this attack is resolved, this character can make an additional Reality Bows to Me! attack without paying the POWER cost. This additional attack must target a character within RANGE 2 of the original target character that has not been targeted by Reality Bows to Me! this Round."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Reshape the World",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature of Size 3 or less and within RANGE 3, and Throw it MEDIUM. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Nothing is Beyond My Reach",
+        "type": "Active",
+        "cost": "4",
+        "rules": [
+          "Choose this character or another character within RANGE 2 of it and Place it within RANGE 3 of its current position. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Power is Only for the One Who Rules",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character spends POWER to make an attack action or to use a superpower, it may spend POWER for the attack or superpower from an allied character within RANGE 3 of it."
+        ]
+      }
+    ]
+  }
 }
 
 
