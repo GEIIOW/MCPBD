@@ -33,5 +33,22 @@
       ]
     }
   ]
+},
+  {
+  "entity_type": "gem",
+  "name": "Power",
+  "threat": 1,
+  "granted_to": "",
+  "image_url": "https://static.marvelsnap.pro/art/PowerStone.webp",
+  "superpowers": [
+    {
+      "name": "Power Gem",
+      "type": "Innate",
+      "cost": "0",
+      "rules": [
+        "During the Power Phase, this character gains 2 additional POWER instead of the normal 1 for having this Infinity Gem."
+      ]
+    }
+  ]
 }
 ]
