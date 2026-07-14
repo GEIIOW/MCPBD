@@ -1,10 +1,21 @@
 [
 {
   "entity_type": "gem",
-  "name": "Soul",
-  "threat": 1,
+  "name": "Bounded Soul",
+  "threat": 0,
   "granted_to": "",
-  "rules": "When an enemy character within RANGE 4 of this character uses an superpower, this character gains 1 POWER after the effect is resolved."
+  "image_url": "https://static.marvelsnap.pro/art/SoulStone.webp",
+  "superpowers": [
+    {
+      "name": "Soul Anchor",
+      "type": "Innate",
+      "cost": "0",
+      "rules": [
+        "When a non-Grunt character is Dazed or KO'd, this character may gain 1 POWER, remove up to 1 WOUND from itself, or remove up to 1 special conditions from itself.",
+        "Additionally, this character and other allied characters within RANGE 4 cannot lose POWER as a result of enemy effects."
+      ]
+    }
+  ]
 },
   {
   "entity_type": "gem",
