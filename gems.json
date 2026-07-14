@@ -5,5 +5,22 @@
   "threat": 1,
   "granted_to": "",
   "rules": "When an enemy character within RANGE 4 of this character uses an superpower, this character gains 1 POWER after the effect is resolved."
+},
+  {
+  "entity_type": "gem",
+  "name": "Mind",
+  "threat": 1,
+  "granted_to": "",
+  "image_url": "https://static.marvelsnap.pro/art/MindStone.webp",
+  "superpowers": [
+    {
+      "name": "Mind Gem",
+      "type": "Active",
+      "cost": "2",
+      "rules": [
+        "Choose an enemy character within RANGE 3 and advance it SHORT. This superpower may be used only once per turn."
+      ]
+    }
+  ]
 }
 ]
