@@ -50,5 +50,22 @@
       ]
     }
   ]
+},
+  {
+  "entity_type": "gem",
+  "name": "Soul",
+  "threat": 1,
+  "granted_to": "",
+  "image_url": "https://static.marvelsnap.pro/art/SoulStone.webp",
+  "superpowers": [
+    {
+      "name": "Soul Gem",
+      "type": "Innate",
+      "cost": "0",
+      "rules": [
+        "When an enemy character within RANGE 4 of this character uses an superpower, this character gains 1 POWER after the effect is resolved."
+      ]
+    }
+  ]
 }
 ]
