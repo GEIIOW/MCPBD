@@ -6550,7 +6550,8 @@
   "threat": 2,
   "size": 2,
   "affiliations": [
-    "Brotherhood of Mutants"
+    "Brotherhood of Mutants",
+      "Servants of the Apocalypse"
   ],
   "healthy": {
     "movement": "M",
