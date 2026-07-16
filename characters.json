@@ -6541,7 +6541,166 @@
       }
     ]
   }
-}
+},
+{
+  "entity_type": "character",
+  "name": "Toad",
+  "alter_ego": "Mortimer Toynbee",
+  "image_url": "https://i.pinimg.com/736x/89/af/c4/89afc4c0903ba40f45973d6817a9af2c.jpg",
+  "threat": 2,
+  "size": 2,
+  "affiliations": [
+    "Brotherhood of Mutants"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 4,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Tongue Lash",
+        "type": "Physical",
+        "range": "3",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Poison: After this attack is resolved, the defender gains the Poison special condition."
+        ]
+      },
+      {
+        "name": "Spit Acid",
+        "type": "Energy",
+        "range": "2",
+        "strength": 5,
+        "cost": 2,
+        "special_rules": [
+          "After this attack is resolved, the defender gains the Incinerate special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Finders Keepers",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: Choose an allied character within RANGE 2 of this character. Move 1 Asset or Civilian token the chosen character is holding to this character. This character is now holding that token. This character may not hold more tokens than the Crisis specifies."
+        ]
+      },
+      {
+        "name": "Hop",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Place this character within RANGE 2 of its current position. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Slippery",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack targeting this character is resolved, if that attack dealt WOUND, this character may use this superpower. This character Advances MEDIUM."
+        ]
+      },
+      {
+        "name": "Prehensile Tongue",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character may Interact with objective tokens within RANGE 2 of its instead of the normal RANGE 1."
+        ]
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 4,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Tongue Lash",
+        "type": "Physical",
+        "range": "3",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Poison: After this attack is resolved, the defender gains the Poison special condition."
+        ]
+      },
+      {
+        "name": "Spit Acid",
+        "type": "Energy",
+        "range": "2",
+        "strength": 5,
+        "cost": 2,
+        "special_rules": [
+          "After this attack is resolved, the defender gains the Incinerate special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Finders Keepers",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: Choose an allied character within RANGE 2 of this character. Move 1 Asset or Civilian token the chosen character is holding to this character. This character is now holding that token. This character may not hold more tokens than the Crisis specifies."
+        ]
+      },
+      {
+        "name": "Hop",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Place this character within RANGE 2 of its current position. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Slippery",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack targeting this character is resolved, if that attack dealt WOUND, this character may use this superpower. This character Advances MEDIUM."
+        ]
+      },
+      {
+        "name": "Prehensile Tongue",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character may Interact with objective tokens within RANGE 2 of its instead of the normal RANGE 1."
+        ]
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  }
+}   
 
 
 
