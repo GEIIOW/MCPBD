@@ -533,6 +533,14 @@
                 "Action: This character gains 1 POWER."
                 ]
             },
+                            {
+                "name": "The Vishanti's Blessing",
+                "type": "Active",
+                "cost": "1",
+                "rules": [
+                "Action: This character or an allied character withib RANGE 3 of this character removes up to 2 WOUND or one special condition. A character may be affected by this superpower once per Round."
+                ]
+            },
             {
                 "name": "Servent to the Sorcerer Supreme",
                 "type": "Innate",
@@ -579,6 +587,14 @@
                 "cost": "0",
                 "rules": [
                 "Action: This character gains 1 POWER."
+                ]
+            },
+             {
+                "name": "The Vishanti's Blessing",
+                "type": "Active",
+                "cost": "1",
+                "rules": [
+                "Action: This character or an allied character withib RANGE 3 of this character removes up to 2 WOUND or one special condition. A character may be affected by this superpower once per Round."
                 ]
             },
             {
