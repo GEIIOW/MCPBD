@@ -6857,7 +6857,7 @@
   "entity_type": "character",
   "name": "Colossus",
   "alter_ego": "Piotr Rasputin",
-  "image_url": "",
+  "image_url": "https://static.marvelsnap.pro/art/Colossus.webp",
   "threat": 4,
   "size": 3,
   "affiliations": [
