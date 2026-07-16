@@ -6852,6 +6852,172 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Colossus",
+  "alter_ego": "Piotr Rasputin",
+  "image_url": "",
+  "threat": 4,
+  "size": 3,
+  "affiliations": [
+    "Brotherhood of Mutants",
+    "X-Force",
+   "Servants of the Apocalypse",
+    "Uncanny X-Men"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Push: Before WOUND is dealt, if the defender is SIZE 4 or less, this character may Push it SHORT."
+        ]
+      },
+      {
+        "name": "X-Slam",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "After this attack is resolved, the defender gains the Stun special condition.",
+          "WILD Throw: Before WOUND is dealt, if the defender is SIZE 4 or less, this character may Throw it SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Playing Catch",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature of SIZE 3 or less and within RANGE 2 and Throw it MEDIUM. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Big Brother",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When an enemy character within RANGE 4 of this character targets another allied character with an attack, this character may use this superpower. If the character is within RANGE 2 of the attacking character, this character becomes the target of the attack regardless of RANGE and LOS. Otherwhise, after that attack is resolved, Advance this character Toward the attacking character SHORT."
+        ]
+      },
+      {
+        "name": "Bozhe Moi",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character is targeted by a PSYSICAL or MYSTIC attack, it may use this superpower. Add 2 dice to this character's defense roll agains that attack."
+        ]
+      },
+      {
+        "name": "Organic Stell",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from an enemy effect, reduce the amount suffered by 1 to a minimum of 1.",
+          "Additionally, this character cannot be Pushed by enemy effects."
+        ]
+      },
+      {
+        "name": "Immunity Bleed",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 7,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Push: Before WOUND is dealt, if the defender is SIZE 4 or less, this character may Push it SHORT."
+        ]
+      },
+      {
+        "name": "X-Slam",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "After this attack is resolved, the defender gains the Stun special condition.",
+          "WILD Throw: Before WOUND is dealt, if the defender is SIZE 4 or less, this character may Throw it SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Playing Catch",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature of SIZE 3 or less and within RANGE 2 and Throw it MEDIUM. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Big Brother",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When an enemy character within RANGE 4 of this character targets another allied character with an attack, this character may use this superpower. If the character is within RANGE 2 of the attacking character, this character becomes the target of the attack regardless of RANGE and LOS. Otherwhise, after that attack is resolved, Advance this character Toward the attacking character SHORT."
+        ]
+      },
+      {
+        "name": "Bozhe Moi",
+        "type": "Innate",
+        "cost": "",
+        "rules": [
+          "When this character is targeted by a PSYSICAL or MYSTIC attack, this character adds BLANK in its defense roll to its total successes."
+        ]
+      },
+      {
+        "name": "Organic Stell",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from an enemy effect, reduce the amount suffered by 1 to a minimum of 1.",
+          "Additionally, this character cannot be Pushed by enemy effects."
+        ]
+      },
+      {
+        "name": "Immunity Bleed",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  }
 }
 
 
