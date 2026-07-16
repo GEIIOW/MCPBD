@@ -6701,7 +6701,158 @@
       }
     ]
   }
-}   
+},
+    {
+  "entity_type": "character",
+  "name": "Gambit",
+  "alter_ego": "Remy LeBeu",
+  "image_url": "https://static.marvelsnap.pro/art/Gambit.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": [
+    "Brotherhood of Mutants",
+    "Uncanny X-Men",
+      "Servants of the Apocalypse"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Bo Staff",
+        "type": "Physical",
+        "range": "2",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains 1 POWER.",
+          "WILD Push: Before WOUND is dealt, if the defender is SIZE 3 or less, it may be Pushed Away from this character SHORT."
+        ]
+      },
+      {
+        "name": "Kinetic Ace",
+        "type": "Energy",
+        "range": "3",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Explosive: Before WOUND is dealt, other enemy characters within RANGE 2 of the defender suffer 1 WOUND."
+        ]
+      },
+      {
+        "name": "52 Card Pickup",
+        "type": "Energy",
+        "range": "B4",
+        "strength": 5,
+        "cost": 3,
+        "special_rules": [
+          "WILD WILD Stun: After this attack is resolved, the defender gains the Stun special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "A Little Something Extra",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "While this character is attacking, during the Modify Dice step, it may use this superpower. This character may change 1 HIT in its attack roll to a WILD."
+        ]
+      },
+      {
+        "name": "Enhanced Agility",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack targeting this character is resolved, this character may use this superpower. The attacking character suffers 1 WOUND. This character may advance SHORT."
+        ]
+      },
+      {
+        "name": "The Cards Always Be In My Favor",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is attacking, defending or dodging, each WILD in its roll counts as 2 successes."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Bo Staff",
+        "type": "Physical",
+        "range": "2",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains 1 POWER.",
+          "WILD Push: Before WOUND is dealt, if the defender is SIZE 3 or less, it may be Pushed Away from this character SHORT."
+        ]
+      },
+      {
+        "name": "Kinetic Ace",
+        "type": "Energy",
+        "range": "3",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Explosive: Before WOUND is dealt, other enemy characters within RANGE 2 of the defender suffer 1 WOUND."
+        ]
+      },
+      {
+        "name": "52 Card Pickup",
+        "type": "Energy",
+        "range": "B4",
+        "strength": 5,
+        "cost": 3,
+        "special_rules": [
+          "WILD WILD Stun: After this attack is resolved, the defender gains the Stun special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "A Little Something Extra",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "While this character is attacking, during the Modify Dice step, it may use this superpower. This character may change 1 HIT in its attack roll to a WILD."
+        ]
+      },
+      {
+        "name": "Enhanced Agility",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack targeting this character is resolved, this character may use this superpower. The attacking character suffers 1 WOUND. This character may advance SHORT."
+        ]
+      },
+      {
+        "name": "The Cards Always Be In My Favor",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is attacking, defending or dodging, each WILD in its roll counts as 2 successes."
+        ]
+      }
+    ]
+  }
+}
 
 
 
