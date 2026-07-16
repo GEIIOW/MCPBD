@@ -6385,6 +6385,162 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Magneto",
+  "alter_ego": "Max Eisenhardt",
+  "image_url": "https://static.marvelsnap.pro/art/Magneto.webp",
+  "threat": 6,
+  "size": 2,
+  "affiliations": [
+    "Brotherhood of Mutants",
+    "Cabal",
+    "Hellfire Club"
+  ],
+  "leadership": {
+    "name": "From the Ruins...",
+    "affiliation": "Brotherhood of Mutants",
+    "rules": [
+      "When a terrain feature is destroyed, after the effect is resolved, choose a number of allied characters equal to or less than the terrain feateure's SIZE. Each chosen character gains 1 POWER. A character may gain only 1 POWER as a result of this Leadership ability per Turn."
+    ]
+  },
+  "healthy": {
+    "movement": "S",
+    "stamina": 6,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 6
+    },
+    "attacks": [
+      {
+        "name": "Reverse Polarity",
+        "type": "Physical",
+        "range": "3",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "If the defender is within RANGE 2 of this character during the Modify Dice step, this character may reroll any number of its attack dice; if it is not, after the attack is resolved, Puh the defender SHORT."
+        ]
+      },
+      {
+        "name": "Shrapnel Blast",
+        "type": "Physical",
+        "range": "A2",
+        "strength": 6,
+        "cost": 5,
+        "special_rules": [
+          "When measuring the range and LOS for this attack, you may choose to measure the range and LOS from a Metal Construct within RANGE 3 of this character instead of from this character. If you do, after all of the attacks are resolved, the Metal Construct is destroyed.",
+          "After each attack is resolved, the defender gains the Stun special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Fatal Attraction",
+        "type": "Active",
+        "cost": "X",
+        "rules": [
+          "This character may spend 1 to 4 POWER to use this superpower. Choose an interactive terrain feature within RANGE 3 and with a SIZE equal to or less than POWER spent to use this superpower and Throw it LARGE. Before using this superpower, this character must pay 1 POWER for each time it has already been used this Turn."
+        ]
+      },
+      {
+        "name": "Force Projection",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character is targeted by an attack or would make a dodge roll, it may use this superpower.",
+          "This character uses its MYSTIQ Defense to defend or dodge. This character cannot be Pushed or Thrown as a result of the special rules of that attack or collision."
+        ]
+      },
+      {
+        "name": "Master Of Magnetism",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "During the Power Phase, if there are fewer than 2 Metal Construct terrain features in pla, Place 1 Metal Construct terrain feature within RANGE 3 of this character. If is a SIZE 2 interactive terrain feature. Then this character gains 1 POWER for ech Metal Construct in play. Character may never overlap a Metal Construct."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "S",
+    "stamina": 8,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 6
+    },
+    "attacks": [
+      {
+        "name": "Reverse Polarity",
+        "type": "Physical",
+        "range": "3",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "If the defender is within RANGE 2 of this character during the Modify Dice step, this character may reroll any number of its attack dice; if it is not, after the attack is resolved, Puh the defender SHORT."
+        ]
+      },
+      {
+        "name": "Shrapnel Blast",
+        "type": "Physical",
+        "range": "A2",
+        "strength": 6,
+        "cost": 5,
+        "special_rules": [
+          "When measuring the range and LOS for this attack, you may choose to measure the range and LOS from a Metal Construct within RANGE 3 of this character instead of from this character. If you do, after all of the attacks are resolved, the Metal Construct is destroyed.",
+          "After each attack is resolved, the defender gains the Stun special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Fatal Attraction",
+        "type": "Active",
+        "cost": "X",
+        "rules": [
+          "This character may spend 1 to 4 POWER to use this superpower. Choose an interactive terrain feature within RANGE 3 and with a SIZE equal to or less than POWER spent to use this superpower and Throw it LARGE. Before using this superpower, this character must pay 1 POWER for each time it has already been used this Turn."
+        ]
+      },
+      {
+        "name": "Force Projection",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character is targeted by an attack or would make a dodge roll, it may use this superpower.",
+          "This character uses its MYSTIQ Defense to defend or dodge. This character cannot be Pushed or Thrown as a result of the special rules of that attack or collision."
+        ]
+      },
+      {
+        "name": "Master Of Magnetism",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "During the Power Phase, if there are fewer than 2 Metal Construct terrain features in pla, Place 1 Metal Construct terrain feature within RANGE 3 of this character. If is a SIZE 2 interactive terrain feature. Then this character gains 1 POWER for ech Metal Construct in play. Character may never overlap a Metal Construct."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  }
 }
 
 
