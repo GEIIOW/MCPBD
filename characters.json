@@ -6061,6 +6061,171 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Mysterio",
+  "alter_ego": "Quentin Beck",
+  "image_url": "https://static.marvelsnap.pro/art/Mysterio.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": [
+    "Cabal",
+    "Criminal Syndicate",
+    "Spider-Foes"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 1,
+      "energy": 1,
+      "mystic": 5
+    },
+    "attacks": [
+      {
+        "name": "Hypnosis Gas",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "If this attack deals WOUND, after this attack is resolved this character may advance the target character SHORT."
+        ]
+      },
+      {
+        "name": "Curtain Call",
+        "type": "Mystic",
+        "range": "2",
+        "strength": 6,
+        "cost": 4,
+        "special_rules": [
+          "If this attack deals WOUND, and if the target character is SIZE 2 or less, after the attack is resolved it may be thrown SHORT.",
+          "WILD Stagger: After this attack is resolved, the target character gains the Stagger special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Tricks and Traps",
+        "type": "Reactive",
+        "cost": "3",
+        "rules": [
+          "When an enemy character ends a movement within RANGE 3 of this character, this character may use this superpower. Roll 4 dice. The enemy character suffers 1 WOUND for each CRIT and WILD rolled. If this superpower deals at least 1 WOUND, this character may advance SHORT."
+        ]
+      },
+      {
+        "name": "Master of Illusions",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Whenever this character rolls dice, after the effect is resolved, it gains 1 POWER if it rolled at least one blank.",
+          "Addiationally, this character uses its MYSTIQ Defense when making a dodge roll."
+        ]
+      },
+      {
+        "name": "Smoke and Mirros",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When an enemy character target this character with an attack, this character may use its MYSTIC Defense regardless of the attack's type, unless the attacking character pays 2 POWER."
+        ]
+      },
+      {
+        "name": "Stealth",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Characters must be within RANGE 3 of this character to target it with attacks."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 1,
+      "energy": 1,
+      "mystic": 5
+    },
+    "attacks": [
+      {
+        "name": "Hypnosis Gas",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 4,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "If this attack deals WOUND, after this attack is resolved this character may advance the target character SHORT."
+        ]
+      },
+      {
+        "name": "Curtain Call",
+        "type": "Mystic",
+        "range": "2",
+        "strength": 6,
+        "cost": 4,
+        "special_rules": [
+          "If this attack deals WOUND, and if the target character is SIZE 2 or less, after the attack is resolved it may be thrown SHORT.",
+          "WILD Stagger: After this attack is resolved, the target character gains the Stagger special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Tricks and Traps",
+        "type": "Reactive",
+        "cost": "3",
+        "rules": [
+          "When an enemy character ends a movement within RANGE 3 of this character, this character may use this superpower. Roll 4 dice. The enemy character suffers 1 WOUND for each CRIT and WILD rolled. If this superpower deals at least 1 WOUND, this character may advance SHORT."
+        ]
+      },
+      {
+        "name": "Master of Illusions",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Whenever this character rolls dice, after the effect is resolved, it gains 1 POWER if it rolled at least one blank.",
+          "Addiationally, this character uses its MYSTIQ Defense when making a dodge roll."
+        ]
+      },
+      {
+        "name": "Smoke and Mirros",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When an enemy character target this character with an attack, this character may use its MYSTIC Defense regardless of the attack's type, unless the attacking character pays 2 POWER."
+        ]
+      },
+      {
+        "name": "Stealth",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Characters must be within RANGE 3 of this character to target it with attacks."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  }
 }
 
 
