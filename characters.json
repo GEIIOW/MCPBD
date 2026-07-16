@@ -5893,6 +5893,174 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Omega Red",
+  "alter_ego": "Arkady Gregorivich Rossovich",
+  "image_url": "https://static.marvelsnap.pro/art/OmegaRed.webp",
+  "threat": 4,
+  "size": 3,
+  "affiliations": [
+    "Cabal",
+    "Criminal Syndicate",
+    "Hellfire Club",
+    "Winter Guard"
+  ],
+  "healthy": {
+    "movement": "S",
+    "stamina": 6,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Carbonadium Coils",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "",
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "Drain Life: After this attack is resolved, if the attack dealt WOUND, this character removes 1 WOUND from itself."
+        ]
+      },
+      {
+        "name": "Red Terror",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "Before choosing a target, this character chooses wheter this attack's type is PHYSICAL or MYSTIC.",
+          "WILD Absorb Essence: Change one of the defending character's CRIT, WILD, or DEFENSE result to a FAIL. This character gains 1 POWER for each die changed in this way."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Death Factor",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "This character and enemy characters within RANGE 2 of it with the Poison special condition suffer 2 WOUND in the order of your choosing. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Ensnare",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Push an enemy character within RANGE 4 and in this character's LOS toward this character MEDIUM. A character can be pushed by this superpower oly once per turn."
+        ]
+      },
+      {
+        "name": "Carbonadium Armor",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from an enemy effect, reduce the amount suffered by 1, to a minimum of 1."
+        ]
+      },
+      {
+        "name": "Death Spores",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Enemy characters that end their activation within RANGE 2 of this character gain the Poison special condition.",
+          "Additionally, at the end of this character's activation, enemy characters within RANGE 2 of it gain the Poison special condition."
+        ]
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "S",
+    "stamina": 6,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Carbonadium Coils",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "",
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "Drain Life: After this attack is resolved, if the attack dealt WOUND, this character removes 1 WOUND from itself."
+        ]
+      },
+      {
+        "name": "Red Terror",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "Before choosing a target, this character chooses wheter this attack's type is PHYSICAL or MYSTIC.",
+          "WILD Absorb Essence: Change one of the defending character's CRIT, WILD, or DEFENSE result to a FAIL. This character gains 1 POWER for each die changed in this way."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Death Factor",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "This character and enemy characters within RANGE 2 of it with the Poison special condition suffer 2 WOUND in the order of your choosing. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Ensnare",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Push an enemy character within RANGE 4 and in this character's LOS toward this character MEDIUM. A character can be pushed by this superpower oly once per turn."
+        ]
+      },
+      {
+        "name": "Carbonadium Armor",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from an enemy effect, reduce the amount suffered by 1, to a minimum of 1."
+        ]
+      },
+      {
+        "name": "Death Spores",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Enemy characters that end their activation within RANGE 2 of this character gain the Poison special condition.",
+          "Additionally, at the end of this character's activation, enemy characters within RANGE 2 of it gain the Poison special condition."
+        ]
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  }
 }
 
 
