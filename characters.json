@@ -6226,6 +6226,165 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Juggernaut",
+  "alter_ego": "Cain Marko",
+  "image_url": "https://static.marvelsnap.pro/art/Juggernaut.webp",
+  "threat": 5,
+  "size": 4,
+  "affiliations": [
+    "Brotherhood of Mutants"
+  ],
+  "healthy": {
+    "movement": "S",
+    "stamina": 8,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 5
+    },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Push: Before damage is dealt, this character may push the target character away SHORT."
+        ]
+      },
+      {
+        "name": "I'm the Juggernaut!",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "WILD Rush: After this attack is resolved, if it is during this character's activation, this character may immediately use the Nothing Stops the Juggernaut! superpower without paying the POWER cost."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Nothing Stops the Juggernaut!",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "This character is pushed SHORT. It does not stop its movement if it contacts a SIZE 3 or smaller interactive terrain feature. Instead, the contacted terrain feature is destroyed, then this character continues being pushed. If this character contacts one or more other characters, one contacted character suffers 1 WOUND, then this character stops as normal. A character can be damaged by this superpower only once per turn. If this character has the Stagger special condition, it loses it."
+        ]
+      },
+      {
+        "name": "Nice Punch...",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "If this character would suffer WOUND, it may use this superpower. Reduce the amount of WOUND suffered by 1."
+        ]
+      },
+      {
+        "name": "Helmet",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character cannot be pushed or advanced by the special effects of enemy MYSTIQ attacks or enemy superpowers."
+        ]
+      },
+      {
+        "name": "Unstoppable Momentum",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "After this character resolves a move action during its activation, it gains 2 POWER. The next attack made by this character activation adds 3 dice to the attack roll. This character can be affected by this superpower only once per turn."
+        ]
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "S",
+    "stamina": 8,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 2
+    },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Push: Before damage is dealt, this character may push the target character away SHORT."
+        ]
+      },
+      {
+        "name": "I'm the Juggernaut!",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "WILD Rush: After this attack is resolved, if it is during this character's activation, this character may immediately use the Nothing Stops the Juggernaut! superpower without paying the POWER cost."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Avatar of Cyttorak",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature or an enemy character, both of SIZE 3 or less and within RANGE 2, and throw it MEDIUM. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Nothing Stops the Juggernaut!",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "This character is pushed SHORT. It does not stop its movement if it contacts a SIZE 3 or smaller interactive terrain feature. Instead, the contacted terrain feature is destroyed, then this character continues being pushed. If this character contacts one or more other characters, one contacted character suffers 1 WOUND, then this character stops as normal. A character can be damaged by this superpower only once per turn. If this character has the Stagger special condition, it loses it."
+        ]
+      },
+      {
+        "name": "Nice Punch...",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "If this character would suffer WOUND, it may use this superpower. Reduce the amount of WOUND suffered by 1."
+        ]
+      },
+      {
+        "name": "Unstoppable Momentum",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "After this character resolves a move action during its activation, it gains 2 POWER. The next attack made by this character activation adds 3 dice to the attack roll. This character can be affected by this superpower only once per turn."
+        ]
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  }
 }
 
 
