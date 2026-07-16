@@ -55,7 +55,7 @@
 },
   {
   "entity_type": "tactic",
-  "name": "Sacriface",
+  "name": "Sacrifice",
   "type": "Reactive",
   "legality": "Restricted",
   "description": "If an allied character is within RANGE 2 of another allied character and its targeted by an enemy attack, those allied characters may spend 1 POWER each to play this card.\n\nThe non-targeted allied character immediately becomes the new target of the attack regardless of range and LOS. It cannot add additional defense dice to its defense roll and cannot modify its dice during the attack."
