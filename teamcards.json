@@ -147,6 +147,49 @@
     "Ghost Rider"
   ],
   "description": "When an allied Ghost Rider begins an Advance during his Activation while within RANGE 1 of an enemy character, he may spend 3 POWER to play this card.\n\nWhen Ghost Rider ends this move, Place that enemy character within RANGE 1 of him. The enemy character suffers the Incinerate special condition."
+},
+  {
+  "entity_type": "tactic",
+  "name": "Carbonadium Synthesizer",
+  "type": "Active",
+  "legality": "Standard",
+  "requirements": [
+    "Omega Red"
+  ],
+  "description": "Omega Red may play this card.\n\nRemove all special conditions from this character. It removes 1 WOUND and gains 1 POWER for each special condition removed in this way."
+},
+  {
+  "entity_type": "tactic",
+  "name": "Psychic Fortress",
+  "type": "Active",
+  "legality": "Standard",
+  "requirements": [
+    "M.O.D.O.K."
+  ],
+  "description": "M.O.D.O.K. may spend 3 POWER to play this card.\n\nM.O.D.O.K. gains Cover this Round. Allied characters gain Cover while within RANGE 4 of M.O.D.O.K. this Round."
+},
+  {
+  "entity_type": "tactic",
+  "name": "The Best Defense",
+  "type": "Active",
+  "legality": "Standard",
+  "requirements": [
+    "Rescue"
+  ],
+  "description": "Action: During Rescue's Activation, she may spend 2 POWER to play this card.\n\nRescue makes the Pulse and Repulse attack shown above.",
+  "attacks": [
+    {
+      "name": "Pulse and Repulse",
+      "type": "Energy",
+      "range": "5",
+      "strength": 5,
+      "cost": 0,
+      "special_rules": [
+        "Before WOUND is dealt, push the defender Away SHORT.",
+        "Rapid Fire: After this attack is resolved, this character may make 1 additional Pulse and Repulse attack. The addicional attack must target the original target character. The additional attack does not have the Rapid Fire special rule."
+      ]
+    }
+  ]
 }
   
   
