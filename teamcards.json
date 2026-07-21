@@ -190,6 +190,16 @@
       ]
     }
   ]
+},
+  {
+  "entity_type": "tactic",
+  "name": "Carnage Rules",
+  "type": "Active",
+  "legality": "Standard",
+  "requirements": [
+    "Carnage"
+  ],
+  "description": "Carnage may spend 4 POWER during his activation to play this card.\n\nChoose an enemy character within RANGE 4 of Carnage. Advance the chosen character SHORT toward Carnage. After the advance, Carnage may make a Symbiote Tendrils attack targeting the chosen character."
 }
   
   
