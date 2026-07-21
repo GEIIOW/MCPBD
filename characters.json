@@ -7689,6 +7689,167 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Carnage",
+  "alter_ego": "Cletus Kasady",
+  "image_url": "https://static.marvelsnap.pro/art/Carnage.webp",
+  "threat": 4,
+  "size": 2,
+  "affiliations": [
+    "Spider-Foes"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 8,
+    "defense": {
+      "physical": 5,
+      "energy": 1,
+      "mystic": 1
+    },
+    "attacks": [
+      {
+        "name": "Symbiote Tendrils",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      },
+      {
+        "name": "Maximum Carnage",
+        "type": "Physical",
+        "range": "A2",
+        "strength": 7,
+        "cost": 5,
+        "special_rules": [
+          "After each attack is resolved, the target character gains the Bleed special condition.",
+          "WILD HIT Rampage: After each attack is resolved, deal 1 WOUND to each other enemy character within RANGE 2 of this character."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Sadistic Glee",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "During the next attack action made by this character this turn, add 2 dice to its attack rolls. After each attack is resolved, if the attack roll contains any FAIL results this character suffers 1 WOUND. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Paint the Town Red",
+        "type": "Reactive",
+        "cost": "3",
+        "rules": [
+          "If this character Dazes or KO's an enemy character with an attack during its activation, after this attack is resolved, this character may use this superpower. This character removes all WOUND from itself, Advances SHORT, makes a Symbiote Tendrils attack, and adds 2 dice to that attack roll. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Arch Nemesis (Eddie Brock)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When attacking Eddie Brock, this character may modify or reroll FAIL results and may reroll any number of attack dice. At the start of this character's activation, if there is a non-Dazed enemy Eddie Brock within RANGE 3 of this character, this character's first action must be an attack action targeting that Eddie Brock, if possible."
+        ]
+      },
+      {
+        "name": "Symbiotic Serial Killer",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is attacking, the defending character doest not add dice to its defense roll for CRIT results."
+        ]
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 7,
+    "defense": {
+      "physical": 5,
+      "energy": 1,
+      "mystic": 1
+    },
+    "attacks": [
+      {
+        "name": "Symbiote Tendrils",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "After this attack is resolved, the target character gains the Bleed special condition."
+        ]
+      },
+      {
+        "name": "Maximum Carnage",
+        "type": "Physical",
+        "range": "A2",
+        "strength": 7,
+        "cost": 5,
+        "special_rules": [
+          "After each attack is resolved, the target character gains the Bleed special condition.",
+          "WILD HIT Rampage: After each attack is resolved, deal 1 WOUND to each other enemy character within RANGE 2 of this character."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Sadistic Glee",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "During the next attack action made by this character this turn, add 2 dice to its attack rolls. After each attack is resolved, if the attack roll contains any FAIL results this character suffers 1 WOUND. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Paint the Town Red",
+        "type": "Reactive",
+        "cost": "3",
+        "rules": [
+          "If this character Dazes or KO's an enemy character with an attack during its activation, after this attack is resolved, this character may use this superpower. This character removes all WOUND from itself, Advances SHORT, makes a Symbiote Tendrils attack, and adds 2 dice to that attack roll. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Arch Nemesis (Eddie Brock)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When attacking Eddie Brock, this character may modify or reroll FAIL results and may reroll any number of attack dice. At the start of this character's activation, if there is a non-Dazed enemy Eddie Brock within RANGE 3 of this character, this character's first action must be an attack action targeting that Eddie Brock, if possible."
+        ]
+      },
+      {
+        "name": "Symbiotic Serial Killer",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is attacking, the defending character doest not add dice to its defense roll for CRIT results."
+        ]
+      },
+      {
+        "name": "Wall Crawler",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  }
 }
 
 
