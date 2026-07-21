@@ -7018,6 +7018,677 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Rogue",
+  "alter_ego": "Anna Marie Lebeau",
+  "image_url": "https://static.marvelsnap.pro/art/Rogue.webp",
+  "threat": 4,
+  "size": 2,
+  "affiliations": [
+    "Brotherhood of Mutants",
+    "Uncanny X-Men"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Absorbing Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "Before choosing a target, this character chooses whether this attack's type is PHYSICAL or MYSTIC.",
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Sap Power: Before WOUND is dealt, this defender loses 1 POWER for each WILD in the attack roll, and this character gains the amount of POWER."
+        ]
+      },
+      {
+        "name": "Southern Hospitality",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "After this attack is resolved, if the defender is SIZE 4 or less, this character may Throw it SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Charge",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes a move action followed by an attack action. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Marvelous Strenght",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature of SIZE 4 or less and within RANGE 2 and Throw it MEDIUM. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Mutant Absorption",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an enemy character within RANGE 2 of this character. Roll 5 dice. The chosen character loses POWER equal to the number of CRIT, WILD, and HIT results. If the chosen character would lose more POWER than it has, it suffers 1 WOUND for each POWER it could not lose. The chosen character does not gain POWER for WOUND suffered in this way. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Kree-Mutant Physiology",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from an enemy effect, reduce the amount suffered by 1, to a minimum of 1."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Absorbing Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "Before choosing a target, this character chooses whether this attack's type is PHYSICAL or MYSTIC.",
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Sap Power: Before WOUND is dealt, this defender loses 1 POWER for each WILD in the attack roll, and this character gains the amount of POWER."
+        ]
+      },
+      {
+        "name": "Southern Hospitality",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "After this attack is resolved, if the defender is SIZE 4 or less, this character may Throw it SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Charge",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes a move action followed by an attack action. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Marvelous Strenght",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature of SIZE 4 or less and within RANGE 2 and Throw it MEDIUM. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Mutant Absorption",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an enemy character within RANGE 2 of this character. Roll 5 dice. The chosen character loses POWER equal to the number of CRIT, WILD, and HIT results. If the chosen character would lose more POWER than it has, it suffers 1 WOUND for each POWER it could not lose. The chosen character does not gain POWER for WOUND suffered in this way. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Kree-Mutant Physiology",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer WOUND from an enemy effect, reduce the amount suffered by 1, to a minimum of 1."
+        ]
+      },
+      {
+        "name": "Flight",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  }
+},
+{
+  "entity_type": "character",
+  "name": "Bishop",
+  "alter_ego": "Lucas Bishop",
+  "image_url": "https://static.marvelsnap.pro/art/Bishop.webp",
+  "threat": 4,
+  "size": 2,
+  "affiliations": [
+    "X-Force",
+    "Uncanny X-Men"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 3,
+      "energy": 4,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "XSE Blaster",
+        "type": "Energy",
+        "range": "4",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "After this attack is resolved, if the defender is within RANGE 3, it gains the Incinerate special condition."
+        ]
+      },
+      {
+        "name": "Return With Interest",
+        "type": "Physical",
+        "range": "A2",
+        "strength": 7,
+        "cost": 5,
+        "special_rules": [
+          "When this attack is chosen, this character chooses wheter this attack's type is PHYSICAL, ENERGY, or MYSTIQ.",
+          "During the Pay POWER Cost step of the attack, this character may spend up to 3 additional POWER. Add one die to each attack for each POWER spent in this way.",
+          "WILD Extreme Force: After each attack is resolved, this character Pushes the defender Away SHORT. The defender gains the Slow special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Absorbed Energy Conversion",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature or enemy character, both of SIZE 4 or less and within RANGE 2, and Throw it MEDIUM. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Mutant Energy Absorption",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is defending against an attack, for each WILD in the defense roll, it may change 1 of the attacker's CRIT, WILD, or HIT results to a BLANK. This character gains 1 POWER for each die changed this away."
+        ]
+      },
+      {
+        "name": "Overload",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "During the Cleanup Phase, if the character has 8 or more POWER, it suffers 1 WOUND."
+        ]
+      },
+      {
+        "name": "Immunity Incinerate",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 5,
+    "defense": {
+      "physical": 3,
+      "energy": 4,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "XSE Blaster",
+        "type": "Energy",
+        "range": "4",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "After this attack is resolved, if the defender is within RANGE 3, it gains the Incinerate special condition."
+        ]
+      },
+      {
+        "name": "Return With Interest",
+        "type": "Physical",
+        "range": "A2",
+        "strength": 7,
+        "cost": 5,
+        "special_rules": [
+          "When this attack is chosen, this character chooses wheter this attack's type is PHYSICAL, ENERGY, or MYSTIQ.",
+          "During the Pay POWER Cost step of the attack, this character may spend up to 3 additional POWER. Add one die to each attack for each POWER spent in this way.",
+          "WILD Extreme Force: After each attack is resolved, this character Pushes the defender Away SHORT. The defender gains the Slow special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Absorbed Energy Conversion",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "Choose an interactive terrain feature or enemy character, both of SIZE 4 or less and within RANGE 2, and Throw it MEDIUM. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Mutant Energy Absorption",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character is defending against an attack, for each WILD in the defense roll, it may change 1 of the attacker's CRIT, WILD, or HIT results to a BLANK. This character gains 1 POWER for each die changed this away."
+        ]
+      },
+      {
+        "name": "Overload",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "During the Cleanup Phase, if the character has 8 or more POWER, it suffers 1 WOUND."
+        ]
+      },
+      {
+        "name": "Immunity Incinerate",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Immunity Poison",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  }
+},
+{
+  "entity_type": "character",
+  "name": "Sabretooth",
+  "alter_ego": "Victor Creed",
+  "image_url": "https://static.marvelsnap.pro/art/Sabretooth.webp",
+  "threat": 4,
+  "size": 3,
+  "affiliations": [
+    "Brotherhood of Mutants",
+    "Cabal",
+    "X-Force"
+  ],
+  "healthy": {
+    "movement": "L",
+    "stamina": 6,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Claw Slash",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Bleed: After this attack is resolved, the defenders gains the Bleed special condition.",
+          "WILD Pierce: Change on of the defender's CRIT, WILD or DEFENSE results to a BLANK."
+        ]
+      },
+      {
+        "name": "Savage Predator",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "WILD HIT Finisher: After this attack is resolved, this character may make a Claw Slash attack. This character may reroll any number of attack dice during the attack."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "No Mercy",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "During the next attack this character makes this Turn, add 1 die to its attack roll for each WOUND the target chracter has, to a maximum of 3."
+        ]
+      },
+      {
+        "name": "Untamed Force",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack against this character is resolved, it may use this superpower. If the attacker is within RANGE 2, this character may make a Claw Slash attack targeting it. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Agressive",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "After an attack targeting this character is resolved, if this character suffers WOUND, it may Advance Toward the attacker SHORT."
+        ]
+      },
+      {
+        "name": "Healing Factor (1)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "L",
+    "stamina": 6,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Claw Slash",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Bleed: After this attack is resolved, the defenders gains the Bleed special condition.",
+          "WILD Pierce: Change on of the defender's CRIT, WILD or DEFENSE results to a BLANK."
+        ]
+      },
+      {
+        "name": "Savage Predator",
+        "type": "Physical",
+        "range": "2",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "WILD HIT Finisher: After this attack is resolved, this character may make a Claw Slash attack. This character may reroll any number of attack dice during the attack."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "No Mercy",
+        "type": "Active",
+        "cost": "3",
+        "rules": [
+          "During the next attack this character makes this Turn, add 1 die to its attack roll for each WOUND the target chracter has, to a maximum of 3."
+        ]
+      },
+      {
+        "name": "Untamed Force",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "After an attack against this character is resolved, it may use this superpower. If the attacker is within RANGE 2, this character may make a Claw Slash attack targeting it. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Agressive",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "After an attack targeting this character is resolved, if this character suffers WOUND, it may Advance Toward the attacker SHORT."
+        ]
+      },
+      {
+        "name": "Healing Factor (1)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  }
+},
+{
+  "entity_type": "character",
+  "name": "Wolverine",
+  "alter_ego": "James Logan Howlett",
+  "image_url": "https://static.marvelsnap.pro/art/Wolverine.webp",
+  "threat": 4,
+  "size": 2,
+  "affiliations": [
+    "Avengers",
+    "Defenders",
+    "Uncanny X-Men",
+    "X-Force"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 7,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 2
+    },
+    "attacks": [
+      {
+        "name": "Adamantium Slash",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Bleed: After this attack is resolved, the defender gains the Bleed special condition.",
+          "WILD Pierce: Change 1 of the defender's CRIT, WILD, or DEFENSE results to a BLANK."
+        ]
+      },
+      {
+        "name": "Berserker Barrage",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "Before WOUND is dealt, Place this character within RANGE 1 of the defender.",
+          "After the attack is resolved, if it dealt WOUND and if the defender is SIZE 3 or less, this character may Throw it SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "The Best At What I Do...",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes a move action followed by an attack action. When making this attack, each WILD in the attack roll counts as 2 successes. This superpower an be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Adamantium Skeleton",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When determining if the character can be Thrown or Pushed by an effect or special rule, or when it is colliding with another character or a terrain feature, this character counts as SIZE 3."
+        ]
+      },
+      {
+        "name": "Healing Factor (2)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 2
+    },
+    "attacks": [
+      {
+        "name": "Adamantium Slash",
+        "type": "Physical",
+        "range": "2",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Bleed: After this attack is resolved, the defender gains the Bleed special condition.",
+          "WILD Pierce: Change 1 of the defender's CRIT, WILD, or DEFENSE results to a BLANK."
+        ]
+      },
+      {
+        "name": "Berserker Barrage",
+        "type": "Physical",
+        "range": "3",
+        "strength": 7,
+        "cost": 3,
+        "special_rules": [
+          "Before WOUND is dealt, Place this character within RANGE 1 of the defender.",
+          "After the attack is resolved, if it dealt WOUND and if the defender is SIZE 3 or less, this character may Throw it SHORT."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "The Best At What I Do...",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Action: This character immediately makes a move action followed by an attack action. When making this attack, each WILD in the attack roll counts as 2 successes. This superpower an be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Adamantium Skeleton",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When determining if the character can be Thrown or Pushed by an effect or special rule, or when it is colliding with another character or a terrain feature, this character counts as SIZE 3."
+        ]
+      },
+      {
+        "name": "Wild Rage",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "Add 1 die to this character's attack rolls for each WOUND it has. Additionally, this character cannot Interact with or hold objective tokens."
+        ]
+      },
+      {
+        "name": "Healing Factor (2)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Immunity Stagger",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  }
 }
 
 
