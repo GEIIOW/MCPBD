@@ -907,6 +907,69 @@
       ]
     }
   ]
+},
+  {
+  "entity_type": "crisis",
+  "name": "Fear Grips World as \"Worthy\" Terrorize Cities",
+  "type": "Extract",
+  "threat": 18,
+  "setup_text": "Place 4 Celestial Hammer Tokens (Asset) as shown on the map below.",
+  "scoring_text": "Players score 1 VP for each Celestial Hammer held by a character they control during the Cleanup Phase.",
+  "special_rules": "Interact (Celestial Hammer): Pick up this Celestial Hammer.\n\nCharacters add 1 die to their attack rolls for each Celestial Hammer they are holding. Characters holding one or more Celestial Hammers must pay 1 POWER before playing a Team Tactic Card.",
+  "map_tokens": [
+    {
+      "id": "1784721802431",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5"
+      ]
+    },
+    {
+      "id": "1784721805733",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5"
+      ]
+    },
+    {
+      "id": "1784721812386",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "3"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    },
+    {
+      "id": "1784721819520",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "3"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    }
+  ]
 }
   
 ]
