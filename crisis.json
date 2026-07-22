@@ -407,6 +407,127 @@
       ]
     }
   ]
+},
+  {
+  "entity_type": "crisis",
+  "name": "Guardians Save Shi'ar Empress in Style",
+  "type": "Secure",
+  "threat": 17,
+  "setup_text": "Place 4 Security Terminal tokens (Point of Interest) as shown on the map below.",
+  "scoring_text": "Players score 1 VP for each Secury Terminal they Control during the Cleanup Phase.",
+  "special_rules": "Interact (Security Terminal): Roll 3 dice. If the roll contains more CRIT, WILD, or HIT results than the number of Healthy enemy characters Contesting this Security Terminal, you now Control this Security Terminal.\n\nIf a character is holding one or more Extract objective tokens, it may reroll 1 die when interacting with a Security Terminal.",
+  "map_tokens": [
+    {
+      "id": "1784716085571",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "4",
+        "2"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    },
+    {
+      "id": "1784716138853",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "4",
+        "2"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    },
+    {
+      "id": "1784716155366",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "4",
+        "2"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    },
+    {
+      "id": "1784717527410",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "4",
+        "2"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    }
+  ]
+},
+
+{
+  "entity_type": "crisis",
+  "name": "Survivors Search for Safe Shelters",
+  "type": "Secure",
+  "threat": 20,
+  "setup_text": "Place 3 Shelter tokens (Point of Interest) as shown on the map below.",
+  "scoring_text": "Players score 1 VP for each Shelter they Secure during the Cleanup Phase.",
+  "special_rules": "When a character Contesting a Shelter is targeted by an attack, 1 other allied character that is also Contesting that Shelter may spend 1 POWER. If it does, the defender adds 1 die to its defense roll. A character can add dice to its roll in this way only once per Turn.",
+  "map_tokens": [
+    {
+      "id": "1784717692004",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "4",
+        "3"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "4",
+        "2"
+      ]
+    },
+    {
+      "id": "1784717706662",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "2"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    },
+    {
+      "id": "1784717711484",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "4",
+        "3"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    }
+  ]
 }
   
 ]
