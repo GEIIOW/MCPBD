@@ -7850,6 +7850,183 @@
       }
     ]
   }
+},
+    {
+  "entity_type": "character",
+  "name": "Thanos, The Mad Titan",
+  "alter_ego": "Thanos",
+  "image_url": "https://static.marvelsnap.pro/art/Thanos.webp",
+  "threat": 6,
+  "size": 3,
+  "affiliations": [
+    "Black Order"
+  ],
+  "leadership": {
+    "name": "Death's Agenda",
+    "affiliation": "Black Order",
+    "rules": [
+      "When an enemy non-Grunt character is KO'd, this character's controlling players scores 1 VP.",
+      "Additionally, this character may use the ACTIVE or REACTIVE superpowers of Infinity Gems without paying the POWER cost."
+    ]
+  },
+  "healthy": {
+    "movement": "M",
+    "stamina": 8,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD HIT Throw: Before WOUND is dealt, this character may Throw the defender Away SHORT."
+        ]
+      },
+      {
+        "name": "Cosmic Blast",
+        "type": "Energy",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "When creating the dice pool for this attack, this character may spend up to 3 POWER. Add 1 die to this attack roll for each POWER spent in this way.",
+          "WILD Titan's Will: After this attack is resolved, Push the defender character Away SHORT. The pushed character gains the Slow special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Cosmic Portal",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose another allied character within RANGE 4 of this character. Place the chosen character within RANGE 2 of its current position. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Death's Decree",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When another allied character within RANGE 4 of this character makes an attack, during the Create Attack Dice Pool step, this character may use this superpower. If the attacker is Healthy, it adds 2 dice to its attack roll. If the attacker is Injured, it adds 4 dice to its attack roll. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Being of Immeasurable Power",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer 1 or more WOUND from an enemy effect, reduce the amount of WOUND suffered by 1. Additionally, this character may have 2 Infinity Gems rather tan the normally allowed 1."
+        ]
+      },
+      {
+        "name": "Gem Bearer (Mind, Power, Reality, Soul, Space, Time)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Peerless",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 9,
+    "defense": {
+      "physical": 3,
+      "energy": 3,
+      "mystic": 4
+    },
+    "attacks": [
+      {
+        "name": "Strike",
+        "type": "Physical",
+        "range": "2",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD HIT Throw: Before WOUND is dealt, this character may Throw the defender Away SHORT."
+        ]
+      },
+      {
+        "name": "Cosmic Blast",
+        "type": "Energy",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "When creating the dice pool for this attack, this character may spend up to 3 POWER. Add 1 die to this attack roll for each POWER spent in this way.",
+          "WILD Titan's Will: After this attack is resolved, Push the defender character Away SHORT. The pushed character gains the Slow special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Death's Decree",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When another allied character within RANGE 4 of this character makes an attack, during the Create Attack Dice Pool step, this character may use this superpower. If the attacker is Healthy, it adds 2 dice to its attack roll. If the attacker is Injured, it adds 4 dice to its attack roll. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Being of Immeasurable Power",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When this character would suffer 1 or more WOUND from an enemy effect, reduce the amount of WOUND suffered by 1. Additionally, this character may have 2 Infinity Gems rather tan the normally allowed 1."
+        ]
+      },
+      {
+        "name": "Gem Bearer (Mind, Power, Reality, Soul, Space, Time)",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      },
+      {
+        "name": "Peerless",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  }
 }
 
 
