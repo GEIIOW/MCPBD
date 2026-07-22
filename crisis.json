@@ -528,6 +528,385 @@
       ]
     }
   ]
+},
+  {
+  "entity_type": "crisis",
+  "name": "Spider-Infected Invade Manhattan",
+  "type": "Extract",
+  "threat": 17,
+  "setup_text": "Place 5 Spider-Infected tokens (Civilian) as shown on the map below.",
+  "scoring_text": "Players score 1 VP for each Spider-Infected held by a character they control during the Cleanup Phase.",
+  "special_rules": "Interact (Spider-Infected): Pick up the Spider-Infected. A character can hold only 1 Spider-Infected at a time.\n\nDuring the Power Phase, starting with the player with Priority players roll 1 die for each character they control holding a Spider-Infected. If the results is a CRIT, WILD, or HIT, that character Advances SHORT before rolling for the next character. The opposing player resolves this Advance.",
+  "map_tokens": [
+    {
+      "id": "1784718483772",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    },
+    {
+      "id": "1784718488906",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "5"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    },
+    {
+      "id": "1784718492576",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "5"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    },
+    {
+      "id": "1784718496855",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    },
+    {
+      "id": "1784718501524",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    }
+  ]
+},
+  {
+  "entity_type": "crisis",
+  "name": "Skrulls Infiltrate World Leadership",
+  "type": "Extract",
+  "threat": 20,
+  "setup_text": "Place 4 Skrull Agent tokens (Civilian) as shown on the map below.",
+  "scoring_text": "Players score 1 VP for each Skrull Agent held by a character they control during the Cleanup Phase.",
+  "special_rules": "Interac (Skrull Agent): Pick up this Skrull Agent. A character can hold only 1 Skrull Agent at a time. Then roll dice equal to this character's PHYSICAL defense. If the result does not contain one or more CRIT or WILD results, the opposing players Pushes this character SHORT.",
+  "map_tokens": [
+    {
+      "id": "1784718651964",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1784718662953",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1784718670581",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "3"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    },
+    {
+      "id": "1784718679841",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "3"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    }
+  ]
+},
+  {
+  "entity_type": "crisis",
+  "name": "Struggle for the Cube Continues",
+  "type": "Extract",
+  "threat": 17,
+  "setup_text": "Place 5 Cosmic Cube Fragment tokens (Asset) as shown on the map below.",
+  "scoring_text": "Players score 1 VP for each Cosmic Cube Fragment held by a character they control during the Cleanup Phase.",
+  "special_rules": "Interact (Cosmic Cube Fragment): Pick up this Cosmic Cube Fragment.\n\nDuring the Cleanup Phase, each character suffers 1 WOUND for each Cosmic Cube Fragment it is holding. Character gain 1 POWER for each WOUND they suffered this way.",
+  "map_tokens": [
+    {
+      "id": "1784719030628",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "4"
+      ]
+    },
+    {
+      "id": "1784719038920",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    },
+    {
+      "id": "1784719041199",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "5"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    },
+    {
+      "id": "1784719043358",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    },
+    {
+      "id": "1784719044518",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "5"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "2"
+      ]
+    }
+  ]
+},
+{
+  "entity_type": "crisis",
+  "name": "Paranoia Pummels Populace!",
+  "type": "Extract",
+  "threat": 16,
+  "setup_text": "Place 4 Disturbance tokens (Asset) as shown on the map below.",
+  "scoring_text": "Players score 1 VP for each Disturbance a character they control is holding during the Cleanup Phase.",
+  "special_rules": "Interact (Disturbance): Pick up this Disturbance. A character can hold only 1 Disturbance at a time.\n\nWhen a character picks up a Disturbance, if there is not another allied character within RANGE 2 of it, it suffers 1 WOUND.\n\nDuring the Cleanup Phase, if one or more characters holding a Disturbance are within RANGE 2 of another allied character, thos characters' controlling players score 1 VP.",
+  "map_tokens": [
+    {
+      "id": "1784719339072",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "3"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1784719340848",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "5",
+        "3"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1784719347301",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1784719348844",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    }
+  ]
+},
+{
+  "entity_type": "crisis",
+  "name": "Mutant Extremists Target U.S. Senators!",
+  "type": "Extract",
+  "threat": 19,
+  "setup_text": "Place 6 Senator tokens (Civilian) as shown on the map below.",
+  "scoring_text": "Players score 1 VP per character they control holding a Senator during the Cleanup Phase.",
+  "special_rules": "Interact (Senator): Pick up this Senator. A character can hold only 1 Senator at a time.\n\nA character holding a Senator can make only 1 move action per turn.",
+  "map_tokens": [
+    {
+      "id": "1784719490113",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "2"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1784719494519",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1784719496070",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "5",
+        "2"
+      ],
+      "y_origin": "top",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1784719502332",
+      "label": "",
+      "x_origin": "right",
+      "x_rules": [
+        "5",
+        "2"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1784719503419",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "4"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "id": "1784719505602",
+      "label": "",
+      "x_origin": "left",
+      "x_rules": [
+        "5",
+        "2"
+      ],
+      "y_origin": "bottom",
+      "y_rules": [
+        "5",
+        "3"
+      ]
+    }
+  ]
 }
   
 ]
