@@ -4,5 +4,6 @@
     "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/teamcards.json",
     "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/gems.json",
     "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/crisis.json"
-  ]
+  ],
+  "config": { "range_inches": [0, 2, 4, 6, 8, 10], "deploy_inches": 6, "board_inches": 36 }
 }
