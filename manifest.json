@@ -5,5 +5,24 @@
     "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/gems.json",
     "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/crisis.json"
   ],
-  "config": { "range_inches": [0, 2, 4, 6, 8, 10], "deploy_inches": 6, "board_inches": 36 }
+  "translations": {
+    "pt": [
+      "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/pt/characters.json",
+      "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/pt/teamcards.json",
+      "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/pt/gems.json",
+      "https://raw.githubusercontent.com/GEIIOW/MCPBD/main/pt/crisis.json"
+    ]
+  },
+  "config": {
+    "range_inches": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "deploy_inches": 6,
+    "board_inches": 36
+  }
 }
