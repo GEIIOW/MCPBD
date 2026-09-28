@@ -361,6 +361,8 @@
   "entity_type": "crisis",
   "name": "Intrusions Open Across city as seals collapse",
   "type": "Secure",
+  "standard": true,
+  "challenger": true,
   "threat": 19,
   "setup_text": "Place 3 Dark Portal tokens (Point of Interest) as shown on the map below.",
   "scoring_text": "Players score 1 VP for each Dark Portal they Secure during the Cleanup Phase.",
