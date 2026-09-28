@@ -200,7 +200,34 @@
     "Carnage"
   ],
   "description": "Carnage may spend 4 POWER during his activation to play this card.\n\nChoose an enemy character within RANGE 4 of Carnage. Advance the chosen character SHORT toward Carnage. After the advance, Carnage may make a Symbiote Tendrils attack targeting the chosen character."
-}
+},
+    {
+    "entity_type": "tactic",
+    "name": "Cruelty",
+    "type": "Reactive",
+    "legality": "Standard",
+    "affiliation": "Criminal Syndicate",
+    "description": "If an allied character deals WOUND to an enemy character with an attack during its Activation, after the attack is resolved, the attacking character may spend 2 POWER to play this card.\n\nThe attacking character immediately makes the attack listed above targeting the damaged character.\n\nThis attack can only have dice added to the attack from CRIT results, and this character cannot modify its attack dice during this attack.",
+    "attacks": [
+      { "name": "Twist the Knife", "type": "Mystic", "range": "5", "strength": 5, "cost": 0, "special_rules": [] }
+    ]
+  },
+  {
+    "entity_type": "tactic",
+    "name": "Giant's Blood",
+    "type": "Reactive",
+    "legality": "Standard",
+    "requirements": ["Loki Laufeyson"],
+    "description": "When an enemy character ends a movement within RANGE 2 of an allied Loki Laufeyson, Loki Laufeyson may spend 2 POWER to play this card.\n\nEnemy characters within RANGE 2 of Loki Laufeyson gain the Slow and Root special conditions, then Loki Laufeyson drops all objective tokens he is holding and is Placed within RANGE 5 of his current location."
+  },
+  {
+    "entity_type": "tactic",
+    "name": "Shadow Organization",
+    "type": "Reactive",
+    "legality": "Standard",
+    "affiliation": "Criminal Syndicate",
+    "description": "During the Power Phase, any number of allied Criminal Syndicate characters may spend 2 POWER each to play this card.\n\nEnemy characters must be within RANGE 2 of characters that spent POWER to target them with attacks this Round."
+  }
   
   
 ]
