@@ -8219,7 +8219,135 @@
         ]
       }
     ]
+  },
+        {
+  "entity_type": "character",
+  "name": "Shocker",
+  "alter_ego": "Herman Schultz",
+  "image_url": "https://static.marvelsnap.pro/art/Shocker.webp",
+  "threat": 3,
+  "size": 2,
+  "affiliations": [
+    "Criminal Syndicate",
+    "Spider-Foes"
+  ],
+  "healthy": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Vibro-Shock Strike",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Stun: After the attack is resolved, the defender gains the Stun special condition."
+        ]
+      },
+      {
+        "name": "Shake 'em Down",
+        "type": "Energy",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "WILD Stagger: After the attack is resolved, the defender gains the STAGGER special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Vibrational Shield",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character is targeted by a PHYSICAL or ENERGY attack it may use this superpower. Add 2 dice to this character's defense roll agains the attack."
+        ]
+      },
+      {
+        "name": "If the Ground is Rocking...",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When an enemy character within RANGE 2 of this character makes an attack, it rolls 1 fewer dice on its attack roll."
+        ]
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 3,
+      "mystic": 3
+    },
+    "attacks": [
+      {
+        "name": "Vibro-Shock Strike",
+        "type": "Physical",
+        "range": "3",
+        "strength": 5,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "WILD Stun: After the attack is resolved, the defender gains the Stun special condition."
+        ]
+      },
+      {
+        "name": "Shake 'em Down",
+        "type": "Energy",
+        "range": "3",
+        "strength": 7,
+        "cost": 4,
+        "special_rules": [
+          "WILD Stagger: After the attack is resolved, the defender gains the STAGGER special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Vibrational Shield",
+        "type": "Reactive",
+        "cost": "2",
+        "rules": [
+          "When this character is targeted by a PHYSICAL or ENERGY attack it may use this superpower. Add 2 dice to this character's defense roll agains the attack."
+        ]
+      },
+      {
+        "name": "If the Ground is Rocking...",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When an enemy character within RANGE 2 of this character makes an attack, it rolls 1 fewer dice on its attack roll."
+        ]
+      },
+      {
+        "name": "Immunity Stun",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          ""
+        ]
+      }
+    ]
   }
+}
 }
 
 
