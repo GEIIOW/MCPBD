@@ -229,7 +229,7 @@
         "type": "Active",
         "cost": "1",
         "rules": [
-          "Choose an enemy character within RANGE 3 of this character. Spend 1 Devil's Deal token. If you do, roll 5 dice. For each WILD rolled, the chosen character loses 1 POWER and this character gains 1 POWER. Then for each CRIT rolled, the chosen character suffers 1 WOUND. A character may be affected by this superpower only once per Round."
+          "Choose an enemy character within RANGE 3 of this character. Spend 1 Devil's Deal token. If you do, roll 5 dice. For each WILD rolled, the chosen character loses 1 POWER and this character gains 1 POWER. Then for each HIT rolled, the chosen character suffers 1 WOUND. A character may be affected by this superpower only once per Round."
         ]
       },
       {
@@ -305,7 +305,7 @@
         "type": "Active",
         "cost": "1",
         "rules": [
-          "Choose an enemy character within RANGE 3 of this character. Spend 1 Devil's Deal token. If you do, roll 5 dice. For each WILD rolled, the chosen character loses 1 POWER and this character gains 1 POWER. Then for each CRIT rolled, the chosen character suffers 1 WOUND. A character may be affected by this superpower only once per Round."
+          "Choose an enemy character within RANGE 3 of this character. Spend 1 Devil's Deal token. If you do, roll 5 dice. For each WILD rolled, the chosen character loses 1 POWER and this character gains 1 POWER. Then for each HIT rolled, the chosen character suffers 1 WOUND. A character may be affected by this superpower only once per Round."
         ]
       },
       {
