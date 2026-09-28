@@ -7690,6 +7690,160 @@
     ]
   }
 },
+{
+  "entity_type": "character",
+  "name": "Loki, Prince of Lies",
+  "alter_ego": "Loki Laufeyson",
+  "image_url": "https://static.marvelsnap.pro/art/Loki.webp",
+  "threat": 5,
+  "size": 0,
+  "affiliations": [
+    "Asgard",
+    "Criminal Syndicate"
+  ],
+  "leadership": {
+    "name": "I Come Bearing Gifts",
+    "affiliation": "Asgard",
+    "rules": [
+      "While another allied character is attacking, defending, or dodging, during the Modify Dice step, it may spend 1 POWER. If it does, it may reroll one of its dice and this character gains 1 POWER."
+    ]
+  },
+  "healthy": {
+    "movement": "L",
+    "stamina": 7,
+    "defense": {
+      "physical": 4,
+      "energy": 4,
+      "mystic": 5
+    },
+    "attacks": [
+      {
+        "name": "Mischiefs and Magicks",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "CRIT WILD Bamboozle: After the attack is resolved, this character may Advance the target character SHORT. Then the target character gains the ROOT special condition."
+        ]
+      },
+      {
+        "name": "Clever Ploy",
+        "type": "Mystic",
+        "range": "A3",
+        "strength": 5,
+        "cost": 4,
+        "special_rules": [
+          "After this attack is resolved, if that attack dealt WOUND, this character Advances the target character SHORT.",
+          "Allied characters in range of this attack do not suffer damage from it."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Go Forth!",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose another allied character within RANGE 4. Place the chosen character within RANGE 2 of its current location. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Oh My, What a Pity",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "After an attack targeting this character or an allied character within RANGE 3, or after an attack made by this character is resolved, it may use this superpower. If the enemy character's roll contains any FAIL results, that character suffers 1 WOUND."
+        ]
+      },
+      {
+        "name": "Asgardiam",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "During the Power Phase, this character gains 1 additional ENERGY."
+        ]
+      },
+      {
+        "name": "This isn't Mischief, This is Mayhem",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When attacking or defending, this character adds FAIL results in the enemy character's roll to its total successes."
+        ]
+      }
+    ]
+  },
+  "injured": {
+    "movement": "L",
+    "stamina": 6,
+    "defense": {
+      "physical": 4,
+      "energy": 4,
+      "mystic": 5
+    },
+    "attacks": [
+      {
+        "name": "Mischiefs and Magicks",
+        "type": "Mystic",
+        "range": "3",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+          "CRIT WILD Bamboozle: After the attack is resolved, this character may Advance the target character SHORT. Then the target character gains the ROOT special condition."
+        ]
+      },
+      {
+        "name": "Clever Ploy",
+        "type": "Mystic",
+        "range": "A3",
+        "strength": 5,
+        "cost": 4,
+        "special_rules": [
+          "After this attack is resolved, if that attack dealt WOUND, this character Advances the target character SHORT.",
+          "Allied characters in range of this attack do not suffer damage from it."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Go Forth!",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose another allied character within RANGE 4. Place the chosen character within RANGE 2 of its current location. This superpower can be used only once per turn."
+        ]
+      },
+      {
+        "name": "Oh My, What a Pity",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "After an attack targeting this character or an allied character within RANGE 3, or after an attack made by this character is resolved, it may use this superpower. If the enemy character's roll contains any FAIL results, that character suffers 1 WOUND."
+        ]
+      },
+      {
+        "name": "Asgardiam",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "During the Power Phase, this character gains 1 additional ENERGY."
+        ]
+      },
+      {
+        "name": "This isn't Mischief, This is Mayhem",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "When attacking or defending, this character adds FAIL results in the enemy character's roll to its total successes."
+        ]
+      }
+    ]
+  }
+},
+    
     {
   "entity_type": "character",
   "name": "Carnage",
