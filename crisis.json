@@ -1,73 +1,526 @@
 [
 {
-  "entity_type": "crisis",
-  "name": "Suprise assault! Mutante homes destroyed",
-  "type": "Extract",
-  "threat": 16,
-  "setup_text": "Place 4 Unexhausted Haven Tokens (Source) as shown on map below. Set aside 4 Mutant tokens (Civilian).",
-  "scoring_text": "Players score 1 VP for each character they control that is holding a Mutant during the Cleanup Phase.",
-  "special_rules": "Interact (Haven): Flip this Haven and pick up a Mutant from it. Mutants are Limited. A character annot Interact with a Haven while is holding a Mutant.\n\nFlee!: During the Cleanup Phase, remove all Mutants from the Game and Flip each Exhausted Haven.",
-  "map_tokens": [
-    {
-      "id": "1783597535378",
-      "label": "",
-      "x_origin": "left",
-      "x_rules": [
-        "5",
-        "3"
-      ],
-      "y_origin": "top",
-      "y_rules": [
-        "5",
-        "3"
-      ]
-    },
-    {
-      "id": "1783597551828",
-      "label": "",
-      "x_origin": "right",
-      "x_rules": [
-        "4"
-      ],
-      "y_origin": "top",
-      "y_rules": [
-        "5",
-        "3"
-      ]
-    },
-    {
-      "id": "1783597559161",
-      "label": "",
-      "x_origin": "right",
-      "x_rules": [
-        "5",
-        "3"
-      ],
-      "y_origin": "bottom",
-      "y_rules": [
-        "5",
-        "3"
-      ]
-    },
-    {
-      "id": "1783597575785",
-      "label": "",
-      "x_origin": "left",
-      "x_rules": [
-        "4"
-      ],
-      "y_origin": "bottom",
-      "y_rules": [
-        "5",
-        "3"
-      ]
-    }
-  ]
-},
+    "entity_type": "crisis",
+    "name": "Mutant Extremists Target U.S. Senators!",
+    "type": "Extract",
+    "standard": true,
+    "challenger": true,
+    "threat": 19,
+    "setup_text": "Place 6 Senator tokens (Civilian) as shown on the map below.",
+    "scoring_text": "Players score 1 VP per character they control holding a Senator during the Cleanup Phase.",
+    "special_rules": "Interact (Senator): Pick up this Senator. A character can hold only 1 Senator at a time.\n\nA character holding a Senator can make only 1 move action per Turn.",
+    "map_tokens": [
+      {
+        "id": "1784719490113",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "2",
+          "5"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "3",
+          "5"
+        ]
+      },
+      {
+        "id": "1784719494519",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "4",
+          "5"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "3",
+          "5"
+        ]
+      },
+      {
+        "id": "1784719496070",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "2",
+          "5"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "3",
+          "5"
+        ]
+      },
+      {
+        "id": "1784719502332",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "2",
+          "5"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "3",
+          "5"
+        ]
+      },
+      {
+        "id": "1784719503419",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "4",
+          "5"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "3",
+          "5"
+        ]
+      },
+      {
+        "id": "1784719505602",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "2",
+          "5"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "3",
+          "5"
+        ]
+      }
+    ]
+  },
   {
+    "entity_type": "crisis",
+    "name": "Survivors Search for Safe Shelters",
+    "type": "Secure",
+    "standard": true,
+    "challenger": true,
+    "threat": 20,
+    "setup_text": "Place 3 Shelter tokens (Point of Interest) as shown on the map below.",
+    "scoring_text": "Players score 1 VP for each Shelter they Secure during the Cleanup Phase.",
+    "special_rules": "When a character Contesting a Shelter is targeted by an attack, 1 other allied character that is also Contesting that Shelter may spend 1 POWER. If it does, the defender adds 1 die to its defense roll. A character can add dice to its roll in this way only once per Turn.",
+    "map_tokens": [
+      {
+        "id": "1784717692004",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "4",
+          "3"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "2",
+          "5"
+        ]
+      },
+      {
+        "id": "1784717706662",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "2",
+          "5"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "4",
+          "5"
+        ]
+      },
+      {
+        "id": "1784717711484",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "4",
+          "3"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "2",
+          "5"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_type": "crisis",
+    "name": "Salvaged Supplies Fuel Resistance Efforts",
+    "type": "Extract",
+    "standard": true,
+    "challenger": true,
+    "threat": 18,
+    "setup_text": "Place 2 Supply tokens (Asset) as shown on the map below.",
+    "scoring_text": "Players score 2 VP for each character they control that is holding Supplies during the Cleanup Phase.",
+    "special_rules": "Interact (Supplies): If another allied non-Grunt character is Contesting these Supplies, pick them up. Supplies are Limited.\n\nWhen a character that is holding Supplies ends its Activation, if it is not within RANGE 2 of another allied character, it drops those Supplies.\n\nWhen Supplies would be moved to another character, they are dropped instead.",
+    "map_tokens": [
+      {
+        "id": "1790626566497",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "4",
+          "3"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "3",
+          "5"
+        ]
+      },
+      {
+        "id": "1790626567497",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "4",
+          "3"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "3",
+          "5"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_type": "crisis",
+    "name": "Evidence of Experimental Soldiers Exposed!",
+    "type": "Extract",
+    "standard": true,
+    "challenger": true,
+    "threat": 19,
+    "setup_text": "Place 3 Unexhausted Server tokens (Source) as shown on the map below. Set aside 3 Evidence tokens (Asset).",
+    "scoring_text": "Players score 1 VP for each character they control that is holding an Evidence during the Cleanup Phase.",
+    "special_rules": "Interact (Server): Flip this Server and pick up an Evidence from it. Evidence are Limited. A character cannot Interact with a Server while it is holding an Evidence.\n\nWhen a character holding an Evidence is attacked, it may reroll 1 of its defense dice.\n\nUpload: During the Cleanup Phase, remove all Evidence from the Game and Flip each Exhausted Server.",
+    "map_tokens": [
+      {
+        "id": "1790626568497",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "4"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "4",
+          "5"
+        ]
+      },
+      {
+        "id": "1790626569497",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "4",
+          "5"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "4",
+          "5"
+        ]
+      },
+      {
+        "id": "1790626570497",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "4"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "4",
+          "5"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_type": "crisis",
+    "name": "Sentinel Schematics Sabotaged!",
+    "type": "Extract",
+    "standard": true,
+    "challenger": true,
+    "threat": 17,
+    "setup_text": "Place 4 Unexhausted Factory tokens (Source) as shown on the map below. Set aside 4 Nanite tokens (Asset).",
+    "scoring_text": "Players score 1 VP for each character they control that is holding a Nanite during the Cleanup Phase.",
+    "special_rules": "Interact (Factory): Flip this Factory and pick up a Nanite from it. Nanites are Limited. A character cannot Interact with a Factory while it is holding a Nanite.\n\nWhen a character holding a Nanite attacks a character within RANGE 2, add 1 die to that attack roll.\n\nDisintegrate: During the Cleanup Phase, remove all Nanites from the Game and Flip each Exhausted Factory.",
+    "map_tokens": [
+      {
+        "id": "1790626571497",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "4",
+          "3"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "4",
+          "3"
+        ]
+      },
+      {
+        "id": "1790626572497",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "4",
+          "3"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "4",
+          "3"
+        ]
+      },
+      {
+        "id": "1790626573497",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "4",
+          "3"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "4",
+          "3"
+        ]
+      },
+      {
+        "id": "1790626574497",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "4",
+          "3"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "4",
+          "3"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_type": "crisis",
+    "name": "Power Overload! Factory Goes Up in Flames",
+    "type": "Secure",
+    "standard": true,
+    "challenger": true,
+    "threat": 19,
+    "setup_text": "Place 4 Power Conduit tokens (Point of Interest) as shown on the map below.",
+    "scoring_text": "Players score 1 VP for each Power Conduit they Secure during the Cleanup Phase.",
+    "special_rules": "During the Score VPs part of the Cleanup Phase, if a player is Securing 2 or more Power Conduits and at least 2 of those Power Conduits are not within RANGE 5 of each other, that player scores 1 additional VP.\n\nDuring the Cleanup Phase, for each Power Conduit, if 3 or more characters are within RANGE 1 of that Power Conduit, each of those characters suffers 1 WOUND.",
+    "map_tokens": [
+      {
+        "id": "1790626575497",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "4",
+          "5"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "5"
+        ]
+      },
+      {
+        "id": "1790626576497",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "2",
+          "4"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "5",
+          "3"
+        ]
+      },
+      {
+        "id": "1790626577497",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "2",
+          "4"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "5",
+          "3"
+        ]
+      },
+      {
+        "id": "1790626578497",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "4",
+          "5"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "5"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_type": "crisis",
+    "name": "Lockdown! Security Systems Stymie Breakout",
+    "type": "Secure",
+    "standard": true,
+    "challenger": true,
+    "threat": 18,
+    "setup_text": "Place 4 Prison Block tokens (Point of Interest) as shown on the map below.",
+    "scoring_text": "Players score 1 VP for each Prison Block they Secure during the Cleanup Phase.",
+    "special_rules": "Characters Contest Prison Blocks within RANGE 2 instead of RANGE 1.\n\nDuring the Cleanup Phase, remove all WOUND tokens from Prison Blocks. Then roll a die. Put a WOUND token on the Prison Block marked with the matching result on the map below. The unmarked Prison Block matches the BLANK result. A Prison Block with a WOUND token on it cannot be Interacted with, Contested, or Secured.",
+    "map_tokens": [
+      {
+        "id": "1790626579497",
+        "label": "CRIT WILD",
+        "x_origin": "left",
+        "x_rules": [
+          "2",
+          "5"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "2",
+          "5"
+        ]
+      },
+      {
+        "id": "1790626580497",
+        "label": "HIT",
+        "x_origin": "right",
+        "x_rules": [
+          "2",
+          "5"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "2",
+          "5"
+        ]
+      },
+      {
+        "id": "1790626581497",
+        "label": "BLANK",
+        "x_origin": "left",
+        "x_rules": [
+          "2",
+          "5"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "2",
+          "5"
+        ]
+      },
+      {
+        "id": "1790626582497",
+        "label": "DEFENSE FAIL",
+        "x_origin": "right",
+        "x_rules": [
+          "2",
+          "5"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "2",
+          "5"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_type": "crisis",
+    "name": "Unexpected Guests Crash Royal Wedding",
+    "type": "Extract",
+    "standard": true,
+    "challenger": true,
+    "threat": 17,
+    "setup_text": "Place 4 Guest tokens (Civilian) as shown on the map below.",
+    "scoring_text": "Players score 1 VP for each character they control that is holding a Guest during the Cleanup Phase.",
+    "special_rules": "Interact (Guest): Pick up this Guest. A character can hold only 1 Guest at a time.\n\nDuring the Power Phase, starting with the player with Priority, for each character that player controls that is not within RANGE 2 of a Secure objective that is also holding a Guest, the controlling player's opponent chooses a Secure objective. That character is Pushed toward the chosen Secure objective SHORT. The opposing player resolves this Push.",
+    "map_tokens": [
+      {
+        "id": "1790626583497",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "5"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "2",
+          "5"
+        ]
+      },
+      {
+        "id": "1790626584497",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "5"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "2",
+          "5"
+        ]
+      },
+      {
+        "id": "1790626585497",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "5"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "2",
+          "5"
+        ]
+      },
+      {
+        "id": "1790626586497",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "5"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "2",
+          "5"
+        ]
+      }
+    ]
+  },
+{
   "entity_type": "crisis",
   "name": "Infinity Formula Goes Missing!",
   "type": "Secure",
+  "standard": true,
+  "challenger": true,
   "threat": 17,
   "setup_text": "Place 4 Serum Canister tokens (Point of Interest) as shown on the map below.",
   "scoring_text": "Players score 1 VP for each Serum Canister they Secure during the Cleanup Phase.",
@@ -77,133 +530,89 @@
       "id": "1783598386461",
       "label": "",
       "x_origin": "right",
-      "x_rules": [
-        "4"
-      ],
+      "x_rules": ["4"],
       "y_origin": "top",
-      "y_rules": [
-        "2",
-        "5"
-      ]
+      "y_rules": ["2", "5"]
     },
     {
       "id": "1783598397927",
       "label": "",
       "x_origin": "left",
-      "x_rules": [
-        "4"
-      ],
+      "x_rules": ["4"],
       "y_origin": "top",
-      "y_rules": [
-        "2",
-        "5"
-      ]
+      "y_rules": ["2", "5"]
     },
     {
       "id": "1783598398904",
       "label": "",
       "x_origin": "left",
-      "x_rules": [
-        "4"
-      ],
+      "x_rules": ["4"],
       "y_origin": "bottom",
-      "y_rules": [
-        "2",
-        "5"
-      ]
+      "y_rules": ["2", "5"]
     },
     {
       "id": "1783598400271",
       "label": "",
       "x_origin": "right",
-      "x_rules": [
-        "4"
-      ],
+      "x_rules": ["4"],
       "y_origin": "bottom",
-      "y_rules": [
-        "2",
-        "5"
-      ]
+      "y_rules": ["2", "5"]
     }
   ]
-},
-  {
+}
+ {
   "entity_type": "crisis",
-  "name": "Super-Powered Scoundrels form sinister Syndicate",
+  "name": "Super-Powered Scoundrels Form Sinister Syndicate",
   "type": "Secure",
+  "standard": true,
+  "challenger": true,
   "threat": 20,
-  "setup_text": "Place 5 Ambush tokens (Points of Interest) as shown on the map below.",
+  "setup_text": "Place 5 Ambush tokens (Point of Interest) as shown on the map below.",
   "scoring_text": "Players score 1 VP for each Ambush they Secure during the Cleanup Phase.",
-  "special_rules": "Characters contesting an Ambush have Cover from characters not Contesting the same Ambush.",
+  "special_rules": "Characters Contesting an Ambush have Cover from characters not Contesting the same Ambush.",
   "map_tokens": [
     {
       "id": "1783702390598",
       "label": "",
       "x_origin": "left",
-      "x_rules": [
-        "5",
-        "4"
-      ],
+      "x_rules": ["4", "5"],
       "y_origin": "top",
-      "y_rules": [
-        "5",
-        "4"
-      ]
+      "y_rules": ["4", "5"]
     },
     {
       "id": "1783702399594",
       "label": "",
       "x_origin": "left",
-      "x_rules": [
-        "5",
-        "2"
-      ],
+      "x_rules": ["5"],
       "y_origin": "top",
-      "y_rules": [
-        "5"
-      ]
+      "y_rules": ["2", "5"]
     },
     {
       "id": "1783702400710",
       "label": "",
       "x_origin": "right",
-      "x_rules": [
-        "5",
-        "2"
-      ],
+      "x_rules": ["5"],
       "y_origin": "top",
-      "y_rules": [
-        "5"
-      ]
+      "y_rules": ["2", "5"]
     },
     {
       "id": "1783702406431",
       "label": "",
       "x_origin": "right",
-      "x_rules": [
-        "5",
-        "2"
-      ],
+      "x_rules": ["5"],
       "y_origin": "bottom",
-      "y_rules": [
-        "5"
-      ]
+      "y_rules": ["2", "5"]
     },
     {
       "id": "1783702407903",
       "label": "",
       "x_origin": "left",
-      "x_rules": [
-        "5",
-        "2"
-      ],
+      "x_rules": ["5"],
       "y_origin": "bottom",
-      "y_rules": [
-        "5"
-      ]
+      "y_rules": ["2", "5"]
     }
   ]
-},
+}
   {
   "entity_type": "crisis",
   "name": "Research Station Attacked!",
@@ -468,60 +877,6 @@
       "x_rules": [
         "4",
         "2"
-      ],
-      "y_origin": "bottom",
-      "y_rules": [
-        "5",
-        "2"
-      ]
-    }
-  ]
-},
-
-{
-  "entity_type": "crisis",
-  "name": "Survivors Search for Safe Shelters",
-  "type": "Secure",
-  "threat": 20,
-  "setup_text": "Place 3 Shelter tokens (Point of Interest) as shown on the map below.",
-  "scoring_text": "Players score 1 VP for each Shelter they Secure during the Cleanup Phase.",
-  "special_rules": "When a character Contesting a Shelter is targeted by an attack, 1 other allied character that is also Contesting that Shelter may spend 1 POWER. If it does, the defender adds 1 die to its defense roll. A character can add dice to its roll in this way only once per Turn.",
-  "map_tokens": [
-    {
-      "id": "1784717692004",
-      "label": "",
-      "x_origin": "right",
-      "x_rules": [
-        "4",
-        "3"
-      ],
-      "y_origin": "top",
-      "y_rules": [
-        "4",
-        "2"
-      ]
-    },
-    {
-      "id": "1784717706662",
-      "label": "",
-      "x_origin": "left",
-      "x_rules": [
-        "5",
-        "2"
-      ],
-      "y_origin": "top",
-      "y_rules": [
-        "5",
-        "4"
-      ]
-    },
-    {
-      "id": "1784717711484",
-      "label": "",
-      "x_origin": "right",
-      "x_rules": [
-        "4",
-        "3"
       ],
       "y_origin": "bottom",
       "y_rules": [
