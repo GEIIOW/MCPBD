@@ -663,10 +663,12 @@
     "entity_type": "crisis",
     "name": "Research Station Attacked!",
     "type": "Extract",
+    "standard": false,
+    "challenger": false,
     "threat": 15,
-    "setup_text": "Place 1 Researcher token (Civilian) and 2 Evac Points (Assets) as shown on the map below.",
-    "scoring_text": "A player scores 2 VPs if they are securing the Researcher during the Cleanup Phase. Then they score 1 additional VP if the Researcher is within RANGE 1 of their Evac Point.",
-    "special_rules": "During the Power Phase, the Researcher may move. If a player is securing the Researcher, they may Place it within RANGE 2 of its current location.\n\nThe Evac Point farthest from a player's battlefield edge is their Evac Point.",
+    "setup_text": "Place 1 Researcher token (Civilian) and 2 Evac Point tokens (Asset) as shown on the map below.",
+    "scoring_text": "A player scores 2 VP if they are Securing the Researcher during the Cleanup Phase. Then they score 1 additional VP if the Researcher is within RANGE 1 of their Evac Point.",
+    "special_rules": "During the Power Phase, the Researcher may move. If a player is Securing the Researcher, they may Place it within RANGE 2 of its current location.\n\nThe Evac Point farthest from a player's battlefield edge is their Evac Point.",
     "map_tokens": [
       {
         "id": "1783709276614",
@@ -712,8 +714,10 @@
   },
   {
     "entity_type": "crisis",
-    "name": "Demons downtown! Has our comeuppance come due?",
+    "name": "Demons Downtown! Has Our Comeuppance Come Due?",
     "type": "Secure",
+    "standard": false,
+    "challenger": false,
     "threat": 19,
     "setup_text": "Place 3 Flaming Portal tokens (Point of Interest) as shown on the map below.",
     "scoring_text": "Players score 1 VP for each Flaming Portal they are Securing during the Cleanup Phase.",
@@ -721,7 +725,7 @@
     "map_tokens": [
       {
         "id": "1783952907015",
-        "label": "0",
+        "label": "",
         "x_origin": "left",
         "x_rules": [
           "5",
@@ -735,7 +739,7 @@
       },
       {
         "id": "1783952909558",
-        "label": "0",
+        "label": "",
         "x_origin": "left",
         "x_rules": [
           "5",
@@ -748,7 +752,7 @@
       },
       {
         "id": "1783952912534",
-        "label": "0",
+        "label": "",
         "x_origin": "left",
         "x_rules": [
           "5",
@@ -765,10 +769,12 @@
     "entity_type": "crisis",
     "name": "Gamma Wave Sweeps Across Midwest",
     "type": "Secure",
+    "standard": false,
+    "challenger": false,
     "threat": 15,
     "setup_text": "Place 3 Gamma Shelter tokens (Point of Interest) as shown on the map below.",
-    "scoring_text": "Players score 1 VP for Securing their Close, 1 VP for the Mid, and 2 VPs for Securing their Far Gamma Shelter during the Cleanup Phase.",
-    "special_rules": "during the Cleanup Phase, each character that is not within RANGE 2 of a Gamma Shelter suffers 1 WOUND.\n\nThe Gamma Shelter closest to a player's battlefield edge is their Close Shelter. The Gamma Shelter in the center is both player's Mid Shelter. The Gamma Shelter farthest from a pleyr's battlefield edge is their Far Shelter.",
+    "scoring_text": "Players score 1 VP for Securing their Close, 1 VP for the Mid, and 2 VP for Securing their Far Gamma Shelter during the Cleanup Phase.",
+    "special_rules": "During the Cleanup Phase, each character that is not within RANGE 2 of a Gamma Shelter suffers 1 WOUND.\n\nThe Gamma Shelter closest to a player's battlefield edge is their Close Shelter. The Gamma Shelter in the center is both players' Mid Shelter. The Gamma Shelter farthest from a player's battlefield edge is their Far Shelter.",
     "map_tokens": [
       {
         "id": "1783953217628",
@@ -814,7 +820,7 @@
   },
   {
     "entity_type": "crisis",
-    "name": "Intrusions Open Across city as seals collapse",
+    "name": "Intrusions Open Across City as Seals Collapse",
     "type": "Secure",
     "standard": true,
     "challenger": true,
@@ -825,7 +831,7 @@
     "map_tokens": [
       {
         "id": "1783953425345",
-        "label": "0",
+        "label": "",
         "x_origin": "left",
         "x_rules": [
           "5",
@@ -839,7 +845,7 @@
       },
       {
         "id": "1783953438739",
-        "label": "0",
+        "label": "",
         "x_origin": "left",
         "x_rules": [
           "3"
@@ -852,7 +858,7 @@
       },
       {
         "id": "1783953442217",
-        "label": "0",
+        "label": "",
         "x_origin": "right",
         "x_rules": [
           "3"
@@ -869,9 +875,11 @@
     "entity_type": "crisis",
     "name": "Guardians Save Shi'ar Empress in Style",
     "type": "Secure",
+    "standard": false,
+    "challenger": false,
     "threat": 17,
     "setup_text": "Place 4 Security Terminal tokens (Point of Interest) as shown on the map below.",
-    "scoring_text": "Players score 1 VP for each Secury Terminal they Control during the Cleanup Phase.",
+    "scoring_text": "Players score 1 VP for each Security Terminal they Control during the Cleanup Phase.",
     "special_rules": "Interact (Security Terminal): Roll 3 dice. If the roll contains more CRIT, WILD, or HIT results than the number of Healthy enemy characters Contesting this Security Terminal, you now Control this Security Terminal.\n\nIf a character is holding one or more Extract objective tokens, it may reroll 1 die when interacting with a Security Terminal.",
     "map_tokens": [
       {
@@ -879,13 +887,13 @@
         "label": "",
         "x_origin": "left",
         "x_rules": [
-          "4",
-          "2"
+          "2",
+          "4"
         ],
         "y_origin": "top",
         "y_rules": [
-          "5",
-          "2"
+          "2",
+          "5"
         ]
       },
       {
@@ -893,13 +901,13 @@
         "label": "",
         "x_origin": "right",
         "x_rules": [
-          "4",
-          "2"
+          "2",
+          "4"
         ],
         "y_origin": "top",
         "y_rules": [
-          "5",
-          "2"
+          "2",
+          "5"
         ]
       },
       {
@@ -907,13 +915,13 @@
         "label": "",
         "x_origin": "right",
         "x_rules": [
-          "4",
-          "2"
+          "2",
+          "4"
         ],
         "y_origin": "bottom",
         "y_rules": [
-          "5",
-          "2"
+          "2",
+          "5"
         ]
       },
       {
@@ -921,13 +929,13 @@
         "label": "",
         "x_origin": "left",
         "x_rules": [
-          "4",
-          "2"
+          "2",
+          "4"
         ],
         "y_origin": "bottom",
         "y_rules": [
-          "5",
-          "2"
+          "2",
+          "5"
         ]
       }
     ]
@@ -936,10 +944,12 @@
     "entity_type": "crisis",
     "name": "Spider-Infected Invade Manhattan",
     "type": "Extract",
+    "standard": false,
+    "challenger": false,
     "threat": 17,
     "setup_text": "Place 5 Spider-Infected tokens (Civilian) as shown on the map below.",
     "scoring_text": "Players score 1 VP for each Spider-Infected held by a character they control during the Cleanup Phase.",
-    "special_rules": "Interact (Spider-Infected): Pick up the Spider-Infected. A character can hold only 1 Spider-Infected at a time.\n\nDuring the Power Phase, starting with the player with Priority players roll 1 die for each character they control holding a Spider-Infected. If the results is a CRIT, WILD, or HIT, that character Advances SHORT before rolling for the next character. The opposing player resolves this Advance.",
+    "special_rules": "Interact (Spider-Infected): Pick up the Spider-Infected. A character can hold only 1 Spider-Infected at a time.\n\nDuring the Power Phase, starting with the player with Priority, players roll 1 die for each character they control holding a Spider-Infected. If the result is a CRIT, WILD, or HIT, that character Advances SHORT before rolling for the next character. The opposing player resolves this Advance.",
     "map_tokens": [
       {
         "id": "1784718483772",
@@ -1013,10 +1023,12 @@
     "entity_type": "crisis",
     "name": "Skrulls Infiltrate World Leadership",
     "type": "Extract",
+    "standard": false,
+    "challenger": false,
     "threat": 20,
     "setup_text": "Place 4 Skrull Agent tokens (Civilian) as shown on the map below.",
     "scoring_text": "Players score 1 VP for each Skrull Agent held by a character they control during the Cleanup Phase.",
-    "special_rules": "Interac (Skrull Agent): Pick up this Skrull Agent. A character can hold only 1 Skrull Agent at a time. Then roll dice equal to this character's PHYSICAL defense. If the result does not contain one or more CRIT or WILD results, the opposing players Pushes this character SHORT.",
+    "special_rules": "Interact (Skrull Agent): Pick up this Skrull Agent. A character can hold only 1 Skrull Agent at a time. Then roll dice equal to this character's PHYSICAL defense. If the result does not contain one or more CRIT or WILD results, the opposing player Pushes this character SHORT.",
     "map_tokens": [
       {
         "id": "1784718651964",
@@ -1078,10 +1090,12 @@
     "entity_type": "crisis",
     "name": "Struggle for the Cube Continues",
     "type": "Extract",
+    "standard": false,
+    "challenger": false,
     "threat": 17,
     "setup_text": "Place 5 Cosmic Cube Fragment tokens (Asset) as shown on the map below.",
     "scoring_text": "Players score 1 VP for each Cosmic Cube Fragment held by a character they control during the Cleanup Phase.",
-    "special_rules": "Interact (Cosmic Cube Fragment): Pick up this Cosmic Cube Fragment.\n\nDuring the Cleanup Phase, each character suffers 1 WOUND for each Cosmic Cube Fragment it is holding. Character gain 1 POWER for each WOUND they suffered this way.",
+    "special_rules": "Interact (Cosmic Cube Fragment): Pick up this Cosmic Cube Fragment.\n\nDuring the Cleanup Phase, each character suffers 1 WOUND for each Cosmic Cube Fragment it is holding. Characters gain 1 POWER for each WOUND they suffered this way.",
     "map_tokens": [
       {
         "id": "1784719030628",
@@ -1155,10 +1169,12 @@
     "entity_type": "crisis",
     "name": "Paranoia Pummels Populace!",
     "type": "Extract",
+    "standard": false,
+    "challenger": false,
     "threat": 16,
     "setup_text": "Place 4 Disturbance tokens (Asset) as shown on the map below.",
     "scoring_text": "Players score 1 VP for each Disturbance a character they control is holding during the Cleanup Phase.",
-    "special_rules": "Interact (Disturbance): Pick up this Disturbance. A character can hold only 1 Disturbance at a time.\n\nWhen a character picks up a Disturbance, if there is not another allied character within RANGE 2 of it, it suffers 1 WOUND.\n\nDuring the Cleanup Phase, if one or more characters holding a Disturbance are within RANGE 2 of another allied character, thos characters' controlling players score 1 VP.",
+    "special_rules": "Interact (Disturbance): Pick up this Disturbance. A character can hold only 1 Disturbance at a time.\n\nWhen a character picks up a Disturbance, if there is not another allied character within RANGE 2 of it, it suffers 1 WOUND.\n\nDuring the Cleanup Phase, if one or more characters holding a Disturbance are within RANGE 2 of another allied character, those characters' controlling players score 1 VP.",
     "map_tokens": [
       {
         "id": "1784719339072",
@@ -1220,8 +1236,10 @@
     "entity_type": "crisis",
     "name": "Fear Grips World as \"Worthy\" Terrorize Cities",
     "type": "Extract",
+    "standard": false,
+    "challenger": false,
     "threat": 18,
-    "setup_text": "Place 4 Celestial Hammer Tokens (Asset) as shown on the map below.",
+    "setup_text": "Place 4 Celestial Hammer tokens (Asset) as shown on the map below.",
     "scoring_text": "Players score 1 VP for each Celestial Hammer held by a character they control during the Cleanup Phase.",
     "special_rules": "Interact (Celestial Hammer): Pick up this Celestial Hammer.\n\nCharacters add 1 die to their attack rolls for each Celestial Hammer they are holding. Characters holding one or more Celestial Hammers must pay 1 POWER before playing a Team Tactic Card.",
     "map_tokens": [
@@ -1276,6 +1294,79 @@
           "5",
           "4"
         ]
+      }
+    ]
+  },
+  {
+    "entity_type": "crisis",
+    "name": "X-Men Infiltrate Secret Weapons Facility",
+    "type": "Secure",
+    "standard": false,
+    "challenger": false,
+    "threat": 17,
+    "setup_text": "Place 4 Grid tokens (Zone) as shown on the map below.",
+    "scoring_text": "Players score 1 VP for each Grid they Control during the Cleanup Phase.",
+    "special_rules": "Interact (Grid): Roll dice equal to this character's ENERGY Defense. If the roll contains more CRIT, WILD, and HIT results than the number of Healthy enemy characters Contesting this Grid, this character's controlling player now Controls this Grid.\n\nDuring the Score VPs part of the Cleanup Phase, if a player Controls 2 or more Grids that have at least 1 enemy character in their Arc, that player scores 1 additional VP.\n\nDuring the Cleanup Phase, each player Places up to 1 Grid they Control within RANGE 1 of its current position.",
+    "map_tokens": [
+      {
+        "id": "1790700000001",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "5",
+          "4"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "2",
+          "4"
+        ],
+        "facing": "down"
+      },
+      {
+        "id": "1790700000002",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "2",
+          "4"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "5",
+          "4"
+        ],
+        "facing": "left"
+      },
+      {
+        "id": "1790700000003",
+        "label": "",
+        "x_origin": "right",
+        "x_rules": [
+          "2",
+          "4"
+        ],
+        "y_origin": "top",
+        "y_rules": [
+          "5",
+          "4"
+        ],
+        "facing": "right"
+      },
+      {
+        "id": "1790700000004",
+        "label": "",
+        "x_origin": "left",
+        "x_rules": [
+          "5",
+          "4"
+        ],
+        "y_origin": "bottom",
+        "y_rules": [
+          "2",
+          "4"
+        ],
+        "facing": "up"
       }
     ]
   }
