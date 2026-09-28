@@ -4768,7 +4768,7 @@
           "type": "Physical",
           "range": "4",
           "strength": 4,
-          "cost": -2,
+          "cost": 2,
           "special_rules": [
             "After this attack is resolved, this character gains 1 POWER.",
             "HIT Pursuit: Before WOUND is dealt, this character may Advance toward the target character SHORT.",
