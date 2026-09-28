@@ -173,6 +173,171 @@
     }
   },
   {
+  "entity_type": "character",
+  "id": "cp_mephisto_lord_of_temptation",
+  "name": "Mephisto, Lord of Temptation",
+  "alter_ego": "Mephisto",
+  "form_name": "Normal",
+  "iconify_id": "mdi:robot",
+  "image_url": "https://static.marvelsnap.pro/art/Mephisto.webp",
+  "threat": 5,
+  "size": 3,
+  "affiliations": [],
+  "minions": [],
+  "healthy": {
+    "movement": "M",
+    "stamina": 7,
+    "defense": { "physical": 3, "energy": 4, "mystic": 4 },
+    "attacks": [
+      {
+        "name": "Hellfire Lash",
+        "type": "Energy",
+        "range": "3",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains 1 POWER.",
+          "WILD Incinerate: After this attack is resolved, the defender gains the Incinerate special condition."
+        ]
+      },
+      {
+        "name": "Infernal Bargain",
+        "type": "Mystic",
+        "range": "2",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, if WOUND was dealt, this character gains a Devil's Deal token.",
+          "If this attack would deal 1 or more WOUND, it deals 1 WOUND instead."
+        ]
+      },
+      {
+        "name": "Termination Clause",
+        "type": "Energy",
+        "range": "B4",
+        "strength": 6,
+        "cost": 5,
+        "special_rules": [
+          "For each Devil's Deal token this character has, add 1 die to its attack rolls for this attack.",
+          "After each attack is resolved, the defender gains the Incinerate special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Devil's Due",
+        "type": "Active",
+        "cost": "1",
+        "rules": [
+          "Choose an enemy character within RANGE 3 of this character. Spend 1 Devil's Deal token. If you do, roll 5 dice. For each WILD rolled, the chosen character loses 1 POWER and this character gains 1 POWER. Then for each CRIT rolled, the chosen character suffers 1 WOUND. A character may be affected by this superpower only once per Round."
+        ]
+      },
+      {
+        "name": "How Can I be of Service?",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an enemy character within RANGE 3. Place this character within RANGE 1 of it. Then this character makes an Infernal Bargain attack targeting that character. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Meet my Associate",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "When this character is targeted by an attack, it may use this superpower. Spend 1 Devil's Deal token. If you do, choose another allied character within RANGE 3 and Place it within RANGE 1 of this character. Then the chosen character becomes the new target of the attack regardless of RANGE and LOS."
+        ]
+      },
+      {
+        "name": "Demonic Contract",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character may have a maximum of 3 Devil's Deal tokens at any time and begins the game with 1 Devil's Deal token. During the Power Phase, this character gains 1 additional POWER for each Devil's Deal token it has."
+        ]
+      },
+      { "name": "Immunity Incinerate", "type": "Innate", "cost": "0", "rules": [] },
+      { "name": "Immunity Poison", "type": "Innate", "cost": "0", "rules": [] }
+    ]
+  },
+  "injured": {
+    "movement": "M",
+    "stamina": 7,
+    "defense": { "physical": 3, "energy": 4, "mystic": 4 },
+    "attacks": [
+      {
+        "name": "Hellfire Lash",
+        "type": "Energy",
+        "range": "3",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, this character gains 1 POWER.",
+          "WILD Incinerate: After this attack is resolved, the defender gains the Incinerate special condition."
+        ]
+      },
+      {
+        "name": "Infernal Bargain",
+        "type": "Mystic",
+        "range": "2",
+        "strength": 6,
+        "cost": 0,
+        "special_rules": [
+          "After this attack is resolved, if WOUND was dealt, this character gains a Devil's Deal token.",
+          "If this attack would deal 1 or more WOUND, it deals 1 WOUND instead."
+        ]
+      },
+      {
+        "name": "Termination Clause",
+        "type": "Energy",
+        "range": "B4",
+        "strength": 6,
+        "cost": 5,
+        "special_rules": [
+          "For each Devil's Deal token this character has, add 1 die to its attack rolls for this attack.",
+          "After each attack is resolved, the defender gains the Incinerate special condition."
+        ]
+      }
+    ],
+    "superpowers": [
+      {
+        "name": "Devil's Due",
+        "type": "Active",
+        "cost": "1",
+        "rules": [
+          "Choose an enemy character within RANGE 3 of this character. Spend 1 Devil's Deal token. If you do, roll 5 dice. For each WILD rolled, the chosen character loses 1 POWER and this character gains 1 POWER. Then for each CRIT rolled, the chosen character suffers 1 WOUND. A character may be affected by this superpower only once per Round."
+        ]
+      },
+      {
+        "name": "How Can I be of Service?",
+        "type": "Active",
+        "cost": "2",
+        "rules": [
+          "Choose an enemy character within RANGE 3. Place this character within RANGE 1 of it. Then this character makes an Infernal Bargain attack targeting that character. This superpower can be used only once per Turn."
+        ]
+      },
+      {
+        "name": "Meet my Associate",
+        "type": "Reactive",
+        "cost": "1",
+        "rules": [
+          "When this character is targeted by an attack, it may use this superpower. Spend 1 Devil's Deal token. If you do, choose another allied character within RANGE 3 and Place it within RANGE 1 of this character. Then the chosen character becomes the new target of the attack regardless of RANGE and LOS."
+        ]
+      },
+      {
+        "name": "Demonic Contract",
+        "type": "Innate",
+        "cost": "0",
+        "rules": [
+          "This character may have a maximum of 3 Devil's Deal tokens at any time and begins the game with 1 Devil's Deal token. During the Power Phase, this character gains 1 additional POWER for each Devil's Deal token it has."
+        ]
+      },
+      { "name": "Immunity Incinerate", "type": "Innate", "cost": "0", "rules": [] },
+      { "name": "Immunity Poison", "type": "Innate", "cost": "0", "rules": [] }
+    ]
+  }
+},
+  {
     "entity_type": "character",
     "id": "cp_okoye",
     "name": "Okoye",
