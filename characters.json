@@ -8308,141 +8308,141 @@
         ]
       }
     ]
-  },
-    {
-  "entity_type": "character",
-  "name": "N'Kantu, The Living Mummy",
-  "alter_ego": "N'Kantu",
-  "image_url": "https://static.wikia.nocookie.net/marveldatabase/images/b/b8/N%27Kantu_%28Earth-616%29_from_Crypt_of_Shadows_Vol_4_1_001.jpg/revision/latest?cb=20241005215619",
-  "threat": 3,
-  "size": 2,
-  "affiliations": [
-    "Midnight Sons"
-  ],
-  "healthy": {
-    "movement": "M",
-    "stamina": 5,
-    "defense": {
-      "physical": 4,
-      "energy": 2,
-      "mystic": 4
-    },
-    "attacks": [
-      {
-        "name": "Swarili Strike",
-        "type": "Physical",
-        "range": "2",
-        "strength": 5,
-        "cost": 0,
-        "special_rules": [
-          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
-          "WILD Push: After this attack is resolved, if the target character is SIZE 3 or less, Push the target character Away SHORT.",
-          "WILD HIT Mummy's Curse: After this attack is resolved, the target character gains the Hex special condition."
-        ]
-      },
-      {
-        "name": "Sever Soul",
-        "type": "Mystic",
-        "range": "4",
-        "strength": 6,
-        "cost": 2,
-        "special_rules": [
-          "After this attack is resolved, if WOUND was dealt, this character gains a Captured Soul token."
-        ]
-      }
+  },      
+ {
+    "entity_type": "character",
+    "name": "N'Kantu, The Living Mummy",
+    "alter_ego": "N'Kantu",
+    "image_url": "https://static.wikia.nocookie.net/marveldatabase/images/b/b8/N%27Kantu_%28Earth-616%29_from_Crypt_of_Shadows_Vol_4_1_001.jpg/revision/latest?cb=20241005215619",
+    "threat": 3,
+    "size": 2,
+    "affiliations": [
+      "Midnight Sons"
     ],
-    "superpowers": [
-      {
-        "name": "Living Death",
-        "type": "Active",
-        "cost": "0",
-        "rules": [
-          "This character may spend any number of Captured Soul tokens. For each Captured Soul token spent, this character may remove 1 special condition from itself, remove 1 WOUND from itself, or gain 1 POWER."
-        ]
+    "healthy": {
+      "movement": "M",
+      "stamina": 5,
+      "defense": {
+        "physical": 4,
+        "energy": 2,
+        "mystic": 4
       },
-      {
-        "name": "Undead Empowerment",
-        "type": "Reactive",
-        "cost": "0",
-        "rules": [
-          "While this character is attacking, at the end of the Modify Dice step, it may use this superpower. Spend one or more Caputred Soul tokens. For each Captured Soul token spent in this way, this character count 1 FAIL result in its roll as a WILD for the remained of the attack roll."
-        ]
-      },
-      {
-        "name": "Alchemical Curse of Nephrus",
-        "type": "Innate",
-        "cost": "0",
-        "rules": [
-          "When this character would suffer WOUND, reduce the amount suffered by 1, to a minimum of 1."
-        ]
-      },
-      {
-        "name": "Anubi's Soul Harvester",
-        "type": "Innate",
-        "cost": "0",
-        "rules": [
-          "When another character is Dazed or KO'd, this character gains a Captured Soul token. This character may have a maximum of three Captured Soul tokens at any time."
-        ]
-      },
-      {
-        "name": "Immunity Bleed",
-        "type": "Innate",
-        "cost": "0",
-        "rules": [
-          ""
-        ]
-      },
-      {
-        "name": "Immunity Hex",
-        "type": "Innate",
-        "cost": "0",
-        "rules": [
-          ""
-        ]
-      },
-      {
-        "name": "Immunity Poison",
-        "type": "Innate",
-        "cost": "0",
-        "rules": [
-          ""
-        ]
-      }
-    ]
-  },
-  "injured": {
-    "movement": "M",
-    "stamina": 5,
-    "defense": {
-      "physical": 4,
-      "energy": 2,
-      "mystic": 4
+      "attacks": [
+        {
+          "name": "Swarili Strike",
+          "type": "Physical",
+          "range": "2",
+          "strength": 5,
+          "cost": 0,
+          "special_rules": [
+            "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+            "WILD Push: After this attack is resolved, if the target character is SIZE 3 or less, Push the target character Away SHORT.",
+            "WILD HIT Mummy's Curse: After this attack is resolved, the target character gains the Hex special condition."
+          ]
+        },
+        {
+          "name": "Sever Soul",
+          "type": "Mystic",
+          "range": "4",
+          "strength": 6,
+          "cost": 2,
+          "special_rules": [
+            "After this attack is resolved, if WOUND was dealt, this character gains a Captured Soul token."
+          ]
+        }
+      ],
+      "superpowers": [
+        {
+          "name": "Living Death",
+          "type": "Active",
+          "cost": "0",
+          "rules": [
+            "This character may spend any number of Captured Soul tokens. For each Captured Soul token spent, this character may remove 1 special condition from itself, remove 1 WOUND from itself, or gain 1 POWER."
+          ]
+        },
+        {
+          "name": "Undead Empowerment",
+          "type": "Reactive",
+          "cost": "0",
+          "rules": [
+            "While this character is attacking, at the end of the Modify Dice step, it may use this superpower. Spend one or more Caputred Soul tokens. For each Captured Soul token spent in this way, this character count 1 FAIL result in its roll as a WILD for the remained of the attack roll."
+          ]
+        },
+        {
+          "name": "Alchemical Curse of Nephrus",
+          "type": "Innate",
+          "cost": "0",
+          "rules": [
+            "When this character would suffer WOUND, reduce the amount suffered by 1, to a minimum of 1."
+          ]
+        },
+        {
+          "name": "Anubi's Soul Harvester",
+          "type": "Innate",
+          "cost": "0",
+          "rules": [
+            "When another character is Dazed or KO'd, this character gains a Captured Soul token. This character may have a maximum of three Captured Soul tokens at any time."
+          ]
+        },
+        {
+          "name": "Immunity Bleed",
+          "type": "Innate",
+          "cost": "0",
+          "rules": [
+            ""
+          ]
+        },
+        {
+          "name": "Immunity Hex",
+          "type": "Innate",
+          "cost": "0",
+          "rules": [
+            ""
+          ]
+        },
+        {
+          "name": "Immunity Poison",
+          "type": "Innate",
+          "cost": "0",
+          "rules": [
+            ""
+          ]
+        }
+      ]
     },
-    "attacks": [
-      {
-        "name": "Swarili Strike",
-        "type": "Physical",
-        "range": "2",
-        "strength": 5,
-        "cost": 0,
-        "special_rules": [
-          "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
-          "WILD Push: After this attack is resolved, if the target character is SIZE 3 or less, Push the target character Away SHORT.",
-          "WILD HIT Mummy's Curse: After this attack is resolved, the target character gains the Hex special condition."
-        ]
+    "injured": {
+      "movement": "M",
+      "stamina": 5,
+      "defense": {
+        "physical": 4,
+        "energy": 2,
+        "mystic": 4
       },
-      {
-        "name": "Sever Soul",
-        "type": "Mystic",
-        "range": "4",
-        "strength": 6,
-        "cost": 2,
-        "special_rules": [
-          "After this attack is resolved, if WOUND was dealt, this character gains a Captured Soul token."
-        ]
-      }
-    ],
-"superpowers": [
+      "attacks": [
+        {
+          "name": "Swarili Strike",
+          "type": "Physical",
+          "range": "2",
+          "strength": 5,
+          "cost": 0,
+          "special_rules": [
+            "After this attack is resolved, this character gains POWER equal to the WOUND dealt.",
+            "WILD Push: After this attack is resolved, if the target character is SIZE 3 or less, Push the target character Away SHORT.",
+            "WILD HIT Mummy's Curse: After this attack is resolved, the target character gains the Hex special condition."
+          ]
+        },
+        {
+          "name": "Sever Soul",
+          "type": "Mystic",
+          "range": "4",
+          "strength": 6,
+          "cost": 2,
+          "special_rules": [
+            "After this attack is resolved, if WOUND was dealt, this character gains a Captured Soul token."
+          ]
+        }
+      ],
+      "superpowers": [
         {
           "name": "Living Death",
           "type": "Active",
